@@ -41,6 +41,8 @@ $ echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~
 $ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 ```
 
+For other shells refer to the [shells set up section](https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv) of the project.
+
 For changes to take effect, run the following command:
 
 ```bash
