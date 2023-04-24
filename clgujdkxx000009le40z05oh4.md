@@ -33,7 +33,7 @@ For other operating systems refer to the [installation section](https://github.c
 
 ## Shell
 
-Run the following commands in your terminal:
+Run the following commands in your terminal for [ZSH](https://github.com/zsh-users/zsh):
 
 ```bash
 $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
