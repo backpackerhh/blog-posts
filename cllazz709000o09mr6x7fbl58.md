@@ -5,7 +5,7 @@ datePublished: Mon Aug 14 2023 14:56:05 GMT+0000 (Coordinated Universal Time)
 cuid: cllazz709000o09mr6x7fbl58
 slug: the-one-with-my-experience-at-domestika
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691757835573/637a4895-4b27-4c72-8046-2c12d1abf605.png
-tags: jobs, domestika
+tags: jobs, layoffs, domestika, layoff-plans
 
 ---
 
