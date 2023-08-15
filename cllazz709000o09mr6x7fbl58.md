@@ -209,7 +209,7 @@ Until one day, the CEO of the company, who hadn't shown up when the first layoff
 
 People were quite upset by all that situation because in addition to the theory of the sale of the company, there were also rumors of the possibility that they wanted to replace us with cheaper labor, specifically from India. And that message didn't bode well.
 
-A few weeks later, on June 9, 2023 (a Friday at 1:00 PM), the same day that the layoff plan for the subsidiary **Estudios de Grabación Digital** took effect, we received another email in our company mailbox. The email informed us about the company's intention to initiate another layoff plan at _DMSTK_, that time without specifying how many employees would be affected.
+A few weeks later, on June 9, 2023 (a Friday at 1:00 PM), the same day that the layoff plan for the subsidiary _Estudios de Grabación Digital_ took effect, we received another email in our company mailbox. The email informed us about the company's intention to initiate another layoff plan at _DMSTK_, that time without specifying how many employees would be affected.
 
 And again the same process. We selected employee representatives and the negotiation period stipulated by law began again. However, in practice, that time it was somewhat shorter than before. The lawyers gave us that option since the negotiations for the previous layoff plans were recent, and they were almost certain that they would secure the same severance package.
 
