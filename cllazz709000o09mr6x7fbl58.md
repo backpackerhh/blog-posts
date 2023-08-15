@@ -217,7 +217,7 @@ A few days after announcing the new layoff plan, the following image from Glassd
 
 ![Job offers in India](https://user-images.githubusercontent.com/685978/259871808-e930e9e9-710a-4729-887b-83b7f18bb724.jpeg align="left")
 
-Salaries are shown in Indian rupees, which, when converted to euros, range from around 4K to 10K. It was then confirmed that these rumors of seeking cheaper labor were indeed true.
+Salaries are shown in Indian rupees, which, when converted to euros, range from around 4K to 10K. It was then confirmed that those rumors of seeking cheaper labor were indeed true.
 
 Apparently, they must have been embarrassed because they quickly removed those job offers from Glassdoor once they realized that the image had been leaked.
 
