@@ -4,6 +4,7 @@ seoDescription: "Discover the benefits of using a password manager to keep your 
 datePublished: Thu Sep 14 2023 11:51:40 GMT+0000 (Coordinated Universal Time)
 cuid: clmj41ft1001908jrcdi18fkb
 slug: the-one-with-a-password-manager-pass
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/FnA5pAzqhMM/upload/ee44def636e20ff6efabe239bfb38778.jpeg
 tags: ubuntu, linux, git, passwords, password-manager
 
 ---
