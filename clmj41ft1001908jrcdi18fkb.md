@@ -375,7 +375,7 @@ Anyway, you can see a comparison [here](https://www.slant.co/versus/2840/19421/~
 
 ## Conclusion
 
-I really like the simplicity of **pass**, being just a CLI utility that stores everything locally. That being said, I'm open to test other options with different approaches.
+I really like the simplicity of **pass**, being just a CLI utility that stores everything locally and with [lots of extensions and interfaces available](https://github.com/tijn/awesome-password-store). That being said, I'm open to test other options with different approaches.
 
 This post is the first one in a series about [password managers](https://blog.davidmontesdeoca.es/series/password-managers). In the next post I'll talk about the browser extension I use in combination with **pass**.
 
