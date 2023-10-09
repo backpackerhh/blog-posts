@@ -157,7 +157,7 @@ Seeing the company's significant commitment to that project, which was expected 
 
 At some point during that year (honestly, I don't recall when), all Domestika employees were gathered in an All-Hands meeting, and they informed us that they were closing all recording studios except those in Madrid. As a result, employees in Latin America, Italy, France, Germany, the United Kingdom, and the United States were affected. The worst part was that all those people found out they were losing their jobs at that very moment, along with the rest of the company's employees.
 
-They explained that the decision was made because it was more cost-effective for them to cover travel expenses for each teacher to come to Madrid from anywhere in the world than to maintain recording studios in those other countries.
+The company explained that the decision was made because it was more cost-effective for them to cover travel expenses for each teacher to come to Madrid from anywhere in the world than to maintain recording studios in those other countries.
 
 I remember talking about it later with the rest of my team and we were surprised by the decision. Although it might be reasonable if they had calculated the costs of both options, we were particularly surprised by the way it was notified.
 
