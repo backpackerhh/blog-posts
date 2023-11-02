@@ -1,0 +1,20 @@
+name: Dispatcher
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  dispatch_event:
+    name: Dispatch event
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Dispatch
+        run: |
+            curl -L \
+              -X POST \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer ${{ secrets.DISPATCH_TOKEN }}" \
+              https://api.github.com/repos/backpackerhh/backpackerhh/dispatches \
+              -d '{"event_type":"trigger"}'
