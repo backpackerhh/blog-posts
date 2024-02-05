@@ -136,7 +136,7 @@ I'd like to list next what I consider are some potential benefits and drawbacks 
 * More distractions with family.
 * Require people to work differently, so there is a learning curve.
 
-In short, my opinion is that nowadays I'd accept only a fully-remote job with flexible schedule, preferably working with a team with at least a 4-hour time overlap with the UTC time zone.
+In short, I can say that nowadays I'd accept only a fully-remote full-time job with flexible schedule, preferably working with a team with at least a 4-hour time overlap with the UTC time zone.
 
 I guess you can have flexible schedule working in-office/in-person as well, but that's something that has never happened to me.
 
