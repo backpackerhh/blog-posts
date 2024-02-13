@@ -126,6 +126,7 @@ I'd like to list next what I consider are some potential benefits and drawbacks 
 * Take a break away from work whenever needed.
 * Easier to stay focused (childless/single person).
 * Ability to apply for jobs anywhere in the world from home.
+* No afterwork with the team.*
 
 ### Drawbacks
 
@@ -135,6 +136,9 @@ I'd like to list next what I consider are some potential benefits and drawbacks 
 * More difficulty to disengage from work.
 * More distractions with family.
 * Require people to work differently, so there is a learning curve.
+* No afterwork with the team.*
+
+\* Arguably it could be either a benefit or a drawback, depending on the person.
 
 In short, I can say that nowadays I'd accept only a fully-remote full-time job with flexible schedule, preferably working with a team with at least a 4-hour time overlap with the UTC time zone.
 
