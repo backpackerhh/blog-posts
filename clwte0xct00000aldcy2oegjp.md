@@ -51,7 +51,7 @@ Basically we had four branches regarding the generation of the master m3u8 file:
 
 At this point, we had an integration for each provider so we could store in the database a record for each resolution of a video. In the case of Vimeo, we would store an extra video record with the link to the HLS version, that is the link to the master m3u8 file. Regarding audios, we only stored records for dubbing tracks.
 
-![phase 1 diagram](https://www.evernote.com/shard/s77/res/cce6628d-e6dc-83f5-d054-67f404a4c87a align="center")
+![domestika video player phase 1 diagram](https://github.com/backpackerhh/blog-posts/assets/685978/c691bc69-5cfa-410e-804b-cc24e6df5e91 align="center")
 
 **Phase 2**
 
@@ -72,7 +72,7 @@ After some considerations, the backend members of the *Video Player* team made f
 
 The code and the process to generate the master m3u8 file was simplified as much as possible:
 
-![phase 2 diagram](https://www.evernote.com/shard/s77/res/68a6a1e8-b085-8579-6c8c-036e40aa1c6c align="center")
+![domestika video player phase 2 diagram](https://github.com/backpackerhh/blog-posts/assets/685978/d1f3fd33-5cc1-4826-afe0-b25c28f43d38 align="center")
 
 We set a few *coding rules* aiming to keep our code simple and extendable, using **dependency injection** in our production and test code; and avoiding references in classes, methods and variable names to file formats (m3u8, vtt, m4a), video providers (Vimeo, Wistia), video types (trailers, lessons) or dubbing.
 
