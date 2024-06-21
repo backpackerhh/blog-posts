@@ -1,6 +1,6 @@
 ---
 title: "The one about my favorite project (so far)"
-seoDescription: "Discover all the details about my favorite project so far."
+seoDescription: "Discover all the details about my favorite project so far, a custom video player during my time at Domestika"
 datePublished: Thu May 30 2024 15:05:57 GMT+0000 (Coordinated Universal Time)
 cuid: clwte0xct00000aldcy2oegjp
 slug: the-one-about-my-favorite-project-so-far
@@ -49,7 +49,7 @@ Basically we had four branches regarding the generation of the master m3u8 file:
 * For a lesson with dubbing, we would create a custom master m3u8 file with all the available audios.
     
 
-At this point, we had an integration for each provider so we could store in the database a record for each resolution of a video. In the case of Vimeo, we would store an extra video record with the link to the HLS version, that is the link to the master m3u8 file. Regarding audios, we only stored records for dubbing tracks.
+At this point, we had an integration for each provider so we could store in the database a record for each resolution of a video. In the case of Vimeo, we would store an extra video record with the link to the HLS version, that is the link to the master m3u8 file. Regarding audios, we only stored records for videos with dubbing (both original and dubbed tracks).
 
 ![domestika video player phase 1 diagram](https://github.com/backpackerhh/blog-posts/assets/685978/c691bc69-5cfa-410e-804b-cc24e6df5e91 align="center")
 
