@@ -97,7 +97,7 @@ The [SRE](https://aws.amazon.com/what-is/sre) team has created a series of inter
 At the engineering team level there are some recurring meetings:
 
 - **Dev Learning**: a 15-minute to 1-hour meeting where one of our colleagues talks about a technical topic. It is held every Friday.
-- **Game Days**: a 1.5-hour meeting where we are presented with a series of exercises prepared by other members of the engineering team for us to solve, organized in groups and with time constraints. The challenges must be solved without using the tools mentioned above. It is held once a month.
+- **Game Days**: a 1.5-hour meeting where first every team shares their [post-mortems](https://en.wikipedia.org/wiki/Postmortem_documentation) since the previous meeting, and later we are presented with a series of exercises prepared by other members of the engineering team for us to solve, organized in groups and with time constraints. The challenges usually must be solved without using the tools mentioned above. It is held once a month.
 
 We have dozens of internal gems hosted on [Buildkite Package Registries](https://www.buildkite.com/platform/package-registries/) (formerly [Packagecloud](https://packagecloud.io/)). Some examples of those gems, in addition to the OpenTelemetry wrapper mentioned above, allow us to integrate with banks we work with, such as Citibank or Bank of America. Among other things, it allows us to test new changes directly against their sandbox before releasing a new version of the gem.
 
@@ -162,7 +162,7 @@ At the team level there are some recurring meetings:
 - **Code Review**: a 1-hour meeting where we review the concerns board, where each team member can add their concerns to solve technical debt. In each task we can define what we are concerned about and the solution we propose to solve it. This is held once in each sprint.
 - **Sprint Planning**: a 30-minute meeting where the PM checks the unfinished tasks from the previous sprint and prioritizes the tasks to be included in the next sprint. The previous team's velocity is not taken into account, but the team's opinion is taken into account when it comes to include a task in the sprint or not. It is held on the first Monday of each sprint.
 - **Retrospective**: a 1.5-hour meeting where each team member can add a list of things they think went well and what things we can improve since the previous retrospective, although we usually only talk about what did not go so well. Then everyone chooses the 3 topics that interest them the most and we spend the rest of the session trying to find possible solutions to the 3 most upvoted topics. A person is assigned to follow up on each of those topics. The meeting is lead by a facilitator from another team. Normally this is held once a month, although it sometimes takes longer.
-- **Game Days**: a 30-minute meeting where the whole team spends time together, bonding with each other. We usually play online Pictionary or games like that. It is held on the second Monday of every sprint.
+- **Game Days**: a 30-minute meeting where the whole team spends time together, bonding with each other. We usually play online Pictionary or games like that. It is held on the second Monday of each sprint.
 - **1 to 1**: a 30-minute meeting with each permanent full-time worker or a 15-minute meeting with each contractor with the EM to talk and periodically check on how things are going on both sides.
 - **Coffee Chat**: a 15-minute meeting before the daily meeting on Fridays where we usually talk about our plans for the weekend.
 
