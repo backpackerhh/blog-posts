@@ -1,5 +1,5 @@
 ---
-title: "The one with my experience at Domestika"
+title: "The one about my experience at Domestika"
 seoDescription: "My experience at Domestika from beginning to end"
 datePublished: Mon Aug 14 2023 14:56:05 GMT+0000 (Coordinated Universal Time)
 cuid: cllazz709000o09mr6x7fbl58
