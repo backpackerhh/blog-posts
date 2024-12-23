@@ -80,11 +80,11 @@ describe "POST /payments/initiate" do
 
 The way I see it, doing that is not maintainable and would not scale well, for several reasons:
 
-* We are generating more records than neeeded for each example. Therefore, each test is slower than necessary.
+* We are generating more records than needed for each example. Therefore, each test is slower than necessary.
     
 * We do not have control over the attributes of each of the records created.
     
-* We are adding indirection within each test file where that module is used, because we asserting over values that are not defined neither in the test example nor in the test file itself.
+* We are adding indirection within each test file where that module is used, because we are asserting over values that are not defined neither in the test example nor in the test file itself.
     
 
 I would even prefer to use **fixtures** rather than keep creating records that way, but only if I knew that the code would never change. And we all know that rarely happens.
