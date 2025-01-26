@@ -82,6 +82,7 @@ Going beyond the most basic concepts present in every programming language we ca
 * [Global Interpreter Lock (GIL)](https://en.wikipedia.org/wiki/Global_interpreter_lock):
     
     * Concurrency vs parallelism
+    * Threads vs Fibers vs Ractors
         
 * [YJIT](https://shopify.engineering/ruby-yjit-is-production-ready):
     
