@@ -4,7 +4,7 @@ seoDescription: "Explore the intricacies of working in an American fintech compa
 datePublished: Fri Nov 29 2024 17:23:54 GMT+0000 (Coordinated Universal Time)
 cuid: cm430j81q001u09icalbufrkz
 slug: the-one-about-how-things-work-in-an-american-fintech
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732900874679/eea7edb0-55df-42a2-b2b1-70b72479e99c.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739389093975/346f6441-52ea-41d0-9be0-5ae4c24563cd.png
 tags: software-development, agile, software-engineering, fintech, fintech-software-development
 
 ---
