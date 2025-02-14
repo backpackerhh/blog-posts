@@ -9,7 +9,7 @@ tags: ere, domestika, despidos, trabajos
 
 ---
 
-> This post is also [available in English](https://blog.davidmontesdeoca.es/the-one-about-my-experience-at-domestika).
+> This post is also [available in English](https://blog.davidmp.es/the-one-about-my-experience-at-domestika).
 
 Desde hace unos días ya no trabajo oficialmente para [Domestika](https://domestika.org/). Puedo decir sin ninguna duda que, en algunos aspectos, ha sido mi mejor experiencia laboral. Hasta el momento. Sin embargo, me voy con un sabor agridulce y con la certeza de que era lo mejor que podía pasarme en este momento, ya que los últimos meses han sido bastante difíciles y me dejaron un mal sabor de boca.
 
