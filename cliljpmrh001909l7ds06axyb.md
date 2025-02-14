@@ -9,7 +9,7 @@ tags: aws, python, aws-lambda, amazon-efs, aws-lambda-layer
 
 ---
 
-Recently, after finishing developing the Lambda function I've been talking about in [previous](https://blog.davidmontesdeoca.es/the-one-with-requests-to-localhost-from-aws-sam) [articles](https://blog.davidmontesdeoca.es/the-one-with-access-denied-to-aws-in-production) and creating the corresponding merge request, the [CI pipeline](https://docs.gitlab.com/ee/ci/) in GitLab that automatically deploys changes to the *staging* environment started failing.
+Recently, after finishing developing the Lambda function I've been talking about in [previous](https://blog.davidmp.es/the-one-with-requests-to-localhost-from-aws-sam) [articles](https://blog.davidmp.es/the-one-with-access-denied-to-aws-in-production) and creating the corresponding merge request, the [CI pipeline](https://docs.gitlab.com/ee/ci/) in GitLab that automatically deploys changes to the *staging* environment started failing.
 
 ## A bit of context
 
