@@ -15,7 +15,7 @@ This is my first time working for any American company. In many ways things work
 
 Before I started I had to go through a **background screening** process with their provider, [Orange Tree](https://www.orangetreescreening.com/). That process took several weeks but finally they gave the green light.
 
-A couple of days before starting, I received an email in my personal email account with details for configuring the laptop received a few days before. Of course, it was a [macOS laptop](https://blog.davidmontesdeoca.es/the-one-about-working-with-macos-being-a-linux-user). If you are a contractor, you do not get a new laptop.
+A couple of days before starting, I received an email in my personal email account with details for configuring the laptop received a few days before. Of course, it was a [macOS laptop](https://blog.davidmp.es/the-one-about-working-with-macos-being-a-linux-user). If you are a contractor, you do not get a new laptop.
 
 ## Onboarding
 
@@ -127,7 +127,7 @@ Depending on the application, we also expose and consume data from [REST APIs](h
 
 Each application has its own technology stack, but it is common to work with [Docker](https://www.docker.com/), [docker compose](https://docs.docker.com/compose/), [AWS](https://aws.amazon.com/), [Dry gems](https://dry-rb.org/), [MySQL](https://www.mysql.com/), [Elasticsearch](https://www.elastic.co/elasticsearch) and [Redis](https://redis.io/), among others.
 
-As I mentioned previously at the company level, the team did not follow a style guide for writing code when I joined. I am currently in the process of [adding RuboCop as a linter](https://blog.davidmontesdeoca.es/the-one-about-linting-in-a-legacy-ruby-project) to all applications of our governance.
+As I mentioned previously at the company level, the team did not follow a style guide for writing code when I joined. I am currently in the process of [adding RuboCop as a linter](https://blog.davidmp.es/the-one-about-linting-in-a-legacy-ruby-project) to all applications of our governance.
 
 In the same way, the way applications are tested is quite diverse, so I am trying to define a style guide for that as well. In the newest application we have developed I was already able to implement a new testing approach successfully, but I am aware that it will not be that easy to do it for the rest, among other things, because I find some resistance to change from the team.
 
