@@ -13,7 +13,7 @@ Recently I did a fresh install of Ubuntu on my laptop. As usual, I installed the
 
 As part of configuring the operating system, I always install a version manager for every programming language I'm working with.
 
-If you wanna know what a version manager is, and how to configure and use it in Python, you will find an [article](https://blog.davidmontesdeoca.es/the-one-with-a-version-manager-in-python) on this blog about it.
+If you wanna know what a version manager is, and how to configure and use it in Python, you will find an [article](https://blog.davidmp.es/the-one-with-a-version-manager-in-python) on this blog about it.
 
 When it comes to Ruby, although there are popular options such as [rbenv](https://github.com/rbenv/rbenv), my trusted version manager is still [RVM](https://rvm.io/) because it has always allowed me to manage different versions of the language and different gemsets in an easy and fast way. So no reason to change so far.
 
