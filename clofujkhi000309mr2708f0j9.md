@@ -9,7 +9,7 @@ tags: ubuntu, linux, chrome, chrome-extension, password-manager
 
 ---
 
-In the [previous post of this series](https://blog.davidmontesdeoca.es/the-one-with-a-password-manager-pass) I talked about **pass**, the desktop utility I use in Ubuntu Mate 22.04 as *password manager*. I recommend you to read that post first in case you are unfamiliar with the concept of *password manager* or *password store*.
+In the [previous post of this series](https://blog.davidmp.es/the-one-with-a-password-manager-pass) I talked about **pass**, the desktop utility I use in Ubuntu Mate 22.04 as *password manager*. I recommend you to read that post first in case you are unfamiliar with the concept of *password manager* or *password store*.
 
 Today I'd like to talk about [Browserpass](https://github.com/browserpass/browserpass-extension), a browser extension that allows you to auto-fill or copy to clipboard credentials for the current domain, protecting you from phishing attacks.
 
