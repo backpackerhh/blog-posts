@@ -9,17 +9,6 @@ tags: ruby, rails, ruby-on-rails, backend, learning, rubyonrails, training, sina
 
 ---
 
----
-title: "The one about learning Ruby"
-seoDescription: "Guide for beginners and experienced developers that would like to start learning Ruby"
-datePublished: Sat Jan 25 2025 12:08:35 GMT+0000 (Coordinated Universal Time)
-cuid: cm6c5d9pn000309jyfsh1ft1k
-slug: the-one-about-learning-ruby
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737487504845/5aa24c3c-3b31-4dab-9b10-db7981d4b53c.png
-tags: ruby, rails, ruby-on-rails, backend, learning, rubyonrails, training, sinatrarb, hanamirb
-
----
-
 I started working with [Ruby](https://www.ruby-lang.org/en/) in early 2010, on projects developed with [Ruby on Rails](https://rubyonrails.org/). My mentor was influential enough to convince our bosses that this programming language and this framework were the best choice for future projects. We usually worked with [CakePHP](https://cakephp.org/), so understanding how Rails works with the [MVC pattern](https://developer.mozilla.org/en-US/docs/Glossary/MVC) was really a piece of cake. Got it? Never mind...
 
 15 years later, I work at [SNGULAR](https://www.sngular.com/), which is a consulting firm that mostly works with [Java](https://www.java.com/en/) and its ecosystem in the backend of their software development projects. They also have projects with popular languages such as [PHP](https://www.php.net/) or [Node.js](https://nodejs.org/en), among others. Focusing exclusively on what they call the **Backend chapter**, each of these technologies has an internal **learning path** defined. This is not the case with Ruby, since they do not have many projects where this is the main programming language.
