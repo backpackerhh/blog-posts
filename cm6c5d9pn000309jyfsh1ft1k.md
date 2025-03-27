@@ -108,8 +108,11 @@ Going beyond the most basic concepts present in every programming language we ca
     * `attr_reader` vs `attr_writer` vs `attr_accessor`
 * Variables:
     * local vs global vs instance variables vs class instance variables vs class variables
-* Methods visibility:
-    * **public** vs `protected` vs `private`
+* Methods:
+    * Visibility: **public** vs `protected` vs `private`
+    * [Endless methods](https://allaboutcoding.ghinda.com/endless-method-a-quick-intro)
+* Ranges:
+    * [Beginless](https://docs.ruby-lang.org/en/3.4/Range.html#class-Range-label-Beginless+Ranges) and [endless](https://docs.ruby-lang.org/en/3.4/Range.html#class-Range-label-Endless+Ranges)
 * Regular expressions:
     * [Rubular Playground](https://rubular.com/)
 * Documentation:
