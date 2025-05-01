@@ -190,3 +190,7 @@ I really like the simplicity of **Browserpass**. So far I haven't needed anythin
 In the next post of this series I'll talk about the mobile apps I use in combination with **pass**.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
