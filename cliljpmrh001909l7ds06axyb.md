@@ -289,3 +289,7 @@ After a lot of going back and forth, I eventually found EFS as a solution to ove
 Although there are other alternatives to EFS, such as [container images](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-container-image-support/) that allow you to package and deploy Lambda functions of up to **10 GB** in size, the team is happy with the chosen solution. At least for the time being.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
