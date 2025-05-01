@@ -590,3 +590,7 @@ There is a risk that an architecture can interfere with expressive implementatio
 And that's it. It was definitely an exhaustive journey through this great book.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
