@@ -252,3 +252,7 @@ I wish the best to those who remain, especially to those I've worked most closel
 I also wish the best and express my gratitude to all the teammates I had during this time.
 
 Hopefully, what lies ahead for me will be at least as enriching as my experience at Domestika.
+
+---
+
+%%[buy-me-a-coffee]
