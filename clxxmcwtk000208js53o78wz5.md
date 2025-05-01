@@ -54,3 +54,7 @@ Pairing has a lot of benefits for junior developers, because it is an opportunit
 I think there is not one right way to mentor somebody, but what I have told has worked very well for some people in the past.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
