@@ -391,3 +391,7 @@ There was a lot of trial and error to get everything to work correctly, especial
 To be honest, I had never thought about having a GitHub profile with something more than pinned repositories, but seeing the potential of this kind of workflows, from now on I will keep thinking about how to improve it even more.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
