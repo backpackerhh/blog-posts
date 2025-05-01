@@ -182,3 +182,7 @@ It is important that the error message that would appear in case of using the *c
 I must say that the team welcomed the new changes with open arms.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
