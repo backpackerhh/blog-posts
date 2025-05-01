@@ -157,3 +157,7 @@ At some point, I'd like to be a **digital nomad** at least part of the year and 
 Thriving remotely requires to understand what makes you feel more productive, connected and able to maintain that way of working indefinitely. It requires introspection, and it requires you to also be able to force upon yourself habits and routines that, like exercise, will strengthen you in the long run.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
