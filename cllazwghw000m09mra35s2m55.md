@@ -252,3 +252,7 @@ Le deseo lo mejor a los que se quedan, especialmente a aquellos con los que he t
 Le deseo lo mejor también y le doy las gracias a todos los compañeros que tuve durante este tiempo.
 
 Ojalá lo que esté por venir para mí sea al menos igual de enriquecedor que mi experiencia en Domestika.
+
+---
+
+%%[buy-me-a-coffee]
