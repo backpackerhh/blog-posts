@@ -880,3 +880,7 @@ Implementations of repositories are kept in the infrastructure because they deal
 And that's it. It was definitely another exhaustive journey through another great book.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
