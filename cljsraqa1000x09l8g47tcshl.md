@@ -255,3 +255,7 @@ libssl-dev
 Although it's recommended upgrading to Ruby 3+, if you for whatever reason cannot do it yet, you still can successfully manage and install older Ruby versions on Ubuntu 22.04, ensuring compatibility with the required OpenSSL version and avoiding unexpected package updates.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
