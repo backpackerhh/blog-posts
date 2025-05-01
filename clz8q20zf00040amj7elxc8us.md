@@ -33,4 +33,8 @@ During this first month and as part of my onboarding, I have been teaching Ruby 
 
 Thank you for reading and see you in the next one!
 
+---
+
+%%[buy-me-a-coffee]
+
 
