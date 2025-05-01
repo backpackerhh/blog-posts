@@ -103,3 +103,7 @@ Bye bye ;-)
 As you can see, **keep-presence** is a simple yet powerful [open-source script written in Python](https://github.com/carrot69/keep-presence/blob/master/src/keep-presence.py). I highly recommend you to give it a try if you are looking for a **mouse jiggler** in a Unix-based OS.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
