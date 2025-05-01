@@ -13,7 +13,7 @@ Python is a programming language that I have worked with several times throughou
 
 However, I have been using version managers in other languages that I work with more regularly for years, such as [RVM](https://rvm.io/) for Ruby or [NVM](https://github.com/nvm-sh/nvm) for JavaScript.
 
-On my local machine with Ubuntu 22.04 I have Python 3.10.6 installed, but I needed Python 3.9 to run locally with [SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) a lambda function I've been working on lately, as that was the latest version supported by AWS.
+On my local machine with Ubuntu 22.04 I have Python 3.10.6 installed, but I needed Python 3.9 to run locally with [AWS SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) a Lambda function I've been working on lately, as that was the latest version supported by AWS.
 
 > Note: Last week [AWS Lambda added support for Python 3.10](https://aws.amazon.com/about-aws/whats-new/2023/04/aws-lambda-python-3-10/).
 
@@ -141,3 +141,7 @@ For more commands refer to the [command reference](https://github.com/pyenv/pyen
 I hope this story has been helpful to you, especially if you haven't used a version manager before, so you can avoid version conflicts while working on multiple projects that require different versions of a given programming language.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
