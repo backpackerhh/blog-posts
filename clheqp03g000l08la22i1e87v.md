@@ -177,3 +177,7 @@ Yeah! The request is now successfully sent from the Lambda function with SAM to 
 I hope this story has been helpful to you. Having some basic knowledge of both AWS SAM and Docker networks have proved to be pretty important if you want to easily test AWS Lambdas locally.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
