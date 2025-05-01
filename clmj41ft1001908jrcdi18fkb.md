@@ -380,3 +380,7 @@ I really like the simplicity of **pass**, being just a CLI utility that stores e
 This post is the first one in a series about [password managers](https://blog.davidmp.es/series/password-managers). In the next post I'll talk about the browser extension I use in combination with **pass**.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
