@@ -11,7 +11,7 @@ tags: software-development, agile-development, agile, software-engineering, fint
 
 In a [previous post](https://blog.davidmontesdeoca.es/the-one-about-how-things-work-in-an-american-fintech), I talked about how things work in the American fintech I am currently working for as a contractor.
 
-I initially planned to write this post after my first three months, but I postponed it when we learned that all teams in the _Transactional_ area would be reorganized at the start of the year.
+I initially planned to write this post after my first three months, but I postponed it when we learned that all teams in the *Transactional* area would be reorganized at the start of the year.
 
 This change took me by surprise. I knew that my team had been formed at the beginning of 2024 with members from other teams, but I did not realize this was something the company regularly does at the start of each year. The goal is to **prevent knowledge from becoming siloed within specific teams**.
 
@@ -130,3 +130,7 @@ On the other hand, I am happy because it is a **technical challenge** that is al
 Right now, it is a matter of being patient, as the beginning is always difficult for everyone. Hopefully, we will find our rhythm soon, and everything will start falling into place.
 
 Thank you for reading, and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
