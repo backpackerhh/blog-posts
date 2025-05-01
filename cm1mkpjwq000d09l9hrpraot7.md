@@ -240,3 +240,7 @@ The related rules from the style guide are the following:
 Hopefully I have given to you some arguments why `unless` is not the best option to create readable code, but that is something very subjective, so the take away is to write conditionals in a consistent way, preferably following a style guide defined by the community or your own team.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
