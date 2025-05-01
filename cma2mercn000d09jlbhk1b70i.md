@@ -51,3 +51,7 @@ In the future, I would like to write more purely technical posts, because I thin
 And that is basically my process for maintaining this blog.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
