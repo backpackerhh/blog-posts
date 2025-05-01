@@ -4,6 +4,7 @@ seoDescription: "Discover insights from a blogger's journey of discipline, langu
 datePublished: Tue Apr 29 2025 14:46:46 GMT+0000 (Coordinated Universal Time)
 cuid: cma2mercn000d09jlbhk1b70i
 slug: the-one-about-blogging
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/82TpEld0_e4/upload/cbfefd6cde56bd0c2dc8c135ae98adb4.jpeg
 tags: blog, blogging, development, developers, knowledge
 
 ---
