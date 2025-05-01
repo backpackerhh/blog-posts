@@ -274,3 +274,7 @@ Some benefits of doing so would be that there are fewer chances of breaking some
 I hope this story has been helpful to you and will serve you as a reminder to avoid making the same mistake.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
