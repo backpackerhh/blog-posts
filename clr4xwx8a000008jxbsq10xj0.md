@@ -287,3 +287,7 @@ A new version of Password Store app has not been released in over 2 years, but t
 Either way, it's quite easy to configure both apps and making them work together. Not to mention that I haven't found any critical error so far, at least with the basic use I make of them.
 
 Thank you for reading and see you in the next one!
+
+---
+
+%%[buy-me-a-coffee]
