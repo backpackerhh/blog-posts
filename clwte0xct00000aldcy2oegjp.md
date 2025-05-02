@@ -101,7 +101,7 @@ Everything worked like a charm with Wistia videos, but Vimeo had other plans for
 
 The links provided by Vimeo to access every version of a video that we used to generate the m3u8 files do not expire but redirect to other link that include a **token valid for 4 hours only**.
 
-I contacted Vimeo's customer support asking for any possible way to get those links without expiration and they basically said that there was nothing they could do about it.
+We contacted Vimeo's customer support asking for any possible way to get those links without expiration and they basically said that there was nothing they could do about it.
 
 With that unexpected limitation we had to recalculate route and I proposed the team an intermediate solution, that was later approbed by the infrastructure team as well.
 
