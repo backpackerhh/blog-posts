@@ -27,7 +27,7 @@ Companies have [unrealistic job requirements](https://mrshiny608.github.io/MrShi
 
 But even when you decide to apply for a position, many candidates are rejected because **interviewers fail to see that skills are transferable** and the match should not be limited to a predefined checklist.
 
-The way I see it, this situation is a consequence of the normalization that developers must master (almost) all related areas. For instane, check the roadmaps for [backend](https://roadmap.sh/backend), [frontend](https://roadmap.sh/frontend), [full stack](https://roadmap.sh/full-stack), or [software architects](https://roadmap.sh/software-architect).
+The way I see it, this situation is a consequence of the normalization that developers must master (almost) all related areas. For instance, check the roadmaps for [backend](https://roadmap.sh/backend), [frontend](https://roadmap.sh/frontend), [full stack](https://roadmap.sh/full-stack), or [software architects](https://roadmap.sh/software-architect).
 
 For a typical *backend* position, you are expected to master the main programming language used in the project, but preferably you should master more than one, because that will give you the tools to apply different approaches depending on the occasion, especially if those languages allow you to apply different programming paradigms, such as OOP and functional.
 
