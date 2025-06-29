@@ -4,7 +4,7 @@ seoDescription: "Learn how to fix OpenSSL issues when installing older Ruby vers
 datePublished: Fri Jul 07 2023 15:53:33 GMT+0000 (Coordinated Universal Time)
 cuid: cljsraqa1000x09l8g47tcshl
 slug: the-one-with-openssl-issues-installing-older-ruby-versions-on-ubuntu-2204
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/xbEVM6oJ1Fs/upload/9943667d4cfe171242fe0aab35c5e5c1.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751186368396/ca1f9113-f501-4288-98b3-980d7fbec3dd.png
 tags: ubuntu, linux, ruby, openssl, ubuntu-2204
 
 ---
