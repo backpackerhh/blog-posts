@@ -1,9 +1,9 @@
 ---
-title: "The one about shortcuts working in Cursor with Karabiner-Elements"
+title: "The one about shortcuts in Cursor with Karabiner-Elements"
 seoDescription: "Learn how to configure Cursor shortcuts in Karabiner-Elements for seamless transition and enhanced productivity with AI-native IDEs"
 datePublished: Wed Jul 23 2025 13:43:17 GMT+0000 (Coordinated Universal Time)
 cuid: cmdg0kj3q001602la0aog5op7
-slug: the-one-about-shortcuts-working-in-cursor-with-karabiner-elements
+slug: the-one-about-shortcuts-in-cursor-with-karabiner-elements
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753278053674/2552475e-82db-479e-b67f-abf5761fdd8f.png
 tags: ai, macos, vs-code, cursor, copilot, macos-tips, cursor-ide, karabiner-elements, osascript
 
