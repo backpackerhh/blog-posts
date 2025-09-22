@@ -36,7 +36,7 @@ An *All Hands Engineering* meeting was scheduled that same day, where the CTO of
 
 One of the items he did confirm though was that a dozen contractors would stop working on the project and that they were already deciding who would be affected.
 
-Of course, not all contractors affected by the restructure are from SNGULAR, as the client collaborates with other consulting agencies as well. But we did not know who nor how many of us would be affected.
+Of course, not all contractors affected by the restructure are from SNGULAR, as the client collaborates with other consulting firms as well. But we did not know who nor how many of us would be affected.
 
 The very same day the layoffs were announced, some colleagues from other areas of the company no longer had access to the project. In the engineering area, however not many people was affected, especially in the *Transactional* area, of which my team is part of.
 
@@ -48,7 +48,7 @@ According to what I later found out, there are several reasons why they could no
     
 * In other cases, there was a [consultation period](https://www.gov.uk/redundancy-your-rights/consultation).
     
-* In the case of contractors, it depends on the notice period agreed with the consulting agency.
+* In the case of contractors, it depends on the notice period agreed with the consulting firm.
     
 
 In our next *1 to 1* meeting, the EM confirmed that 2 or 3 people from SNGULAR would left the project, but they did not know who exactly yet. He also told me that I was among the top contractors in terms of performance and implied that he did not expect any changes concerning my position, but could not guarantee that I would not be affected. I felt somewhat relieved in that moment, although it was not yet confirmed.
