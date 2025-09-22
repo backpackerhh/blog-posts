@@ -4,7 +4,7 @@ seoDescription: "Insights from my first 6 months as a contractor in an American 
 datePublished: Wed Feb 26 2025 17:00:47 GMT+0000 (Coordinated Universal Time)
 cuid: cm7m5wb7i000109l57yylah2b
 slug: the-one-about-my-experience-working-for-an-american-fintech-6-months
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739389878945/8ac5c897-37fc-40ba-8aba-b9cfadc40e09.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758564072564/140f54bf-40bc-419c-966c-e665288ab29e.png
 tags: software-development, agile-development, agile, software-engineering, fintech, fintech-software-development
 
 ---
