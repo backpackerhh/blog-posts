@@ -9,7 +9,7 @@ tags: software-development, agile-development, agile, software-engineering, fint
 
 ---
 
-In a [previous post](https://blog.davidmontesdeoca.es/the-one-about-how-things-work-in-an-american-fintech), I talked about how things work in the American fintech I am currently working for as a contractor.
+In a [previous post](https://blog.davidmp.es/the-one-about-how-things-work-in-an-american-fintech), I talked about how things work in the American fintech I am currently working for as a contractor.
 
 I initially planned to write this post after my first three months, but I postponed it when we learned that all teams in the *Transactional* area would be reorganized at the start of the year.
 
