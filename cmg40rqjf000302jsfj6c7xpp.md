@@ -9,7 +9,7 @@ tags: consulting, consultancy, consulting-firm
 
 ---
 
-It has been a full year since I joined SNGULAR. In this post, I want to talk about my experience with them so far.
+It has been a full year since I joined [SNGULAR](https://www.sngular.com/). In this post, I want to talk about my experience with them so far.
 
 As I [mentioned when I landed this job](https://blog.davidmp.es/the-one-about-my-new-job), working for a consulting firm was not in my plans when I started looking for a new job at the beginning of 2024.
 
