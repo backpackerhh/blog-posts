@@ -82,7 +82,7 @@ In addition, this month we celebrated the company's 10th anniversary party in Ma
   * If things do not work out in the assigned project on your part either, you can be reassigned to another project as well.
 * You have an annual training budget of €500, which can be spent on courses, books, or tickets for technology events; and an annual well-being budget of €200, which can be spent on gym memberships or psychology sessions, to give a few examples.
     * Although it is true that there is not much flexibility to spend it. For example, you cannot use it to buy a standing desk.
-    * On the other hand, if the company considers that a course could be interesting for your work, they pay the corresponding license without deducting it from your annual budget. Some of use got a license for the [Epic React](https://www.epicreact.dev/) course by Kent C. Dodds.
+    * On the other hand, if the company considers that a course could be interesting for your work, they pay the corresponding license without deducting it from your annual budget. For instance, some of us got a license for the [Epic React](https://www.epicreact.dev/) course by Kent C. Dodds.
 * We have certain tax advantages for contracting a private health insurance policy. There are other benefits too that I do not enjoy, such as meal or transportation vouchers, because I do not go to the client's offices on a daily basis.
 * We have free access to AI tools, such as the Gemini pro model integrated into many of the company's tools.
 * We have the possibility of attending 1-hour English classes once a week, but outside of working hours.
