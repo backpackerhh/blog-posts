@@ -1,6 +1,6 @@
 ---
 title: "The one about adding borders between columns in a grid"
-seoDescription: "Learn how to add borders between grid columns using CSS and Tailwind CSS with practical examples "
+seoDescription: "Learn how to add borders between grid columns using CSS and Tailwind CSS with practical examples"
 datePublished: Sat Nov 29 2025 11:58:57 GMT+0000 (Coordinated Universal Time)
 cuid: cmik8n915000102l5gdof5eke
 slug: the-one-about-adding-borders-between-columns-in-a-grid
@@ -34,8 +34,6 @@ In my specific case, I am not working with plain CSS but rather [Tailwind CSS](h
   See the Pen <a href="https://codepen.io/backpackerhh/pen/NPNwJwP">
   Borders between columns in grid container using Tailwind</a> by David Montesdeoca (<a href="https://codepen.io/backpackerhh">@backpackerhh</a>) on <a href="https://codepen.io">CodePen</a>.
 </iframe>
-
-> Click on HTML button above to properly see the result
 
 Regarding the Tailwind example, I want to highlight a specific decision. My initial intention was to define the utility classes inline directly on the HTML elements, as is standard Tailwind practice.
 
