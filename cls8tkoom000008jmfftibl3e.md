@@ -4,7 +4,7 @@ seoDescription: "Know about my personal experience with remote work and how my o
 datePublished: Mon Feb 05 2024 10:59:14 GMT+0000 (Coordinated Universal Time)
 cuid: cls8tkoom000008jmfftibl3e
 slug: the-one-about-my-experience-working-remotely
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/pUYzNpizW00/upload/1d75dbbf7fc15f719c48e703b29ee868.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766914198190/28ce5aea-f9af-43a3-a74c-f670a4fec6cf.png
 tags: remote, jobs, remote-work, job-search, hybrid-work, in-office-work, in-person-work, async-communication
 
 ---
