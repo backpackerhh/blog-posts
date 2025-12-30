@@ -1,9 +1,9 @@
 ---
-title: "The about about working with a flexible schedule"
+title: "The one about working with a flexible schedule"
 seoDescription: "Learn the benefits of a flexible work schedule, including improved productivity, reduced burnout, and better work-life balance"
 datePublished: Tue Dec 30 2025 10:17:55 GMT+0000 (Coordinated Universal Time)
 cuid: cmjsfoqc4000302jog1y8d50i
-slug: the-about-about-working-with-a-flexible-schedule
+slug: the-one-about-working-with-a-flexible-schedule
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766914603557/c4a2aea6-94cb-42e4-962b-0ad09adb2d77.png
 tags: productivity, burnout, remote-work, mental-health, work-life-balance, deep-work, flexible-hours, flexible-schedule, asynchronous-work, presenteeism
 
