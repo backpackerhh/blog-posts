@@ -4,7 +4,7 @@ seoDescription: "Learn the benefits of a flexible work schedule, including impro
 datePublished: Tue Dec 30 2025 10:17:55 GMT+0000 (Coordinated Universal Time)
 cuid: cmjsfoqc4000302jog1y8d50i
 slug: the-one-about-true-flexible-schedules
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766914603557/c4a2aea6-94cb-42e4-962b-0ad09adb2d77.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767090400402/9df4c3cc-e678-4a33-9295-21a00bfa4b5e.png
 tags: productivity, burnout, remote-work, mental-health, work-life-balance, deep-work, flexible-hours, flexible-schedule, asynchronous-work, presenteeism
 
 ---
