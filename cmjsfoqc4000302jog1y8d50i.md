@@ -9,7 +9,7 @@ tags: productivity, burnout, remote-work, mental-health, work-life-balance, deep
 
 ---
 
-A while back, I wrote about [my experience working remotely](https://blog.davidmp.es/the-one-about-my-experience-working-remotely). I mentioned that, having seen the advantages of this way of working, today I would not consider accepting office-based or mandatory hybrid work models.
+A while back, I wrote about [my experience working remotely](https://davidmontesdeoca.dev/the-one-about-my-experience-working-remotely). I mentioned that, having seen the advantages of this way of working, today I would not consider accepting office-based or mandatory hybrid work models.
 
 But that's not all. As I see it, **the perfect combination is fully remote work with true flexible hours**. More on this below.
 
