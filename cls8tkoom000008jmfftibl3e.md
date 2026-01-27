@@ -79,7 +79,7 @@ If you think about it, it was pretty intense for a first real experience working
 
 ## A post-pandemic world
 
-By the end of 2020 I went **fully remote** when I started working at [Domestika](https://blog.davidmp.es/the-one-with-my-experience-at-domestika), that has been a fully remote-first company from its beginnings.
+By the end of 2020 I went **fully remote** when I started working at [Domestika](https://davidmontesdeoca.dev/the-one-with-my-experience-at-domestika), that has been a fully remote-first company from its beginnings.
 
 In the engineering team, we should try to have 4 hours (from 10am to 2pm) in the work day that overlap to allow for synchronous communication. In practice, most of us were available most of the day because everybody was based in Spain. Anyway, we had a lot of flexibility when it came to organizing our working day if needed.
 
