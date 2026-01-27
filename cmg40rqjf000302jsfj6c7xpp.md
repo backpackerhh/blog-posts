@@ -11,7 +11,7 @@ tags: consulting, consultancy, consulting-firm
 
 It has been a full year since I joined [SNGULAR](https://www.sngular.com/). In this post, I want to talk about my experience with them so far.
 
-As I [mentioned when I landed this job](https://blog.davidmp.es/the-one-about-my-new-job), working for a consulting firm was not in my plans when I started looking for a new job at the beginning of 2024.
+As I [mentioned when I landed this job](https://davidmontesdeoca.dev/the-one-about-my-new-job), working for a consulting firm was not in my plans when I started looking for a new job at the beginning of 2024.
 
 For most of my professional career, I have worked in product companies. And that is not a coincidence. I really love the deep ownership and the opportunity to build and nurture a single product over the long term.
 
@@ -29,7 +29,7 @@ Then we moved on to the most common part of any interview, where we went into mo
 
 In the next step, I appreciated that the technical interview felt more like a friendly conversation than a test, which helped ease my nerves and allowed for a more natural chat about my skills. This step was lead by another SNGULAR developer who works for the same client where I would work and who also has a manager role for the rest of the developers working for this client.
 
-He finally told me who the client was, [how things work with them](https://blog.davidmp.es/the-one-about-how-things-work-in-an-american-fintech), and asked me about my experience with this or that technology. The usual.
+He finally told me who the client was, [how things work with them](https://davidmontesdeoca.dev/the-one-about-how-things-work-in-an-american-fintech), and asked me about my experience with this or that technology. The usual.
 
 There was a third step that they considered unnecessary, which was an interview with the head of SNGULAR and liaison with the client.
 
@@ -51,7 +51,7 @@ The first day begins with a meeting with the HR people to welcome you. They shar
 
 Of course, you have to sign the employment contract and configure the laptop following the instructions you receive by email.
 
-Normally, after a couple of weeks of onboarding, you start working with the client. In my case, I already had a vacation scheduled, so my start with the client was delayed until I was back. In the meantime, I started a [Ruby training](https://blog.davidmp.es/the-one-about-learning-ruby) to some colleagues who were not assigned to a project at that time.
+Normally, after a couple of weeks of onboarding, you start working with the client. In my case, I already had a vacation scheduled, so my start with the client was delayed until I was back. In the meantime, I started a [Ruby training](https://davidmontesdeoca.dev/the-one-about-learning-ruby) to some colleagues who were not assigned to a project at that time.
 
 ## Relationship with the company
 
@@ -78,7 +78,7 @@ In addition, this month we celebrated the company's 10th anniversary party in Ma
 ## Advantages
 
 * I work full-time for the same client.
-* In case of [layoffs at the client](https://blog.davidmp.es/the-one-about-layoffs-in-an-american-fintech), you do not lose your job directly, but are reassigned to another project.
+* In case of [layoffs at the client](https://davidmontesdeoca.dev/the-one-about-layoffs-in-an-american-fintech), you do not lose your job directly, but are reassigned to another project.
   * If things do not work out in the assigned project on your part either, you can be reassigned to another project as well.
 * You have an annual training budget of €500, which can be spent on courses, books, or tickets for technology events; and an annual well-being budget of €200, which can be spent on gym memberships or psychology sessions, to give a few examples.
     * Although it is true that there is not much flexibility to spend it. For example, you cannot use it to buy a standing desk.
