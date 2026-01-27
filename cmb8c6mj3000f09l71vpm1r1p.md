@@ -11,7 +11,7 @@ tags: software-development, technology, tech, software-engineering, job-search
 
 This is a topic I have discussed countless times with developer peers and friends outside the tech world alike.
 
-It is generally agreed that software developers occupy a privileged position. This profession is not only highly in-demand but also offers a host of advantages rarely found elsewhere: competitive salaries, [remote work](https://blog.davidmp.es/the-one-about-my-experience-working-remotely), and flexible schedules, among others.
+It is generally agreed that software developers occupy a privileged position. This profession is not only highly in-demand but also offers a host of advantages rarely found elsewhere: competitive salaries, [remote work](https://davidmontesdeoca.dev/the-one-about-my-experience-working-remotely), and flexible schedules, among others.
 
 However, this privilege comes with a set of **unrealistic expectations**. A case of *divine justice*, you might say?
 
