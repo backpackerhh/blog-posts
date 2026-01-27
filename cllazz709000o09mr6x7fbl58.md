@@ -9,7 +9,7 @@ tags: jobs, layoff, layoffs, domestika, layoff-plans
 
 ---
 
-> Este post también está [disponible en español](https://blog.davidmp.es/el-de-mi-experiencia-en-domestika).
+> Este post también está [disponible en español](https://davidmontesdeoca.dev/el-de-mi-experiencia-en-domestika).
 
 For a few days now, I no longer officially work for [Domestika](https://domestika.org/). I can say without any doubt that, in some aspects, it has been my best working experience. So far. However, I leave with a bittersweet feeling and with the certainty that it was the best thing that could happen to me at this moment, since the last few months have been quite difficult and left a bad taste in my mouth.
 
