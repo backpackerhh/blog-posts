@@ -9,7 +9,7 @@ tags: ai, macos, vs-code, cursor, cursor-ide, cursor-ai
 
 ---
 
-In the [previous post](https://blog.davidmp.es/the-one-about-shortcuts-in-cursor-with-karabiner-elements), I mentioned that I was starting to use Cursor as my main IDE, after having worked with VSCode and Copilot for a while.
+In the [previous post](https://davidmontesdeoca.dev/the-one-about-shortcuts-in-cursor-with-karabiner-elements), I mentioned that I was starting to use Cursor as my main IDE, after having worked with VSCode and Copilot for a while.
 
 A key advantage of Cursor for VSCode users is its support for the same keyboard shortcuts, allowing for a seamless transition:
 
@@ -37,7 +37,7 @@ Then, you have to type `"tab"`, with the quotes, or on the right side of the sea
 
 ![Cursor's Keyboard Shortcuts](https://github.com/user-attachments/assets/3841c8e5-3a5d-4417-8239-c1c44066f1d0 align="left")
 
-The first detail you might note is that the source for almost all the commands is *User*. This is because I do not like working with macOS, but I have to for work, so I configured the system to be as similar as possible to my personal laptop with Linux. I have a [post](https://blog.davidmp.es/the-one-about-working-with-macos-being-a-linux-user#heading-vscode) where I discussed this topic in more detail.
+The first detail you might note is that the source for almost all the commands is *User*. This is because I do not like working with macOS, but I have to for work, so I configured the system to be as similar as possible to my personal laptop with Linux. I have a [post](https://davidmontesdeoca.dev/the-one-about-working-with-macos-being-a-linux-user#heading-vscode) where I discussed this topic in more detail.
 
 Another important detail to note is the first command associated with this key and its [when clause context](https://code.visualstudio.com/api/references/when-clause-contexts): `cpp.shouldAcceptTab`. We will need to use it pretty soon.
 
