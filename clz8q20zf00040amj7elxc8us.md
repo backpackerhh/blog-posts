@@ -9,7 +9,7 @@ tags: jobs, new-job, job-search, onboarding
 
 ---
 
-After [I left Domestika](https://blog.davidmp.es/the-one-with-my-experience-at-domestika) last year, I decided to take some time off. After a few weeks I started taking lots of courses mainly related to clean code, DDD, software architecture, TypeScript and other similar stuff. 
+After [I left Domestika](https://davidmontesdeoca.dev/the-one-with-my-experience-at-domestika) last year, I decided to take some time off. After a few weeks I started taking lots of courses mainly related to clean code, DDD, software architecture, TypeScript and other similar stuff. 
 
 I spent a lot of time putting those learnings into practice completing challenges from real companies that I found on the internet, so until March 2024 I didn't start looking for a new job. 
 
@@ -27,7 +27,7 @@ I'm not going to lie to you. You probably need to adjust your expectations as we
 
 After three hard months, I am really excited to tell you that I finally landed a new job at [SNGULAR](https://www.sngular.com/) last month.
 
-Working for a consulting firm was not in my plans, but I liked the proposal of SNGULAR to work exclusively for an American fintech company developing their own product. Among other benefits, I will have the possibility to continue [working remotely](https://blog.davidmp.es/the-one-about-my-experience-working-remotely).
+Working for a consulting firm was not in my plans, but I liked the proposal of SNGULAR to work exclusively for an American fintech company developing their own product. Among other benefits, I will have the possibility to continue [working remotely](https://davidmontesdeoca.dev/the-one-about-my-experience-working-remotely).
 
 During this first month and as part of my onboarding, I have been teaching Ruby to some colleagues in the company. Next month I will start the onboarding with the fintech company and, at some point, I would like to share some of my experiences working for an American company.
 
