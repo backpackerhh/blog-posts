@@ -13,7 +13,7 @@ Here begins a new blog series where I plan to share useful tips I discover in my
 
 --- 
 
-Translating a Figma design into code for the [new project I am currently working on](https://blog.davidmp.es/the-one-about-a-new-project-working-for-an-american-fintech), I encountered a specific UI requirement: a container with 3 column sections separated by vertical borders. The catch was that these borders could not span the full height of the container; they needed inset padding at the top and bottom.
+Translating a Figma design into code for the [new project I am currently working on](https://davidmontesdeoca.dev/the-one-about-a-new-project-working-for-an-american-fintech), I encountered a specific UI requirement: a container with 3 column sections separated by vertical borders. The catch was that these borders could not span the full height of the container; they needed inset padding at the top and bottom.
 
 <img width="500" height="329" alt="Image" src="https://github.com/user-attachments/assets/5bffa209-be51-4ffe-9512-741ab5af7b07" />
 
