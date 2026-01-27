@@ -13,7 +13,7 @@ I started working with [Ruby](https://www.ruby-lang.org/en/) in early 2010, on p
 
 15 years later, I work at [SNGULAR](https://www.sngular.com/), which is a consulting firm that mostly works with [Java](https://www.java.com/en/) and its ecosystem in the backend of their software development projects. They also have projects with popular languages such as [PHP](https://www.php.net/) or [Node.js](https://nodejs.org/en), among others. Focusing exclusively on what they call the **Backend chapter**, each of these technologies has an internal **learning path** defined. This is not the case with Ruby, since they do not have many projects where this is the main programming language.
 
-When I started working at this company I was already assigned to a project, but as I already had booked my vacations, [my start at the American fintech](https://blog.davidmp.es/the-one-about-my-new-job) was delayed for a few weeks until I was back.
+When I started working at this company I was already assigned to a project, but as I already had booked my vacations, [my start at the American fintech](https://davidmontesdeoca.dev/the-one-about-my-new-job) was delayed for a few weeks until I was back.
 
 I had several weeks ahead of me before leaving, so in addition to completing my onboarding, my boss proposed to do a **Ruby training** to some colleagues who did not have a project assigned at the time. All of them were experienced developers who were used to work mainly with Java or PHP, but had no previous experience with Ruby. I accepted without hesitation.
 
@@ -188,7 +188,7 @@ You will find plugins for Ruby in any editor/IDE.
 ### Linters
 
 * [RuboCop](https://rubocop.org/)
-  * [How to start using a linter in a legacy project](https://blog.davidmp.es/the-one-about-linting-in-a-legacy-ruby-project)
+  * [How to start using a linter in a legacy project](https://davidmontesdeoca.dev/the-one-about-linting-in-a-legacy-ruby-project)
 * [Standard](https://github.com/standardrb/standard)
 * [Brakeman](https://brakemanscanner.org/)
 * [Reek](https://github.com/troessner/reek)
@@ -269,7 +269,7 @@ Other courses:
 * [GoRails guides](https://gorails.com/guides)
 * [Rails hurts](https://railshurts.com/)
 * [Upgrow: A Better Architecture](https://github.com/backpackerhh/upgrow-docs):
-  * Proposed by Shopify and somehow inspired by [DDD](https://blog.davidmp.es/the-one-with-highlights-of-the-red-book-of-ddd)
+  * Proposed by Shopify and somehow inspired by [DDD](https://davidmontesdeoca.dev/the-one-with-highlights-of-the-red-book-of-ddd)
   * Bear in mind that this is not a usual approach in a Rails project
 * [How to train senior developers in Ruby on Rails](https://thoughtbot.com/blog/how-to-train-your-senior-developers-in-ruby-on-rails)
 * [GitLab: Why we're sticking with Ruby on Rails](https://about.gitlab.com/blog/2022/07/06/why-were-sticking-with-ruby-on-rails/)
