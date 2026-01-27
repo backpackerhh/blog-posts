@@ -15,7 +15,7 @@ This is my first time working for any American company. In many ways things work
 
 Before I started I had to go through a **background screening** process with their provider, [Orange Tree](https://www.orangetreescreening.com/). That process took several weeks but finally they gave the green light.
 
-A couple of days before starting, I received an email in my personal email account with details for configuring the laptop received a few days before. Of course, it was a [macOS laptop](https://blog.davidmp.es/the-one-about-working-with-macos-being-a-linux-user). If you are a contractor, you do not get a new laptop.
+A couple of days before starting, I received an email in my personal email account with details for configuring the laptop received a few days before. Of course, it was a [macOS laptop](https://davidmontesdeoca.dev/the-one-about-working-with-macos-being-a-linux-user). If you are a contractor, you do not get a new laptop.
 
 ## Onboarding
 
