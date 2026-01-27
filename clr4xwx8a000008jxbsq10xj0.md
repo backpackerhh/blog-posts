@@ -9,7 +9,7 @@ tags: mobile-apps, github, git, android, passwords, cryptography, password-manag
 
 ---
 
-In previous posts of this series I talked about [pass](https://blog.davidmp.es/the-one-with-a-password-manager-pass) and [Browserpass](https://blog.davidmp.es/the-one-with-a-password-manager-browserpass), the desktop utility and the browser extension I use to manage my passwords in Ubuntu Mate 22.04. I recommend you to first read those posts in case you are unfamiliar with the concept of *password manager* or *password store*.
+In previous posts of this series I talked about [pass](https://davidmontesdeoca.dev/the-one-with-a-password-manager-pass) and [Browserpass](https://davidmontesdeoca.dev/the-one-with-a-password-manager-browserpass), the desktop utility and the browser extension I use to manage my passwords in Ubuntu Mate 22.04. I recommend you to first read those posts in case you are unfamiliar with the concept of *password manager* or *password store*.
 
 Today I'd like to talk about [Password Store](https://passwordstore.app/), an Android client for [pass](https://www.passwordstore.org/) that aims to implement most of its capabilities; and [OpenKeychain](https://www.openkeychain.org/), an [OpenPGP](https://www.openpgp.org/) implementation for Android.
 
