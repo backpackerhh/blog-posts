@@ -9,7 +9,7 @@ tags: aws, projects, software-architecture, domestika, video-player
 
 ---
 
-My favorite project ever is the custom video player developed during my time at Domestika. More details about my experience at that company can be found [here](https://blog.davidmp.es/the-one-with-my-experience-at-domestika).
+My favorite project ever is the custom video player developed during my time at Domestika. More details about my experience at that company can be found [here](https://davidmontesdeoca.dev/the-one-with-my-experience-at-domestika).
 
 At some point a security issue was detected related with Wistia, one of our video providers, that was inadvertently exposing credentials that allowed users to download videos and overwrite subtitles.
 
