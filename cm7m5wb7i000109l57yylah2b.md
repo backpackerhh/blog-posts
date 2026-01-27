@@ -9,7 +9,7 @@ tags: software-development, agile-development, agile, software-engineering, fint
 
 ---
 
-In a [previous post](https://blog.davidmp.es/the-one-about-how-things-work-in-an-american-fintech), I talked about how things work in the American fintech I am currently working for as a contractor.
+In a [previous post](https://davidmontesdeoca.dev/the-one-about-how-things-work-in-an-american-fintech), I talked about how things work in the American fintech I am currently working for as a contractor.
 
 I initially planned to write this post after my first three months, but I postponed it when we learned that all teams in the *Transactional* area would be reorganized at the start of the year.
 
@@ -23,13 +23,13 @@ Let me start from the beginning.
 
 ## My first team
 
-All the details about how that team worked can be found in my [previous post](https://blog.davidmp.es/the-one-about-how-things-work-in-an-american-fintech#heading-my-team).
+All the details about how that team worked can be found in my [previous post](https://davidmontesdeoca.dev/the-one-about-how-things-work-in-an-american-fintech#heading-my-team).
 
 Although it might sound like a cliché, I really felt like everyone on the team welcomed me with open arms.
 
 For the first few weeks, I met every morning with my **onboarding buddy**, who explained how each application in the project works. We also spent part of the day **pair programming** on tasks she was working on.
 
-Normally, I would spend the rest of the day completing tasks from the board that I had been assigned as part of the onboarding. I also spent several weeks [configuring the macOS laptop](https://blog.davidmp.es/the-one-about-working-with-macos-being-a-linux-user) they provided me.
+Normally, I would spend the rest of the day completing tasks from the board that I had been assigned as part of the onboarding. I also spent several weeks [configuring the macOS laptop](https://davidmontesdeoca.dev/the-one-about-working-with-macos-being-a-linux-user) they provided me.
 
 During that time, **I had no autonomy and often felt lost**. I had no prior knowledge of the domain, and the project itself is quite complex, requiring many moving parts to come together. Still, my colleagues were incredibly patient and helped me as much as they could, especially when it came to testing tasks before moving them to "Ready for QA".
 
@@ -37,7 +37,7 @@ From the beginning, I noticed the team had been working together for several mon
 
 I have to say that I integrated perfectly into their workflow. At first, I could barely participate in technical meetings, not due to a lack of technical knowledge, but because I lacked context and did not know the scope of certain changes. Over time, I gradually became more active in these meetings.
 
-After applying several refactors and adding a couple of new features, I gained the trust of my teammates, who started to recognize how I could contribute and I quickly became a reference within the team when working with Ruby and applying best practices, as most of them had more experience with other programming languages. I always felt comfortable expressing my opinions and sharing ideas with them, even when we did not always agree. We would always reach a consensus for the good of the project. For example, I managed to [add RuboCop](https://blog.davidmp.es/the-one-about-linting-in-a-legacy-ruby-project) to all projects under our governance.
+After applying several refactors and adding a couple of new features, I gained the trust of my teammates, who started to recognize how I could contribute and I quickly became a reference within the team when working with Ruby and applying best practices, as most of them had more experience with other programming languages. I always felt comfortable expressing my opinions and sharing ideas with them, even when we did not always agree. We would always reach a consensus for the good of the project. For example, I managed to [add RuboCop](https://davidmontesdeoca.dev/the-one-about-linting-in-a-legacy-ruby-project) to all projects under our governance.
 
 For the most part of my career, I have been working with Rails, but I never had the chance to work with Sinatra before. I am enjoying **learning a simpler and lighter framework**, although sometimes it lacks certain useful features, such as many methods available in the [Time class](https://api.rubyonrails.org/classes/Time.html).
 
@@ -75,7 +75,7 @@ During the first few days, he organized several workshops to explain the so-call
 
 We also had several **mob programming sessions** where we started developing together the first functionality in that application.
 
-I will not go into much detail about what that service does, but I should mention that its governance belongs to another team. As I mentioned in [another post](https://blog.davidmp.es/the-one-about-how-things-work-in-an-american-fintech#heading-the-project), that ownership is not strict, as any developer can make changes to any application. Out of courtesy, the team with governance over each application is tagged.
+I will not go into much detail about what that service does, but I should mention that its governance belongs to another team. As I mentioned in [another post](https://davidmontesdeoca.dev/the-one-about-how-things-work-in-an-american-fintech#heading-the-project), that ownership is not strict, as any developer can make changes to any application. Out of courtesy, the team with governance over each application is tagged.
 
 Even though that other team shares with us the EM and the PM, and the tech lead often collaborates with them, we have encountered in a month several occasions where both teams have worked on similar functionality, because of a **lack of proper communication**.
 
