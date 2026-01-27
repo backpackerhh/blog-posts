@@ -21,7 +21,7 @@ In my case, I have been working with VSCode for a while, but I was offered the p
 
 Cursor is an AI-native IDE forked from VS Code, so it allows for a very easy transition from one IDE to the other. However, I found that a few basic shortcuts did not work as expected: save, find, copy, paste, undo, etc.
 
-The issue was directly related to the shortcuts I configured with [Karabiner-Elements](https://karabiner-elements.pqrs.org/) in macOS to behave like in Linux. I talked about it some time ago [here](https://blog.davidmp.es/the-one-about-working-with-macos-being-a-linux-user#heading-karabiner-elements).
+The issue was directly related to the shortcuts I configured with [Karabiner-Elements](https://karabiner-elements.pqrs.org/) in macOS to behave like in Linux. I talked about it some time ago [here](https://davidmontesdeoca.dev/the-one-about-working-with-macos-being-a-linux-user#heading-karabiner-elements).
 
 VSCode's *bundler identifier* is very easy to find anywhere if you look for it:
 
