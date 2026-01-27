@@ -9,7 +9,7 @@ tags: fintech, layoff, fintech-software-development, layoffs
 
 ---
 
-Shortly after I published [a post about my experience working for an American fintech](https://blog.davidmp.es/the-one-about-my-experience-working-for-an-american-fintech-6-months), the company send a message to the whole company via Slack.
+Shortly after I published [a post about my experience working for an American fintech](https://davidmontesdeoca.dev/the-one-about-my-experience-working-for-an-american-fintech-6-months), the company send a message to the whole company via Slack.
 
 For obvious reasons, I will not share that message, but I would like to share some highlights:
 
@@ -67,9 +67,9 @@ Anyway, I must say that during those weeks, I was very concerned about my future
 
 Given the uncertainty, I seriously thought about starting to search for a new job, although I did not feel much like it either.
 
-As I said in [my previous post](https://blog.davidmp.es/the-one-about-my-experience-working-for-an-american-fintech-6-months), working on this project is allowing me to learn a lot and I want to continue learning a lot more in the upcoming months.
+As I said in [my previous post](https://davidmontesdeoca.dev/the-one-about-my-experience-working-for-an-american-fintech-6-months), working on this project is allowing me to learn a lot and I want to continue learning a lot more in the upcoming months.
 
-After [my experience at Domestika](https://blog.davidmp.es/the-one-about-my-experience-at-domestika#heading-the-beginning-of-the-end), going through something like this again is really unpleasant. Luckily, for the time being, it is over.
+After [my experience at Domestika](https://davidmontesdeoca.dev/the-one-about-my-experience-at-domestika#heading-the-beginning-of-the-end), going through something like this again is really unpleasant. Luckily, for the time being, it is over.
 
 Thank you for reading, and see you in the next one!
 
