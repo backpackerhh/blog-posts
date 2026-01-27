@@ -9,7 +9,7 @@ tags: linux, docker, aws, aws-lambda, aws-sam
 
 ---
 
-[Previously](https://blog.davidmp.es/the-one-with-access-denied-to-aws-in-production) I mentioned the recommender system I have been working on lately. A key part of that system is an [AWS Lambda function](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) that generates recommendations on demand.
+[Previously](https://davidmontesdeoca.dev/the-one-with-access-denied-to-aws-in-production) I mentioned the recommender system I have been working on lately. A key part of that system is an [AWS Lambda function](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) that generates recommendations on demand.
 
 While in staging and production environments said Lambda function is invoked every time a job is enqueued in a specific queue in [AWS SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html), in my local machine I can invoke it using [AWS SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html).
 
