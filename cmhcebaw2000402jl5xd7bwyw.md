@@ -9,7 +9,7 @@ tags: ai, ruby, frontend, backend, frontend-development, fintech, backend-develo
 
 ---
 
-At the beginning of this year I talked about the [layoffs](https://blog.davidmp.es/the-one-about-layoffs-in-an-american-fintech) in the American fintech I work for as a contractor. That story is key to what comes next.
+At the beginning of this year I talked about the [layoffs](https://davidmontesdeoca.dev/the-one-about-layoffs-in-an-american-fintech) in the American fintech I work for as a contractor. That story is key to what comes next.
 
 For a long time, the company was focused entirely on education. They finally **decided to diversify, betting on the travel and hospitality industry**. This new strategy kicked off a project at the start of Q3: building a new tool that allows the company's operators to manage the beneficiary network on behalf of clients.
 
@@ -31,7 +31,7 @@ From the beginning, the head of the *Transactional* area was uncomfortable with 
 
 According to what I was told, the main reason they chose me for this new team was my willingness to work with frontend applications. In this company, almost everything is backend, and the little frontend that exists tends to be internal-use applications that do not get much love.
 
-I was asked to do an analysis of how long it would take to do the [migration with AI](https://blog.davidmp.es/the-one-about-shortcuts-in-cursor-with-karabiner-elements) for the two options on the table:
+I was asked to do an analysis of how long it would take to do the [migration with AI](https://davidmontesdeoca.dev/the-one-about-shortcuts-in-cursor-with-karabiner-elements) for the two options on the table:
 
 * Being an SPA, move the logic into another existing SPA, even if the applications were unrelated.
 * Create a new [microfrontend](https://martinfowler.com/articles/micro-frontends.html) with **Sinatra + htmx** that would be embedded in the *transactional registry* application, where other applications are already embedded.
