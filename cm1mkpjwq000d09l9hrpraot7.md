@@ -2,7 +2,7 @@
 title: "The one about conditionals in Ruby"
 seoTitle: "Understanding conditionals in Ruby"
 seoDescription: "An in-depth look at conditional statements in Ruby and arguments against using the unless statement for readability"
-datePublished: Sat Sep 28 2024 19:57:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-28T19:57:12.842Z
 cuid: cm1mkpjwq000d09l9hrpraot7
 slug: the-one-about-conditionals-in-ruby
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727548097607/573dff93-6e49-4330-9d17-abcb020cdca9.png
