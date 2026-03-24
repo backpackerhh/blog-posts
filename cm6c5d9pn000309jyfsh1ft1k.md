@@ -1,7 +1,7 @@
 ---
 title: "The one about learning Ruby"
 seoDescription: "Guide for beginners and experienced developers that would like to start learning Ruby"
-datePublished: Sat Jan 25 2025 12:08:35 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-25T12:08:35.435Z
 cuid: cm6c5d9pn000309jyfsh1ft1k
 slug: the-one-about-learning-ruby
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737487504845/5aa24c3c-3b31-4dab-9b10-db7981d4b53c.png
