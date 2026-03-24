@@ -1,7 +1,7 @@
 ---
 title: "The one about my new job"
 seoDescription: "Know about my recent experience searching for a new job and the job I finally landed."
-datePublished: Tue Jul 30 2024 17:58:41 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-30T17:58:41.788Z
 cuid: clz8q20zf00040amj7elxc8us
 slug: the-one-about-my-new-job
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/npxXWgQ33ZQ/upload/c295a3685977753ea517b94baf159260.jpeg
