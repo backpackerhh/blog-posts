@@ -1,10 +1,10 @@
 ---
 title: "The one with a guide for configuring a proxy-email service"
 seoDescription: "Learn how to configure a proxy-email service focusing on security and privacy with ProxiedMail for your custom domain"
-datePublished: Tue Jan 27 2026 22:22:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-27T22:22:02.431Z
 cuid: cmkx5vsu7000002l5bd2mdgzs
 slug: the-one-with-a-guide-for-configuring-a-proxy-email-service
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769460685291/5c2ec575-f40a-4ebe-ade5-e6778fe26d3a.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770663122646/050d08f7-f412-482a-8ed0-3abd2def15c2.png
 tags: dns, email, privacy, custom-domain, email-forwarding, proxiedmail, proxy-email
 
 ---
