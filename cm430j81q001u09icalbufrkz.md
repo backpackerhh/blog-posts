@@ -1,7 +1,7 @@
 ---
 title: "The one about how things work in an American fintech"
 seoDescription: "Explore the intricacies of working in an American fintech company, including onboarding, team dynamics, tech stack, and development processes"
-datePublished: Fri Nov 29 2024 17:23:54 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-29T17:23:54.878Z
 cuid: cm430j81q001u09icalbufrkz
 slug: the-one-about-how-things-work-in-an-american-fintech
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739389093975/346f6441-52ea-41d0-9be0-5ae4c24563cd.png
