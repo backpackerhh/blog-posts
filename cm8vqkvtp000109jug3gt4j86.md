@@ -1,7 +1,7 @@
 ---
 title: "The one about layoffs in an American fintech"
 seoDescription: "Fintech company experiences workforce cuts, contractor uncertainties, and employee challenges during restructuring and strategic acquisitions"
-datePublished: Sun Mar 30 2025 14:29:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-30T14:29:24.637Z
 cuid: cm8vqkvtp000109jug3gt4j86
 slug: the-one-about-layoffs-in-an-american-fintech
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742316733298/fe6db248-50e6-4f1a-b15f-3215702b6fa7.png
