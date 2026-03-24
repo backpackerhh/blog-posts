@@ -1,7 +1,7 @@
 ---
 title: "The one with highlights of the blue book of DDD"
 seoDescription: "Highlights of the blue book of DDD (Domain-Driven Design: Tackling Complexity in the Heart of Software) written by Eric Evans"
-datePublished: Wed Mar 13 2024 09:31:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-03-13T09:31:19.174Z
 cuid: cltplq4na000708l35wvzdij4
 slug: the-one-with-highlights-of-the-blue-book-of-ddd
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1710322136656/4528c23e-dc58-470a-8046-7cc6a522d91f.png
