@@ -1,7 +1,7 @@
 ---
 title: "The one about my favorite project (so far)"
 seoDescription: "Discover all the details about my favorite project so far, a custom video player during my time at Domestika"
-datePublished: Thu May 30 2024 15:05:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-05-30T15:05:57.725Z
 cuid: clwte0xct00000aldcy2oegjp
 slug: the-one-about-my-favorite-project-so-far
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1717068677764/615f4ad9-0ec2-40fd-bb94-0a46baa95f82.png
