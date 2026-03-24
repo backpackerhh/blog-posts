@@ -1,7 +1,7 @@
 ---
 title: "The one where you automatically add your latest posts to your GitHub profile"
 seoDescription: "Discover how to keep your GitHub profile automatically up to date with your latest blog posts and your recent activity"
-datePublished: Mon Dec 04 2023 10:48:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-12-04T10:48:26.528Z
 cuid: clpqsg4gw000009jt8duhh17n
 slug: the-one-where-you-automatically-add-your-latest-posts-to-your-github-profile
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1699528730003/9fa4084e-9934-4eab-b422-d9abb7a11d4b.png
