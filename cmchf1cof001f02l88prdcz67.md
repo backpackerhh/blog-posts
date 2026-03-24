@@ -1,7 +1,7 @@
 ---
 title: "The one with issues scheduling Sidekiq jobs in production"
 seoDescription: "Learn how to resolve scheduling issues in Sidekiq when handling jobs across multiple applications with shared Redis instances"
-datePublished: Sun Jun 29 2025 08:36:20 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-29T08:36:20.464Z
 cuid: cmchf1cof001f02l88prdcz67
 slug: the-one-with-issues-scheduling-sidekiq-jobs-in-production
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751186071676/7fba24fa-a92e-443e-8c4e-df8e2bea110f.png
