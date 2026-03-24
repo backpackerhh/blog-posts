@@ -1,7 +1,7 @@
 ---
 title: "The one about my experience working for an American fintech"
 seoDescription: "Insights from my first 6 months as a contractor in an American fintech: team changes, technical challenges, security constraints, and lessons learned."
-datePublished: Wed Feb 26 2025 17:00:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-26T17:00:47.934Z
 cuid: cm7m5wb7i000109l57yylah2b
 slug: the-one-about-my-experience-working-for-an-american-fintech-6-months
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758564072564/140f54bf-40bc-419c-966c-e665288ab29e.png
