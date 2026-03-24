@@ -1,7 +1,7 @@
 ---
 title: "The one about accepting Tab suggestions in Cursor"
 seoDescription: "Learn how to resolve issues with accepting AI-generated suggestions in Cursor using the Tab key by adjusting keyboard shortcuts effectively"
-datePublished: Mon Aug 25 2025 18:29:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-25T18:29:19.649Z
 cuid: cmergbhr5000802jmghsye75s
 slug: the-one-about-accepting-tab-suggestions-in-cursor
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756143334985/5b51dc25-e807-44b8-93ad-38116dff3f2d.png
