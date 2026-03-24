@@ -1,7 +1,7 @@
 ---
 title: "The one with a password manager: Browserpass"
 seoDescription: "Discover the benefits of using Browserpass, a simple browser extension, along with your password manager to keep your data safe in Ubuntu and Chrome."
-datePublished: Wed Nov 01 2023 14:21:56 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-11-01T14:21:56.214Z
 cuid: clofujkhi000309mr2708f0j9
 slug: the-one-with-a-password-manager-browserpass
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694701929855/b8003002-0811-4581-9cfe-d9fda8dfea49.png
