@@ -1,7 +1,7 @@
 ---
 title: "The one with heavy dependencies in a Lambda function"
 seoDescription: "Learn how to overcome the AWS Lambda deployment size limit by using AWS EFS to mount a shared file system and load packages larger than the 250 MB"
-datePublished: Wed Jun 07 2023 10:07:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-06-07T10:07:06.365Z
 cuid: cliljpmrh001909l7ds06axyb
 slug: the-one-with-heavy-dependencies-in-a-lambda-function
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/snNHKZ-mGfE/upload/cccef6d253bfc42a19ebfba4484293cd.jpeg
