@@ -1,7 +1,7 @@
 ---
 title: "The one about blogging"
 seoDescription: "Discover insights from a blogger's journey of discipline, language choices, and sharing knowledge with the developer community over two years"
-datePublished: Tue Apr 29 2025 14:46:46 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-29T14:46:46.007Z
 cuid: cma2mercn000d09jlbhk1b70i
 slug: the-one-about-blogging
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746204154363/eb94fb98-4299-4505-8cb9-20f9b56cc44d.png
