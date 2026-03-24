@@ -200,7 +200,7 @@ module.exports = {
 
 No more `pathRewrite`. The `/api` prefix is now kept as-is, and the backend proxy handles it from there. This matches how the application works in staging and production.
 
-Finally, I refactored the sparse tests to route them through the `Dispatcher` instead of testing the proxy in isolation, and added the make command to be able to run those tests locally:
+Finally, I refactored the scarce tests to route them through the `Dispatcher` instead of testing the proxy in isolation, and added the make command to be able to run those tests locally:
 
 ```ruby
 # spec/requests/api/proxy_spec.rb
