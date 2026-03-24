@@ -5,7 +5,7 @@ datePublished: 2026-03-23T20:14:14.629Z
 cuid: cmn3mjazm00gy2flk4ge22rtz
 slug: the-one-about-multi-api-support-in-legacy-code
 cover: https://cdn.hashnode.com/uploads/covers/642d433eeaad3d174f737099/30c7fd89-597f-4546-9b33-3814549dd7b3.png
-tags: refactoring, proxy, ruby, api, spa, testing, legacy-code, sinatrarb
+tags: refactoring, proxy, ruby, api, spa, reactjs, testing, legacy-code, sinatrarb
 
 ---
 
