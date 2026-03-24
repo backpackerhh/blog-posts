@@ -1,7 +1,7 @@
 ---
 title: "The one about adding borders between columns in a grid"
 seoDescription: "Learn how to add borders between grid columns using CSS and Tailwind CSS with practical examples"
-datePublished: Sat Nov 29 2025 11:58:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-11-29T11:58:57.401Z
 cuid: cmik8n915000102l5gdof5eke
 slug: the-one-about-adding-borders-between-columns-in-a-grid
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764417508943/7deb490d-8389-4aed-bab2-c971d85968b6.png
