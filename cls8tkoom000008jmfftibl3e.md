@@ -1,7 +1,7 @@
 ---
 title: "The one about my experience working remotely"
 seoDescription: "Know about my personal experience with remote work and how my opinion on the matter has evolved since I started working as software developer."
-datePublished: Mon Feb 05 2024 10:59:14 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-02-05T10:59:14.806Z
 cuid: cls8tkoom000008jmfftibl3e
 slug: the-one-about-my-experience-working-remotely
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766914198190/28ce5aea-f9af-43a3-a74c-f670a4fec6cf.png
