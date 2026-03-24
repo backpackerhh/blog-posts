@@ -1,7 +1,7 @@
 ---
 title: "The one with a version manager in Python"
 seoDescription: "Learn how to manage multiple versions of Python with pyenv."
-datePublished: Mon Apr 24 2023 07:48:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-04-24T07:48:15.045Z
 cuid: clgujdkxx000009le40z05oh4
 slug: the-one-with-a-version-manager-in-python
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/vb-3qEe3rg8/upload/ac768c8b690a167f782c218300ffb697.jpeg
