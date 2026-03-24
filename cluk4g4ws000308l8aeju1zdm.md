@@ -1,7 +1,7 @@
 ---
 title: "The one with highlights of the red book of DDD"
 seoDescription: "Highlights of the red book of DDD (Implementing Domain-Driven Design) written by Vaughn Vernon"
-datePublished: Wed Apr 03 2024 18:08:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-04-03T18:08:30.940Z
 cuid: cluk4g4ws000308l8aeju1zdm
 slug: the-one-with-highlights-of-the-red-book-of-ddd
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711909751649/68a28efd-6897-4c32-8c15-74b27f252062.jpeg
