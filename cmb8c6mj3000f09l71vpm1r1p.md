@@ -1,7 +1,7 @@
 ---
 title: "The one about unrealistic expectations on software developers"
 seoDescription: "Explore the unrealistic expectations on software developers and the industry's need to shift away from seeking mythical 10x developers"
-datePublished: Wed May 28 2025 19:26:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-28T19:26:49.743Z
 cuid: cmb8c6mj3000f09l71vpm1r1p
 slug: the-one-about-unrealistic-expectations-on-software-developers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748369490093/dd8f716c-0002-403b-ba5f-3fd1821f9d45.png
