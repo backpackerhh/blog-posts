@@ -1,7 +1,7 @@
 ---
 title: "The one about mentoring junior developers"
 seoDescription: "Discover my approach to mentoring junior developers using pair programming and live code review sessions, among other things."
-datePublished: Thu Jun 27 2024 18:50:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-27T18:50:00.872Z
 cuid: clxxmcwtk000208js53o78wz5
 slug: the-one-about-mentoring-junior-developers
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/LcSpQ36Q2us/upload/d816453b5189db61d2d8234dc15a5283.jpeg
