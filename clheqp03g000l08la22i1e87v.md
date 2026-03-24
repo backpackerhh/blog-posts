@@ -1,7 +1,7 @@
 ---
 title: "The one with requests to localhost from AWS SAM"
 seoDescription: "Learn how to make requests to localhost from an AWS Lambda function using AWS SAM. Find solutions to connection errors when accessing Docker network."
-datePublished: Mon May 08 2023 11:08:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-05-08T11:08:28.732Z
 cuid: clheqp03g000l08la22i1e87v
 slug: the-one-with-requests-to-localhost-from-aws-sam
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/jOqJbvo1P9g/upload/55361318df08f7b1f5a538710b533f1d.jpeg
