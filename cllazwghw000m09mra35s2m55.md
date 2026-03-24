@@ -1,7 +1,7 @@
 ---
 title: "(ES) El de mi experiencia en Domestika"
 seoDescription: "Mi experiencia en Domestika desde el inicio hasta el final"
-datePublished: Mon Aug 14 2023 14:53:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-08-14T14:53:57.764Z
 cuid: cllazwghw000m09mra35s2m55
 slug: el-de-mi-experiencia-en-domestika
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691745074046/749327f3-801b-4510-9f8f-b46437696755.png
