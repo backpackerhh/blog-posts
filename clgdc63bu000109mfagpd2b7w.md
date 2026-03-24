@@ -1,7 +1,7 @@
 ---
 title: "The one with access denied to AWS in production"
 seoDescription: "Discover how a misconfiguration in stored AWS credentials in Rails for the production environment can lead to unexpected errors and impact UX."
-datePublished: Wed Apr 12 2023 06:54:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-04-12T06:54:23.322Z
 cuid: clgdc63bu000109mfagpd2b7w
 slug: the-one-with-access-denied-to-aws-in-production
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/Q1p7bh3SHj8/upload/4749b27b82a63a12d17c9e211816b7b1.jpeg
