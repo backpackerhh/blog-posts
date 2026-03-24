@@ -1,7 +1,7 @@
 ---
 title: "The one with a password manager: mobile apps"
 seoDescription: "Discover the benefits of using Password Store & OpenKeychain, along with your password manager to keep your data safe in your mobile devices."
-datePublished: Mon Jan 08 2024 13:09:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-01-08T13:09:57.178Z
 cuid: clr4xwx8a000008jxbsq10xj0
 slug: the-one-with-a-password-manager-mobile-apps
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695899612465/5636a47d-bda1-4bb4-b2c9-fbd09c0357a6.png
