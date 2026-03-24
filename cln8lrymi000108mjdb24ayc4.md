@@ -1,7 +1,7 @@
 ---
 title: "The one with a mouse jiggler in Ubuntu"
 seoDescription: "Learn how to prevent your laptop from sleeping while streaming with Plex. Avoid changing power settings every time with a mouse jiggler like Keep Presence."
-datePublished: Mon Oct 02 2023 08:02:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-10-02T08:02:25.674Z
 cuid: cln8lrymi000108mjdb24ayc4
 slug: the-one-with-a-mouse-jiggler-in-ubuntu
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696187127142/786c5df6-75d5-4f27-b428-62e9e53e0c56.png
