@@ -1,7 +1,7 @@
 ---
 title: "The one about using factories with entities in Sinatra"
 seoDescription: "Find out how to use create strategy in factories when your Ruby objects do not implement save! method"
-datePublished: Mon Dec 23 2024 09:53:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-23T09:53:04.273Z
 cuid: cm50uzvo1000809jrfw5n5hxd
 slug: the-one-about-using-factories-with-entities-in-sinatra
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734812714751/a2e4b95b-09b5-4e3e-b915-9a523cc9b668.png
