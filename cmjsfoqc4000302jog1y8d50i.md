@@ -1,7 +1,7 @@
 ---
 title: "The one about true flexible schedules"
 seoDescription: "Learn the benefits of a flexible work schedule, including improved productivity, reduced burnout, and better work-life balance"
-datePublished: Tue Dec 30 2025 10:17:55 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-12-30T10:17:55.540Z
 cuid: cmjsfoqc4000302jog1y8d50i
 slug: the-one-about-true-flexible-schedules
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767090400402/9df4c3cc-e678-4a33-9295-21a00bfa4b5e.png
