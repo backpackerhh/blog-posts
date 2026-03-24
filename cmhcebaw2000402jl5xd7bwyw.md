@@ -1,7 +1,7 @@
 ---
 title: "The one about a new project working for an American fintech"
 seoDescription: "Discover insights into developing a new fintech tool, handling frontend challenges, and leading a project migration with Sinatra and htmx integration"
-datePublished: Wed Oct 29 2025 19:35:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-29T19:35:45.891Z
 cuid: cmhcebaw2000402jl5xd7bwyw
 slug: the-one-about-a-new-project-working-for-an-american-fintech
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761157290326/87cd9574-3b97-4c30-a212-6a499d74e73b.png
