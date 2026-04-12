@@ -1,5 +1,5 @@
 ---
-title: "The one about unrealistic expectations on software developers"
+title: "The one about unrealistic expectations on software engineers"
 seoDescription: "Explore the unrealistic expectations on software developers and the industry's need to shift away from seeking mythical 10x developers"
 datePublished: 2025-05-28T19:26:49.743Z
 cuid: cmb8c6mj3000f09l71vpm1r1p
@@ -9,15 +9,15 @@ tags: software-development, technology, tech, software-engineering, job-search
 
 ---
 
-This is a topic I have discussed countless times with developer peers and friends outside the tech world alike.
+This is a topic I have discussed countless times with engineer peers and friends outside the tech world alike.
 
-It is generally agreed that software developers occupy a privileged position. This profession is not only highly in-demand but also offers a host of advantages rarely found elsewhere: competitive salaries, [remote work](https://davidmontesdeoca.dev/the-one-about-my-experience-working-remotely), and flexible schedules, among others.
+It is generally agreed that software engineers occupy a privileged position. This profession is not only highly in-demand but also offers a host of advantages rarely found elsewhere: competitive salaries, [remote work](https://davidmontesdeoca.dev/the-one-about-my-experience-working-remotely), and flexible schedules, among others.
 
 However, this privilege comes with a set of **unrealistic expectations**. A case of *divine justice*, you might say?
 
 I recently came across an excellent post about [the insanity of being a software engineer](https://0x1.pt/2025/04/06/the-insanity-of-being-a-software-engineer/) and felt compelled to expand on its insights.
 
-**Getting started is not easy at all**, especially if you have no experience. I would say that it is difficult to find job offers for junior developers, but in those rare cases where you do find them, it is common that companies ask for 2-3 years of experience. How can one get the experience if no one will provide the first opportunity?
+**Getting started is not easy at all**, especially if you have no experience. I would say that it is difficult to find job offers for junior engineers, but in those rare cases where you do find them, it is common that companies ask for 2-3 years of experience. How can one get the experience if no one will provide the first opportunity?
 
 Nowadays, you have bootcamps, for example, that have collaboration agreements with tech companies that give the student a chance to start an internship upon finishing, but they are not guaranteed to continue in the company once the internship is over.
 
@@ -27,7 +27,7 @@ Companies have [unrealistic job requirements](https://mrshiny608.github.io/MrShi
 
 But even when you decide to apply for a position, many candidates are rejected because **interviewers fail to see that skills are transferable** and the match should not be limited to a predefined checklist.
 
-The way I see it, this situation is a consequence of the normalization that developers must master (almost) all related areas. For instance, check the roadmaps for [backend](https://roadmap.sh/backend), [frontend](https://roadmap.sh/frontend), [full stack](https://roadmap.sh/full-stack), or [software architects](https://roadmap.sh/software-architect).
+The way I see it, this situation is a consequence of the normalization that engineers must master (almost) all related areas. For instance, check the roadmaps for [backend](https://roadmap.sh/backend), [frontend](https://roadmap.sh/frontend), [full stack](https://roadmap.sh/full-stack), or [software architects](https://roadmap.sh/software-architect).
 
 For a typical *backend* position, you are expected to master the main programming language used in the project, but preferably you should master more than one, because that will give you the tools to apply different approaches depending on the occasion, especially if those languages allow you to apply different programming paradigms, such as OOP and functional.
 
@@ -47,8 +47,7 @@ You must know your way around the command line to be able to configure the syste
 
 Do not forget about monitoring the system, responding to incidents caused by changes introduced to applications in your team's governance, and automating tasks to ensure the reliability of the system.
 
-You are expected to be proficient with containers and cloud providers too,
-configuring and provisioning the infrastructure using code instead of manual processes and settings ([IaC](https://aws.amazon.com/what-is/iac/)). Who needs [SysAdmins](https://roadmap.sh/r/system-engineer), [SREs, or DevOps](https://roadmap.sh/devops) anymore, right?
+You are expected to be proficient with containers and cloud providers too, configuring and provisioning the infrastructure using code instead of manual processes and settings ([IaC](https://aws.amazon.com/what-is/iac/)). Who needs [SysAdmins](https://roadmap.sh/r/system-engineer), [SREs, or DevOps](https://roadmap.sh/devops) anymore, right?
 
 Do not forget about [AI](https://roadmap.sh/ai-engineer), which makes it increasingly common to find job offers asking for knowledge in LLMs, RAG, fine-tuning, or transformers, to name a few.
 
@@ -80,12 +79,8 @@ Naturally, you should be someone with experience working in startups or fast-pac
 
 Note that all those skills have been extracted from real job offers I have seen lately.
 
-I love what I do, and the opportunity to constantly learn is one of the best parts of this job. However, I think the industry needs to move away from seeking [mythical 10x developers](https://www.simplethread.com/the-10x-programmer-myth/).
+I love what I do, and the opportunity to constantly learn is one of the best parts of this job. However, I think the industry needs to move away from seeking [mythical 10x engineers](https://www.simplethread.com/the-10x-programmer-myth/).
 
 My suggestion is to not expect to hire a single person to do the work of an entire department, and rely on the candidates' ability to learn and adapt. Foster a culture that values deep expertise as much as broad knowledge to build stronger teams.
 
 Thank you for reading and see you in the next one!
-
----
-
-%%[buy-me-a-coffee]
