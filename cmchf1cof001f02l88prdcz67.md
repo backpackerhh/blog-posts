@@ -21,9 +21,12 @@ We started with a legacy payouts application, what we call **payouts v1** (just 
 
 It is a somewhat old Sinatra application that, among other things, does not use [Zeitwerk](https://github.com/fxn/zeitwerk), so:
 
-* It does not follow a conventional file structure. The namespace of the different classes and modules does not respect the directory hierarchy, so it is common not to find what you expect where you would expect to find it.
-* There is no configuration for [inflection](https://github.com/fxn/zeitwerk#inflection), but submodules like AMQP or SFTP exist anyway.
-* It does not use *eager loading* in much of the code, so you must require classes and modules explicitly at the beginning of each file.
+*   It does not follow a conventional file structure. The namespace of the different classes and modules does not respect the directory hierarchy, so it is common not to find what you expect where you would expect to find it.
+    
+*   There is no configuration for [inflection](https://github.com/fxn/zeitwerk#inflection), but submodules like AMQP or SFTP exist anyway.
+    
+*   It does not use *eager loading* in much of the code, so you must require classes and modules explicitly at the beginning of each file.
+    
 
 For a new feature of internal payouts between the company's own accounts, it was decided to do it separately from v1.
 
@@ -329,9 +332,9 @@ We first checked what had been deployed to production since the last time we fix
 
 We found the following trace in our logs in production:
 
-> Removing schedule bank_acknowledge_notification
->
-> Removing schedule bank_transfers_download_feedback_files_job
+> Removing schedule bank\_acknowledge\_notification
+> 
+> Removing schedule bank\_transfers\_download\_feedback\_files\_job
 
 We tried restarting the application in production without success. Same trace in the logs.
 
@@ -395,7 +398,8 @@ We already had a task on our board to explicitly add queues to jobs classes and 
 
 The idea was to deploy it in two steps, doing the following:
 
-1. Define the *default* queue in v1, so that any job from v2 that was already enqueued at the time of deployment could be successfully processed in v1.
+1.  Define the *default* queue in v1, so that any job from v2 that was already enqueued at the time of deployment could be successfully processed in v1.
+    
 
 ```bash
 bundle exec sidekiq -r ./config/sidekiq_boot.rb -q default,1 -q high_priority,6 -q medium_priority,3 -q low_priority,1 —concurrency 10
@@ -454,7 +458,8 @@ Sidekiq.set_schedule(
 )
 ```
 
-2. Delete the *default* queue from v1, now that all jobs run in a specific queue.
+2.  Delete the *default* queue from v1, now that all jobs run in a specific queue.
+    
 
 However, with this configuration, we encountered unexpected errors at that time when processing the scheduled job from v2 in v1:
 
@@ -562,14 +567,15 @@ It was not easy, it took us a lot of time, but we are happy with the result.
 
 Some lessons learned:
 
-* Better organize the structure of applications that share the same repository.
-* Carefully read the documentation of the tools we use.
-* Add alerts when a certain period passes without processing scheduled jobs.
-* Test any change more exhaustively before uploading it to production.
-* Do not share a Redis instance between multiple applications, especially the same namespace, because it can lead to unpredictable behavior.
+*   Better organize the structure of applications that share the same repository.
+    
+*   Carefully read the documentation of the tools we use.
+    
+*   Add alerts when a certain period passes without processing scheduled jobs.
+    
+*   Test any change more exhaustively before uploading it to production.
+    
+*   Do not share a Redis instance between multiple applications, especially the same namespace, because it can lead to unpredictable behavior.
+    
 
 Thank you for reading, and see you in the next one!
-
----
-
-%%[buy-me-a-coffee]
