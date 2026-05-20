@@ -9,7 +9,7 @@ tags: css, ruby, rails, html, ruby-on-rails, ui, dsl, ui-components, erb, sinatr
 
 ---
 
-In a [previous post](https://davidmontesdeoca.dev/the-one-about-rendering-and-displaying-code-examples-in-erb) I talked about the internal design system I have been working on recently, consisting of server-rendered UI components, using Ruby and [ERB](https://ruby-doc.org/stdlib/libdoc/erb/rdoc/ERB.html) templates.
+In a [previous post](/the-one-about-rendering-and-displaying-code-examples-in-erb) I talked about the internal design system I have been working on recently, consisting of server-rendered UI components, using Ruby and [ERB](https://ruby-doc.org/stdlib/libdoc/erb/rdoc/ERB.html) templates.
 
 Most of these components are simple: you call a method and the page renders the HTML returned by the corresponding template.
 
@@ -81,14 +81,14 @@ The calls to each one of those methods return strings independently. There is no
 In situations like this, I usually look at the Rails source code to see how the framework handles it and whether there is a simple way to replicate that approach, instead of adding more dependencies to the project.
 
 > In a Rails view, every `<%= ... %>` tag appends its result to `@output_buffer`, an `ActionView::OutputBuffer` maintained during rendering.
->
+> 
 > `capture { ... }` works by swapping the buffer: it saves the current `@output_buffer`, installs a fresh one, yields the block (so any `<%= ... %>` inside writes into the new buffer), then restores the original and returns what was captured.
->
+> 
 > Block-form helpers like `content_tag(:div) { ... }` use capture internally to collect their block's output before wrapping it in markup.
->
+> 
 > But this only works when the caller is an ERB template rendered by `ActionView`. In plain Sinatra there is no `@output_buffer` and no `capture`, so the nested DSL above has nowhere to collect its children's output.
 
-Next, I shared what I wanted to achieve with Claude Code in _plan mode_, and after a few iterations, I got the AI to propose an implementation that seemed simple enough.
+Next, I shared what I wanted to achieve with Claude Code in *plan mode*, and after a few iterations, I got the AI to propose an implementation that seemed simple enough.
 
 The implementation, slightly simplified, is as follows:
 
@@ -159,30 +159,31 @@ end
 
 Two ideas are doing the work here:
 
-- **A stack of arrays** instead of a single buffer, so nested blocks do not stomp on each other:
-
-  ```ruby
-  table do              # buffer_stack = [[]]
-    table_body do       # buffer_stack = [[], []]
-      table_row do      # buffer_stack = [[], [], []]
-        table_cell "a"  # buffer_stack = [[], [], ["<td>a</td>"]]
-        table_cell "b"  # buffer_stack = [[], [], ["<td>a</td>", "<td>b</td>"]]
-      end               # buffer_stack = [[], ["<tr><td>a</td><td>b</td></tr>"]]
-    end                 # buffer_stack = [["<tbody>…</tbody>"]]
-  end                   # returns "<table><tbody>…</tbody></table>"
-  ```
-
-  `table_body` pushes a fresh array; its inner `table_row` pushes another on top; when each `pop`s, the content of the inner stack merges back into the outer one via `append_to_table_buffer`. Only the outermost `table` returns anything, the joined string after the last pop. Every other call's return value is thrown away on purpose: if `capture_table_content` trusted the block's return value, Ruby's last-expression rule would hand back only the last `table_cell`'s HTML and every earlier cell would vanish.
-
-  Nesting a table *inside* another table works for the same reason, an inner `table do` just pushes one more array onto the stack, fills it, pops it, and deposits the whole inner `<table>…</table>` string onto its parent's array like any other child's output.
-
-- **Thread-local storage**, because Sinatra on a threaded server, like [Puma](https://github.com/puma/puma), handles requests in parallel:
-
-  ```ruby
-  Thread.current[:table_buffer_stack]
-  ```
-
-  If `table_buffer_stack` were a class-level `@@buffer_stack` instead, two requests entering `table do` at the same moment would push onto the same array; each one's `table_cell` could append into the other's array, mixing rows across responses. `Thread.current` gives each thread its own stack, so the two requests can not see each other's state.
+*   **A stack of arrays** instead of a single buffer, so nested blocks do not stomp on each other:
+    
+    ```ruby
+    table do              # buffer_stack = [[]]
+      table_body do       # buffer_stack = [[], []]
+        table_row do      # buffer_stack = [[], [], []]
+          table_cell "a"  # buffer_stack = [[], [], ["<td>a</td>"]]
+          table_cell "b"  # buffer_stack = [[], [], ["<td>a</td>", "<td>b</td>"]]
+        end               # buffer_stack = [[], ["<tr><td>a</td><td>b</td></tr>"]]
+      end                 # buffer_stack = [["<tbody>…</tbody>"]]
+    end                   # returns "<table><tbody>…</tbody></table>"
+    ```
+    
+    `table_body` pushes a fresh array; its inner `table_row` pushes another on top; when each `pop`s, the content of the inner stack merges back into the outer one via `append_to_table_buffer`. Only the outermost `table` returns anything, the joined string after the last pop. Every other call's return value is thrown away on purpose: if `capture_table_content` trusted the block's return value, Ruby's last-expression rule would hand back only the last `table_cell`'s HTML and every earlier cell would vanish.
+    
+    Nesting a table *inside* another table works for the same reason, an inner `table do` just pushes one more array onto the stack, fills it, pops it, and deposits the whole inner `<table>…</table>` string onto its parent's array like any other child's output.
+    
+*   **Thread-local storage**, because Sinatra on a threaded server, like [Puma](https://github.com/puma/puma), handles requests in parallel:
+    
+    ```ruby
+    Thread.current[:table_buffer_stack]
+    ```
+    
+    If `table_buffer_stack` were a class-level `@@buffer_stack` instead, two requests entering `table do` at the same moment would push onto the same array; each one's `table_cell` could append into the other's array, mixing rows across responses. `Thread.current` gives each thread its own stack, so the two requests can not see each other's state.
+    
 
 All that works perfectly for the table component, but it does not for the next component I needed to create.
 
@@ -240,25 +241,26 @@ end
 
 There are only two differences:
 
-* The thread-local key used to store the component's content in `Thread.current` is different, `:modal_buffer_stack`.
-
-* There is an important change in the method that captures the component's content:
-
-  ```ruby
-  buffer.empty? ? result.to_s : buffer.join
-  ```
-
-  It falls back to the block's return value if the block did not call any DSL child.
-
-  For instance:
-
-  ```ruby
-  modal_header { "Confirm status change" }
-  ```
-
-  The block returns a bare string, so nothing is pushed to the buffer. Without the fallback, those blocks would render empty.
-
-  Table got away with `pop.join` because every `table` block is expected to contain child DSL calls (`table_row`, `table_cell`, etc.).
+*   The thread-local key used to store the component's content in `Thread.current` is different, `:modal_buffer_stack`.
+    
+*   There is an important change in the method that captures the component's content:
+    
+    ```ruby
+    buffer.empty? ? result.to_s : buffer.join
+    ```
+    
+    It falls back to the block's return value if the block did not call any DSL child.
+    
+    For instance:
+    
+    ```ruby
+    modal_header { "Confirm status change" }
+    ```
+    
+    The block returns a bare string, so nothing is pushed to the buffer. Without the fallback, those blocks would render empty.
+    
+    Table got away with `pop.join` because every `table` block is expected to contain child DSL calls (`table_row`, `table_cell`, etc.).
+    
 
 That code works perfectly for both components, but there is too much duplicated plumbing behind both components.
 
@@ -541,8 +543,10 @@ end
 
 Therefore, the `ContentBuffer` module now has two main parts:
 
-- **Buffer**: a linear, append-only stream of HTML fragments from children.
-- **Context**: a shared hash the parent seeds, that children can read from and write into.
+*   **Buffer**: a linear, append-only stream of HTML fragments from children.
+    
+*   **Context**: a shared hash the parent seeds, that children can read from and write into.
+    
 
 > The context key is derived from the same `_content_buffer_key` the buffer uses, with a `_context` suffix appended. This way, each component that includes `ContentBuffer` ends up with its own isolated buffer stack and context stack.
 
@@ -619,8 +623,10 @@ end
 
 Two points to highlight here:
 
-- `alert_icon` and `alert_actions` return an empty string. Instead of writing to the buffer, they store their rendered HTML in a named slot in the context (`:icon` and `:actions` respectively). The parent `alert` method reads those slots into its own local variables after running the block, and passes them to the template as independent variables.
-- `alert_title` and `alert_description` write to the buffer exactly like table and modal children do, so they end up in the concatenated content.
+*   `alert_icon` and `alert_actions` return an empty string. Instead of writing to the buffer, they store their rendered HTML in a named slot in the context (`:icon` and `:actions` respectively). The parent `alert` method reads those slots into its own local variables after running the block, and passes them to the template as independent variables.
+    
+*   `alert_title` and `alert_description` write to the buffer exactly like table and modal children do, so they end up in the concatenated content.
+    
 
 A single alert uses both mechanisms: title and description go into the concatenated content, icon and actions into named slots.
 
@@ -819,26 +825,24 @@ end
 
 The module is simple and covers every block DSL component I have needed so far, but there are still a few rough edges worth calling out before wrapping up, although it is not meant to be a thorough list:
 
-1. **Exception safety**: `capture_content` pushes and pops the buffer stack by hand, and `alert` does the same with `set_context` and `reset_context`. If the block raises in between, the stack keeps the orphaned frame. A `begin/ensure` around each pair fixes both.
-
-2. **Explicit buffer-vs-context contract**: Writing to the buffer means returning a string; writing to a slot means returning `""` and assigning into the context by hand. A helper like `with_slot(slot_name) { ... }` would make the slot write the block's explicit purpose instead of an empty-string side effect.
-
-3. **Typed context slots**: The slots `:icon`, `:actions`, and `:variant` are untyped hash keys, so a typo silently returns `nil`. A `context_slots` class macro, alongside `content_buffer_key`, would declare each component's slots and catch typos.
-
-4. **Rename the module**: `ContentBuffer` fit when there was only a buffer. With the context stack in place, it should have a name that fits better.
-
-5. **Extend module API**: add a method to reset the values stored in the tests, instead of assigning `nil` in an `after` block.
+1.  **Exception safety**: `capture_content` pushes and pops the buffer stack by hand, and `alert` does the same with `set_context` and `reset_context`. If the block raises in between, the stack keeps the orphaned frame. A `begin/ensure` around each pair fixes both.
+    
+2.  **Explicit buffer-vs-context contract**: Writing to the buffer means returning a string; writing to a slot means returning `""` and assigning into the context by hand. A helper like `with_slot(slot_name) { ... }` would make the slot write the block's explicit purpose instead of an empty-string side effect.
+    
+3.  **Typed context slots**: The slots `:icon`, `:actions`, and `:variant` are untyped hash keys, so a typo silently returns `nil`. A `context_slots` class macro, alongside `content_buffer_key`, would declare each component's slots and catch typos.
+    
+4.  **Rename the module**: `ContentBuffer` fit when there was only a buffer. With the context stack in place, it should have a name that fits better.
+    
+5.  **Extend module API**: add a method to reset the values stored in the tests, instead of assigning `nil` in an `after` block.
+    
 
 ## Conclusion
 
-Building your own component system from scratch forces you to face problems that frameworks like Rails solve
-for you. Once you solve them yourself, even in a small way, they stop feeling like magic.
+Building your own component system from scratch forces you to face problems that frameworks like Rails solve for you. Once you solve them yourself, even in a small way, they stop feeling like magic.
 
-The `ContentBuffer` module is not trying to be a general-purpose abstraction. It only has to work for the
-components that use it today, and that is why it stays small.
+The `ContentBuffer` module is not trying to be a general-purpose abstraction. It only has to work for the components that use it today, and that is why it stays small.
 
-In exchange, what you get is Rails-like ergonomics on top of ERB in Sinatra, with no extra dependencies. There is
-still room for improvement, but the core is simple and easy to test.
+In exchange, what you get is Rails-like ergonomics on top of ERB in Sinatra, with no extra dependencies. There is still room for improvement, but the core is simple and easy to test.
 
 If you have an alternative approach to this problem, feel free to share it with me.
 
