@@ -9,7 +9,7 @@ tags: mobile-apps, github, git, android, passwords, cryptography, password-manag
 
 ---
 
-In previous posts of this series I talked about [pass](https://davidmontesdeoca.dev/the-one-with-a-password-manager-pass) and [Browserpass](https://davidmontesdeoca.dev/the-one-with-a-password-manager-browserpass), the desktop utility and the browser extension I use to manage my passwords in Ubuntu Mate 22.04. I recommend you to first read those posts in case you are unfamiliar with the concept of *password manager* or *password store*.
+In previous posts of this series I talked about [pass](/the-one-with-a-password-manager-pass) and [Browserpass](/the-one-with-a-password-manager-browserpass), the desktop utility and the browser extension I use to manage my passwords in Ubuntu Mate 22.04. I recommend you to first read those posts in case you are unfamiliar with the concept of *password manager* or *password store*.
 
 Today I'd like to talk about [Password Store](https://passwordstore.app/), an Android client for [pass](https://www.passwordstore.org/) that aims to implement most of its capabilities; and [OpenKeychain](https://www.openkeychain.org/), an [OpenPGP](https://www.openpgp.org/) implementation for Android.
 
@@ -35,15 +35,15 @@ The project is in the process of rewriting the documentation from scratch. The w
 
 Some highlights:
 
-* [Autofill](https://docs.passwordstore.app/docs/users/autofill) on Android 8 and above.
+*   [Autofill](https://docs.passwordstore.app/docs/users/autofill) on Android 8 and above.
     
-* Access to the password store protected with fingerprint.
+*   Access to the password store protected with fingerprint.
     
-* Passwords copied to the clipboard for 45 seconds (by default, time is configurable).
+*   Passwords copied to the clipboard for 45 seconds (by default, time is configurable).
     
-* In-app SSH key generation to clone, pull changes from and push changes to the password store repository.
+*   In-app SSH key generation to clone, pull changes from and push changes to the password store repository.
     
-* Full management of secure passwords within the app.
+*   Full management of secure passwords within the app.
     
 
 ## OpenKeychain
@@ -288,6 +288,6 @@ Either way, it's quite easy to configure both apps and making them work together
 
 Thank you for reading and see you in the next one!
 
----
+* * *
 
 %%[buy-me-a-coffee]
