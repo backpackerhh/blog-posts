@@ -9,11 +9,11 @@ tags: linux, docker, aws, aws-lambda, aws-sam
 
 ---
 
-[Previously](https://davidmontesdeoca.dev/the-one-with-access-denied-to-aws-in-production) I mentioned the recommender system I have been working on lately. A key part of that system is an [AWS Lambda function](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) that generates recommendations on demand.
+[Previously](/the-one-with-access-denied-to-aws-in-production) I mentioned the recommender system I have been working on lately. A key part of that system is an [AWS Lambda function](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) that generates recommendations on demand.
 
 While in staging and production environments said Lambda function is invoked every time a job is enqueued in a specific queue in [AWS SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html), in my local machine I can invoke it using [AWS SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html).
 
-Now, this is a story all about how successfully make requests to _localhost_ from a function Lambda using SAM.
+Now, this is a story all about how successfully make requests to *localhost* from a function Lambda using SAM.
 
 Although you will find a few basic commands throughout this post, how SAM works is beyond the scope of this post, so I highly recommend that you take a look at the [official documentation](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/using-sam-cli.html) in case you haven't used it before.
 
@@ -178,6 +178,6 @@ I hope this story has been helpful to you. Having some basic knowledge of both A
 
 Thank you for reading and see you in the next one!
 
----
+* * *
 
 %%[buy-me-a-coffee]
