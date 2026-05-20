@@ -9,7 +9,7 @@ tags: productivity, burnout, remote-work, mental-health, work-life-balance, deep
 
 ---
 
-A while back, I wrote about [my experience working remotely](https://davidmontesdeoca.dev/the-one-about-my-experience-working-remotely). I mentioned that, having seen the advantages of this way of working, today I would not consider accepting office-based or mandatory hybrid work models.
+A while back, I wrote about [my experience working remotely](/the-one-about-my-experience-working-remotely). I mentioned that, having seen the advantages of this way of working, today I would not consider accepting office-based or mandatory hybrid work models.
 
 But that's not all. As I see it, **the perfect combination is fully remote work with true flexible hours**. More on this below.
 
@@ -39,9 +39,12 @@ However, true schedule flexibility comes when the company understands that with 
 
 Of course, enjoying that privilege implies some obligations on your part:
 
-* Demonstrate reliability, **consistently delivering high-quality work on time** to build the necessary trust.
-* Adopt **asynchronous and proactive communication** with your manager and the rest of the team, so they know when you will be available and your progress on the task you are currently working on. This ensures the team remains unblocked even when you are not online.
-* Be **available during the team's core hours** (e.g., from 10 am to 2 pm). This is usually a common requirement for companies, although my experience has always been that attending team meetings is sufficient.
+*   Demonstrate reliability, **consistently delivering high-quality work on time** to build the necessary trust.
+    
+*   Adopt **asynchronous and proactive communication** with your manager and the rest of the team, so they know when you will be available and your progress on the task you are currently working on. This ensures the team remains unblocked even when you are not online.
+    
+*   Be **available during the team's core hours** (e.g., from 10 am to 2 pm). This is usually a common requirement for companies, although my experience has always been that attending team meetings is sufficient.
+    
 
 If you meet those obligations, I see no reason not to have the freedom to work when you feel your **productivity will be highest** or when you need blocks of **absolute concentration without interruptions**; whether that is early in the morning or late at night. It is simply adapting to your natural peak performance hours, which may not be the same every day.
 
@@ -57,6 +60,6 @@ In the end, it is not about working less, but working better. And you, *are you 
 
 Thank you for reading and see you in the next one!
 
----
+* * *
 
 %%[buy-me-a-coffee]
