@@ -9,17 +9,17 @@ tags: fintech, layoff, fintech-software-development, layoffs
 
 ---
 
-Shortly after I published [a post about my experience working for an American fintech](https://davidmontesdeoca.dev/the-one-about-my-experience-working-for-an-american-fintech-6-months), the company send a message to the whole company via Slack.
+Shortly after I published [a post about my experience working for an American fintech](/the-one-about-my-experience-working-for-an-american-fintech-6-months), the company send a message to the whole company via Slack.
 
 For obvious reasons, I will not share that message, but I would like to share some highlights:
 
-* The revenue growth was slowed in 2024, so to keep growing the company must adapt.
+*   The revenue growth was slowed in 2024, so to keep growing the company must adapt.
     
-* The company decided to restructure teams, and as a result, approximately 120 positions (both employees and contractor roles) will be eliminated globally, affecting around 10% of the organization.
+*   The company decided to restructure teams, and as a result, approximately 120 positions (both employees and contractor roles) will be eliminated globally, affecting around 10% of the organization.
     
-* The company announced the acquisition of a leading software provided to the travel and hospitality industry for over $300M, further helping to diversify the business.
+*   The company announced the acquisition of a leading software provided to the travel and hospitality industry for over $300M, further helping to diversify the business.
     
-* All employees will receive an email stating whether their role was impacted by that restructure.
+*   All employees will receive an email stating whether their role was impacted by that restructure.
     
 
 That day I started working later than usual and the first thing I noticed was a Slack message from my engineering manager (EM) asking me if I had received the email, although he mentioned the communication plan might differ for contractors.
@@ -42,13 +42,13 @@ The very same day the layoffs were announced, some colleagues from other areas o
 
 According to what I later found out, there are several reasons why they could not do the same to everybody else affected by these layoffs, mainly due to the laws of each country:
 
-* In Spain, the standard notice period for terminating an employment contract is 15 days, applicable to both employers and employees, but it is common for companies to terminate employees without prior notice, assuming a severance pay.
+*   In Spain, the standard notice period for terminating an employment contract is 15 days, applicable to both employers and employees, but it is common for companies to terminate employees without prior notice, assuming a severance pay.
     
-* In some cases, it was necessary to wait to remove the access to the project to workers in other time zones.
+*   In some cases, it was necessary to wait to remove the access to the project to workers in other time zones.
     
-* In other cases, there was a [consultation period](https://www.gov.uk/redundancy-your-rights/consultation).
+*   In other cases, there was a [consultation period](https://www.gov.uk/redundancy-your-rights/consultation).
     
-* In the case of contractors, it depends on the notice period agreed with the consulting firm.
+*   In the case of contractors, it depends on the notice period agreed with the consulting firm.
     
 
 In our next *1 to 1* meeting, the EM confirmed that 2 or 3 people from SNGULAR would left the project, but they did not know who exactly yet. He also told me that I was among the top contractors in terms of performance and implied that he did not expect any changes concerning my position, but could not guarantee that I would not be affected. I felt somewhat relieved in that moment, although it was not yet confirmed.
@@ -67,12 +67,12 @@ Anyway, I must say that during those weeks, I was very concerned about my future
 
 Given the uncertainty, I seriously thought about starting to search for a new job, although I did not feel much like it either.
 
-As I said in [my previous post](https://davidmontesdeoca.dev/the-one-about-my-experience-working-for-an-american-fintech-6-months), working on this project is allowing me to learn a lot and I want to continue learning a lot more in the upcoming months.
+As I said in [my previous post](/the-one-about-my-experience-working-for-an-american-fintech-6-months), working on this project is allowing me to learn a lot and I want to continue learning a lot more in the upcoming months.
 
-After [my experience at Domestika](https://davidmontesdeoca.dev/the-one-about-my-experience-at-domestika#heading-the-beginning-of-the-end), going through something like this again is really unpleasant. Luckily, for the time being, it is over.
+After [my experience at Domestika](/the-one-about-my-experience-at-domestika#heading-the-beginning-of-the-end), going through something like this again is really unpleasant. Luckily, for the time being, it is over.
 
 Thank you for reading, and see you in the next one!
 
----
+* * *
 
 %%[buy-me-a-coffee]
