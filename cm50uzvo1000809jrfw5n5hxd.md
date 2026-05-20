@@ -9,9 +9,9 @@ tags: sinatra, ruby, ruby-on-rails, testing, rspec, factorybot, sinatrarb
 
 ---
 
-I mentioned in a [previous post](https://davidmontesdeoca.dev/the-one-about-how-things-work-in-an-american-fintech) that in the project I am currently working on we do not use [Rails](https://rubyonrails.org/) in most of the applications. There are some exceptions in certain legacy applications that represent the core of the project, from which we have been progressively extracting functionalities and creating new microservices with [Sinatra](https://sinatrarb.com/).
+I mentioned in a [previous post](/the-one-about-how-things-work-in-an-american-fintech) that in the project I am currently working on we do not use [Rails](https://rubyonrails.org/) in most of the applications. There are some exceptions in certain legacy applications that represent the core of the project, from which we have been progressively extracting functionalities and creating new microservices with [Sinatra](https://sinatrarb.com/).
 
-In the case of my team, part of our focus so far has been on the new payouts application that I [also mentioned in another post](https://davidmontesdeoca.dev/the-one-about-linting-in-a-legacy-ruby-project), which allows us to automate certain payments.
+In the case of my team, part of our focus so far has been on the new payouts application that I [also mentioned in another post](/the-one-about-linting-in-a-legacy-ruby-project), which allows us to automate certain payments.
 
 In that application, [Sequel](https://sequel.jeremyevans.net/) provides the ORM layer for mapping database records to Ruby objects. We do not use [models like in Rails](https://guides.rubyonrails.org/active_record_basics.html) inheriting from `ActiveRecord`, but entities that inherit from the [Data class](https://docs.ruby-lang.org/en/3.2/Data.html), added to the Ruby core in version 3.2.
 
@@ -80,11 +80,11 @@ describe "POST /payments/initiate" do
 
 The way I see it, doing that is not maintainable and would not scale well, for several reasons:
 
-* We are generating more records than needed for each example. Therefore, each test is slower than necessary.
+*   We are generating more records than needed for each example. Therefore, each test is slower than necessary.
     
-* We do not have control over the attributes of each of the records created.
+*   We do not have control over the attributes of each of the records created.
     
-* We are adding indirection within each test file where that module is used, because we are asserting over values that are not defined neither in the test example nor in the test file itself.
+*   We are adding indirection within each test file where that module is used, because we are asserting over values that are not defined neither in the test example nor in the test file itself.
     
 
 I would even prefer to use **fixtures** rather than keep creating records that way, but only if I knew that the code would never change. And we all know that rarely happens.
@@ -183,6 +183,6 @@ I must say that the team welcomed the new changes with open arms.
 
 Thank you for reading and see you in the next one!
 
----
+* * *
 
 %%[buy-me-a-coffee]
