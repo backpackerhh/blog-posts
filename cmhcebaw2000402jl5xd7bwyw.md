@@ -9,7 +9,7 @@ tags: ai, ruby, frontend, backend, frontend-development, fintech, backend-develo
 
 ---
 
-At the beginning of this year I talked about the [layoffs](https://davidmontesdeoca.dev/the-one-about-layoffs-in-an-american-fintech) in the American fintech I work for as a contractor. That story is key to what comes next.
+At the beginning of this year I talked about the [layoffs](/the-one-about-layoffs-in-an-american-fintech) in the American fintech I work for as a contractor. That story is key to what comes next.
 
 For a long time, the company was focused entirely on education. They finally **decided to diversify, betting on the travel and hospitality industry**. This new strategy kicked off a project at the start of Q3: building a new tool that allows the company's operators to manage the beneficiary network on behalf of clients.
 
@@ -31,10 +31,12 @@ From the beginning, the head of the *Transactional* area was uncomfortable with 
 
 According to what I was told, the main reason they chose me for this new team was my willingness to work with frontend applications. In this company, almost everything is backend, and the little frontend that exists tends to be internal-use applications that do not get much love.
 
-I was asked to do an analysis of how long it would take to do the [migration with AI](https://davidmontesdeoca.dev/the-one-about-shortcuts-in-cursor-with-karabiner-elements) for the two options on the table:
+I was asked to do an analysis of how long it would take to do the [migration with AI](/the-one-about-shortcuts-in-cursor-with-karabiner-elements) for the two options on the table:
 
-* Being an SPA, move the logic into another existing SPA, even if the applications were unrelated.
-* Create a new [microfrontend](https://martinfowler.com/articles/micro-frontends.html) with **Sinatra + htmx** that would be embedded in the *transactional registry* application, where other applications are already embedded.
+*   Being an SPA, move the logic into another existing SPA, even if the applications were unrelated.
+    
+*   Create a new [microfrontend](https://martinfowler.com/articles/micro-frontends.html) with **Sinatra + htmx** that would be embedded in the *transactional registry* application, where other applications are already embedded.
+    
 
 Initially, I had no doubt that the SPA option was the best one, especially if speed was the main goal. Of course, some adjustments would be needed. The two applications had been developed by different teams and the code was organized differently. For example, one managed state locally with `useState` while the other used Redux for managing the state of the whole application.
 
@@ -44,7 +46,7 @@ The main reason being a general **lack of frontend expertise** among the area's 
 
 Obviously, knowing that changed everything. **The final goal was to build the microfrontend with Sinatra + htmx in any case**.
 
-Before making an estimate, I created a _proof of concept_ UI with [Claude Code](https://www.claude.com/product/claude-code) to generate a paginated list of beneficiaries, following the design of the current frontend application and the same approach as other microfrontends.
+Before making an estimate, I created a *proof of concept* UI with [Claude Code](https://www.claude.com/product/claude-code) to generate a paginated list of beneficiaries, following the design of the current frontend application and the same approach as other microfrontends.
 
 The experience was satisfying and frustrating in equal parts. Replicating the design and code from other applications was relatively easy (after iterating a few times), but it usually meant giving the AI agent too much context. As a result, it was very easy for it to end up doing too much or too little.
 
@@ -82,6 +84,6 @@ I appreciate the trust placed in me, even as a contractor. I believe it is the r
 
 Thank you for reading and see you in the next one!
 
----
+* * *
 
 %%[buy-me-a-coffee]
