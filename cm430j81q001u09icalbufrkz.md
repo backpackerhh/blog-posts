@@ -15,7 +15,7 @@ This is my first time working for any American company. In many ways things work
 
 Before I started I had to go through a **background screening** process with their provider, [Orange Tree](https://www.orangetreescreening.com/). That process took several weeks but finally they gave the green light.
 
-A couple of days before starting, I received an email in my personal email account with details for configuring the laptop received a few days before. Of course, it was a [macOS laptop](https://davidmontesdeoca.dev/the-one-about-working-with-macos-being-a-linux-user). If you are a contractor, you do not get a new laptop.
+A couple of days before starting, I received an email in my personal email account with details for configuring the laptop received a few days before. Of course, it was a [macOS laptop](/the-one-about-working-with-macos-being-a-linux-user). If you are a contractor, you do not get a new laptop.
 
 ## Onboarding
 
@@ -43,8 +43,10 @@ Communication within the company is always in English, unless everyone present a
 
 At the company level there are some recurring meetings:
 
-- **All Company**: a 1-hour to 1.5-hour meeting where the CEO and other senior managers of the company tell how the business is doing and upcoming objectives. It is held once a month.
-- **All Hands Engineering**: very similar to *All Company* meeting, but only for members of the engineering area. Here they mainly talk about changes already implemented in the different teams and upcoming projects or changes that we are about to implement. It is held once a month.
+*   **All Company**: a 1-hour to 1.5-hour meeting where the CEO and other senior managers of the company tell how the business is doing and upcoming objectives. It is held once a month.
+    
+*   **All Hands Engineering**: very similar to *All Company* meeting, but only for members of the engineering area. Here they mainly talk about changes already implemented in the different teams and upcoming projects or changes that we are about to implement. It is held once a month.
+    
 
 Everybody is required to log however many hours they are required to work each week, included contractors like me.
 
@@ -78,26 +80,36 @@ At the code level, security is also taken into account, since the CI pipeline ex
 
 In addition to the applications already mentioned, we work in a daily basis with the following applications:
 
-- [Google Suite](https://workspace.google.com/) (GMail, Drive, Meet, Presentations, Spreadsheets, Docs).
-- [Confluence](https://www.atlassian.com/software/confluence) → Documentation.
-- [Jira](https://www.atlassian.com/software/jira) → Project tracking and support
-- [Slack](https://slack.com/) → Instant messaging.
-- [GitLab](https://about.gitlab.com/) → Coding and CI/CD.
-- [Postman](https://www.postman.com/) → API development.
+*   [Google Suite](https://workspace.google.com/) (GMail, Drive, Meet, Presentations, Spreadsheets, Docs).
+    
+*   [Confluence](https://www.atlassian.com/software/confluence) → Documentation.
+    
+*   [Jira](https://www.atlassian.com/software/jira) → Project tracking and support
+    
+*   [Slack](https://slack.com/) → Instant messaging.
+    
+*   [GitLab](https://about.gitlab.com/) → Coding and CI/CD.
+    
+*   [Postman](https://www.postman.com/) → API development.
+    
 
 The [SRE](https://aws.amazon.com/what-is/sre) team has created a series of internal tools that integrate into our daily work in a very simple way:
 
-- A tool similar to [Kubernetes](https://kubernetes.io/) that allows us to automate deployments, scaling and manage applications with containers.
-
-  They have everything perfectly organized to generate CI/CD pipelines with [IaC](https://aws.amazon.com/what-is/iac/), in each of the environments we have available to test our applications, before promoting the code to production.
-
-- A CLI tool similar to [AWS CLI](https://aws.amazon.com/cli/) that allows to execute commands in those pre-production environments, simply by specifying the environment, the application and the command to be executed.
-- A tool that allows to manage the creation, modification and deletion of records of any of the entities of our domain in pre-production environments. It works as a test factory, generating any type of dependency that may be necessary along the way. This tool replaces a Slack bot that has been used until now and that will be deprecated soon.
+*   A tool similar to [Kubernetes](https://kubernetes.io/) that allows us to automate deployments, scaling and manage applications with containers.
+    
+    They have everything perfectly organized to generate CI/CD pipelines with [IaC](https://aws.amazon.com/what-is/iac/), in each of the environments we have available to test our applications, before promoting the code to production.
+    
+*   A CLI tool similar to [AWS CLI](https://aws.amazon.com/cli/) that allows to execute commands in those pre-production environments, simply by specifying the environment, the application and the command to be executed.
+    
+*   A tool that allows to manage the creation, modification and deletion of records of any of the entities of our domain in pre-production environments. It works as a test factory, generating any type of dependency that may be necessary along the way. This tool replaces a Slack bot that has been used until now and that will be deprecated soon.
+    
 
 At the engineering team level there are some recurring meetings:
 
-- **Dev Learning**: a 15-minute to 1-hour meeting where one of our colleagues talks about a technical topic. It is held every Friday.
-- **Game Days**: a 1.5-hour meeting where first every team shares their [post-mortems](https://en.wikipedia.org/wiki/Postmortem_documentation) since the previous meeting, and later we are presented with a series of exercises prepared by other members of the engineering team for us to solve, organized in groups and with time constraints. The challenges usually must be solved without using the tools mentioned above. It is held once a month.
+*   **Dev Learning**: a 15-minute to 1-hour meeting where one of our colleagues talks about a technical topic. It is held every Friday.
+    
+*   **Game Days**: a 1.5-hour meeting where first every team shares their [post-mortems](https://en.wikipedia.org/wiki/Postmortem_documentation) since the previous meeting, and later we are presented with a series of exercises prepared by other members of the engineering team for us to solve, organized in groups and with time constraints. The challenges usually must be solved without using the tools mentioned above. It is held once a month.
+    
 
 We have dozens of internal gems hosted on [Buildkite Package Registries](https://www.buildkite.com/platform/package-registries/) (formerly [Packagecloud](https://packagecloud.io/)). Some examples of those gems, in addition to the OpenTelemetry wrapper mentioned above, allow us to integrate with banks we work with, such as Citibank or Bank of America. Among other things, it allows us to test new changes directly against their sandbox before releasing a new version of the gem.
 
@@ -139,32 +151,49 @@ In the **sprint board** we have different rows, which represent each of the team
 
 Regarding the development cycle, our sprint board has the following columns:
 
-- **To Do**: A task is created and is ready to be refined.
-- **Ready for Dev** (Selected for Development): A task is already refined and has been included in the current sprint.
-- **In Dev**: A developer is currently working on a task or the MR is already created and they are checking that it works as expected in one of the pre-production environments.
-- **Ready for QA**: The developer finished working on a task and the CI pipeline must pass before moving on. The developer checked in one of the pre-production environments that everything works as expected and documented all their tests, with details about the commands executed or screenshots if necessary, so the QA engineer can validate them and add their own tests. At this point having the MR approved is not a requirement.
-- **In QA Review**: The QA engineer is validating the tests made by the developer and adding their owns tests.
-- **QA Complete**: The QA engineer successfully finished testing the task and it is now ready to be deployed. At this point the MR must be approved by at least 2 repository owners before being merged.
-- **Deployed**: The MR was merged and the code deployed to production. The developer could wait until they confirm no errors are raised related to the changes deployed or a Rake task finishes its execution.
-- **Closed**: There is nothing left to do regarding the task.
+*   **To Do**: A task is created and is ready to be refined.
+    
+*   **Ready for Dev** (Selected for Development): A task is already refined and has been included in the current sprint.
+    
+*   **In Dev**: A developer is currently working on a task or the MR is already created and they are checking that it works as expected in one of the pre-production environments.
+    
+*   **Ready for QA**: The developer finished working on a task and the CI pipeline must pass before moving on. The developer checked in one of the pre-production environments that everything works as expected and documented all their tests, with details about the commands executed or screenshots if necessary, so the QA engineer can validate them and add their own tests. At this point having the MR approved is not a requirement.
+    
+*   **In QA Review**: The QA engineer is validating the tests made by the developer and adding their owns tests.
+    
+*   **QA Complete**: The QA engineer successfully finished testing the task and it is now ready to be deployed. At this point the MR must be approved by at least 2 repository owners before being merged.
+    
+*   **Deployed**: The MR was merged and the code deployed to production. The developer could wait until they confirm no errors are raised related to the changes deployed or a Rake task finishes its execution.
+    
+*   **Closed**: There is nothing left to do regarding the task.
+    
 
 And the workflow is as follows:
 
-![American fintech development lifecycle workflow](https://github.com/user-attachments/assets/95eb636e-e23e-41fd-886b-fc6b6fd9b112)
+![American fintech development lifecycle workflow](https://github.com/user-attachments/assets/95eb636e-e23e-41fd-886b-fc6b6fd9b112 align="center")
 
 Each developer is responsible for moving their tasks around the sprint board, except when the task is in one of the QA-related columns.
 
 At the team level there are some recurring meetings:
 
-- **Daily**: a 15-minute meeting where each member of the team explains what they have been working on since the previous day and what they will continue working on. In case anything is blocking us, we mention it here as well. Some members of the support team usually join us a couple of days each week. At the end of their turn, each person nominates the next person who should speak.
-- **Refinement**: a 30-minute to 1-hour meeting from a product point of view, where any doubts the team may have about certain tasks are solved. The "definition of done" is defined here, but without going into technical details. Tasks are rarely estimated, except when we want to know from the beginning if all of us think the task should be divided into multiple tasks or not. We use the Fibonacci sequence, between 3 and 13 points, where 3 points represents 1 day of work approximately. It is held once in each sprint.
-- **Split**: a 1-hour meeting from a technical point of view, where we solve any doubts the team may have about how to implement certain changes and we write it down in the task itself. If necessary, we create a [spike](https://agilemania.com/what-is-a-spike-in-agile) and discuss it again in a later meeting. This is held once in each sprint.
-- **Code Review**: a 1-hour meeting where we review the concerns board, where each team member can add their concerns to solve technical debt. In each task we can define what we are concerned about and the solution we propose to solve it. This is held once in each sprint.
-- **Sprint Planning**: a 30-minute meeting where the PM checks the unfinished tasks from the previous sprint and prioritizes the tasks to be included in the next sprint. The previous team's velocity is not taken into account, but the team's opinion is taken into account when it comes to include a task in the sprint or not. It is held on the first Monday of each sprint.
-- **Retrospective**: a 1.5-hour meeting where each team member can add a list of things they think went well and what things we can improve since the previous retrospective, although we usually only talk about what did not go so well. Then everyone chooses the 3 topics that interest them the most and we spend the rest of the session trying to find possible solutions to the 3 most upvoted topics. A person is assigned to follow up on each of those topics. The meeting is lead by a facilitator from another team. Normally this is held once a month, although it sometimes takes longer.
-- **Game Days**: a 30-minute meeting where the whole team spends time together, bonding with each other. We usually play online Pictionary or games like that. It is held on the second Monday of each sprint.
-- **1 to 1**: a 30-minute meeting with each permanent full-time worker or a 15-minute meeting with each contractor with the EM to talk and periodically check on how things are going on both sides.
-- **Coffee Chat**: a 15-minute meeting before the daily meeting on Fridays where we usually talk about our plans for the weekend.
+*   **Daily**: a 15-minute meeting where each member of the team explains what they have been working on since the previous day and what they will continue working on. In case anything is blocking us, we mention it here as well. Some members of the support team usually join us a couple of days each week. At the end of their turn, each person nominates the next person who should speak.
+    
+*   **Refinement**: a 30-minute to 1-hour meeting from a product point of view, where any doubts the team may have about certain tasks are solved. The "definition of done" is defined here, but without going into technical details. Tasks are rarely estimated, except when we want to know from the beginning if all of us think the task should be divided into multiple tasks or not. We use the Fibonacci sequence, between 3 and 13 points, where 3 points represents 1 day of work approximately. It is held once in each sprint.
+    
+*   **Split**: a 1-hour meeting from a technical point of view, where we solve any doubts the team may have about how to implement certain changes and we write it down in the task itself. If necessary, we create a [spike](https://agilemania.com/what-is-a-spike-in-agile) and discuss it again in a later meeting. This is held once in each sprint.
+    
+*   **Code Review**: a 1-hour meeting where we review the concerns board, where each team member can add their concerns to solve technical debt. In each task we can define what we are concerned about and the solution we propose to solve it. This is held once in each sprint.
+    
+*   **Sprint Planning**: a 30-minute meeting where the PM checks the unfinished tasks from the previous sprint and prioritizes the tasks to be included in the next sprint. The previous team's velocity is not taken into account, but the team's opinion is taken into account when it comes to include a task in the sprint or not. It is held on the first Monday of each sprint.
+    
+*   **Retrospective**: a 1.5-hour meeting where each team member can add a list of things they think went well and what things we can improve since the previous retrospective, although we usually only talk about what did not go so well. Then everyone chooses the 3 topics that interest them the most and we spend the rest of the session trying to find possible solutions to the 3 most upvoted topics. A person is assigned to follow up on each of those topics. The meeting is lead by a facilitator from another team. Normally this is held once a month, although it sometimes takes longer.
+    
+*   **Game Days**: a 30-minute meeting where the whole team spends time together, bonding with each other. We usually play online Pictionary or games like that. It is held on the second Monday of each sprint.
+    
+*   **1 to 1**: a 30-minute meeting with each permanent full-time worker or a 15-minute meeting with each contractor with the EM to talk and periodically check on how things are going on both sides.
+    
+*   **Coffee Chat**: a 15-minute meeting before the daily meeting on Fridays where we usually talk about our plans for the weekend.
+    
 
 As you can see, we do not have *sprint review* or *sprint retrospective*.
 
@@ -184,6 +213,6 @@ I hope to talk about my experience working with them soon. So stay tuned if you 
 
 Thank you for reading and see you in the next one!
 
----
+* * *
 
 %%[buy-me-a-coffee]
