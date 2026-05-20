@@ -9,7 +9,7 @@ tags: ere, domestika, despidos, trabajos
 
 ---
 
-> This post is also [available in English](https://davidmontesdeoca.dev/the-one-about-my-experience-at-domestika).
+> This post is also [available in English](/the-one-about-my-experience-at-domestika).
 
 Desde hace unos días ya no trabajo oficialmente para [Domestika](https://domestika.org/). Puedo decir sin ninguna duda que, en algunos aspectos, ha sido mi mejor experiencia laboral. Hasta el momento. Sin embargo, me voy con un sabor agridulce y con la certeza de que era lo mejor que podía pasarme en este momento, ya que los últimos meses han sido bastante difíciles y me dejaron un mal sabor de boca.
 
@@ -17,7 +17,7 @@ A continuación, voy a contar mi experiencia en la empresa desde el inicio hasta
 
 ## Inicios
 
-Me uní a la empresa a mediados de noviembre de 2020. En ese momento había dos equipos en la parte web, _Growth_ y _Learning_, del que yo pasé a formar parte.
+Me uní a la empresa a mediados de noviembre de 2020. En ese momento había dos equipos en la parte web, *Growth* y *Learning*, del que yo pasé a formar parte.
 
 Después de unas cuantas semanas en las que hubo unos cuantos movimientos en el equipo, algunos compañeros se fueron y otros llegaron, por un tiempo nos quedamos un tech lead, tres project managers (sí, tres... y llegó a haber una cuarta), tres desarrolladores backend y una desarrolladora frontend.
 
@@ -25,29 +25,30 @@ A mí me contrataron como desarrollador backend, pero puntualmente también cog�
 
 Muy pronto pude comprobar que si por algo destacaba Domestika era por la **calidad humana** de las personas que formaban parte de la empresa. Daba la sensación de que era algo que se cuidaba con mucha atención.
 
-Por ejemplo, en el proceso de _onboarding_ se asignaba al nuevo miembro del equipo un _onboarding buddy_ que ayudaría en el proceso y un board con tareas a completar (configurar el proyecto, leer la documentación, etc.), entre las que se encontraba asistir a un _daily stand up_ de los equipos con los que probablemente acabarías colaborando a lo largo del tiempo y presentarte. En mi caso, asistí a la daily del equipo de _Growth_, de _Mobile_, de _Infraestructura_ y de _Diseño_. El objetivo era que te conocieran, que tú les conocieras a ellos y hacerte una idea de cómo trabajaban.
+Por ejemplo, en el proceso de *onboarding* se asignaba al nuevo miembro del equipo un *onboarding buddy* que ayudaría en el proceso y un board con tareas a completar (configurar el proyecto, leer la documentación, etc.), entre las que se encontraba asistir a un *daily stand up* de los equipos con los que probablemente acabarías colaborando a lo largo del tiempo y presentarte. En mi caso, asistí a la daily del equipo de *Growth*, de *Mobile*, de *Infraestructura* y de *Diseño*. El objetivo era que te conocieran, que tú les conocieras a ellos y hacerte una idea de cómo trabajaban.
 
 También teníamos un canal de Slack donde opcionalmente podías unirte para que cada cierto tiempo te tocara tener un [donut](https://www.donut.com/) con otra persona que estuviera en ese canal, de forma aleatoria. Acordabas fecha y hora para dedicar 30 minutos a conocer a la otra persona, idealmente sin tocar temas de trabajo.
 
 A nivel técnico me dejó muy buena impresión encontrar en Domestika cosas como:
 
-- Todo PR era revisada y tenía que ser aprobada por al menos un miembro del equipo.
-
-- Todo PR debía incluir los tests apropiados para la funcionalidad añadida o modificada.
-
-- Los tests de cada PR creada se ejecutaban automáticamente en la _integración continua_ (CI) con Jenkins (posteriormente con GitLab).
-
-- Los miembros del equipo (incluido los PMs) hacíamos el QA de las tareas de los demás en base a los criterios definidos.
-
-- En staging se aplicaba _Continuous Deployment_ (CD), mientras que en producción se aplicaba _Continuous Delivery_ (CD).
-
-- Aplicábamos _Scrum_ con sprints de 2 semanas y todas las ceremonias habituales (daily stand up, sprint planning, sprint review, sprint retrospective)
-
-- Si durante los _refinements_ semanales se encontraba alguna tarea que generase dudas sobre cómo completarla, no se estimaba y se dedicaba cierto tiempo para hacer un _spike_.
-
-- Un día de cada sprint estaba por entero dedicado a lo que llamábamos _Bug Monday_, para corregir algunos bugs ocurridos en producción relacionados con cada equipo o para corregir deuda técnica.
-
-- En caso de que ocurriese algún error con relativa importancia en producción escribíamos _post-mortems_ para dar visibilidad al resto de la empresa.
+*   Todo PR era revisada y tenía que ser aprobada por al menos un miembro del equipo.
+    
+*   Todo PR debía incluir los tests apropiados para la funcionalidad añadida o modificada.
+    
+*   Los tests de cada PR creada se ejecutaban automáticamente en la *integración continua* (CI) con Jenkins (posteriormente con GitLab).
+    
+*   Los miembros del equipo (incluido los PMs) hacíamos el QA de las tareas de los demás en base a los criterios definidos.
+    
+*   En staging se aplicaba *Continuous Deployment* (CD), mientras que en producción se aplicaba *Continuous Delivery* (CD).
+    
+*   Aplicábamos *Scrum* con sprints de 2 semanas y todas las ceremonias habituales (daily stand up, sprint planning, sprint review, sprint retrospective)
+    
+*   Si durante los *refinements* semanales se encontraba alguna tarea que generase dudas sobre cómo completarla, no se estimaba y se dedicaba cierto tiempo para hacer un *spike*.
+    
+*   Un día de cada sprint estaba por entero dedicado a lo que llamábamos *Bug Monday*, para corregir algunos bugs ocurridos en producción relacionados con cada equipo o para corregir deuda técnica.
+    
+*   En caso de que ocurriese algún error con relativa importancia en producción escribíamos *post-mortems* para dar visibilidad al resto de la empresa.
+    
 
 Aunque a alguno pueda resultarle de lo más habitual tener todo eso en su día a día, mi experiencia es que es menos habitual de lo que cabría esperar hoy en día. Varios de mis compañeros me confirmaron posteriormente que también les ocurría lo mismo.
 
@@ -55,7 +56,7 @@ Además de todo eso, mientras estuviéramos disponibles para las reuniones más 
 
 Y ya por último, teníamos a nuestra disposición la posibilidad de asistir a clases de inglés una hora a la semana, que no debía incluirse como parte del horario laboral. Una medida que nunca entendí y que, honestamente, nunca cumplí.
 
-Durante este periodo inicial, en el equipo de _Learning_ destacaría el proyecto en el que añadimos nuevos idiomas a la plataforma de Domestika (francés e italiano en ese caso). El equipo se coordinó de maravilla para sacarlo adelante y en unas pocas semanas estaba todo listo. Mejoramos procesos automáticos que existían previamente y añadimos funcionalidades pensando en facilitar la adición de nuevos lenguajes en el futuro.
+Durante este periodo inicial, en el equipo de *Learning* destacaría el proyecto en el que añadimos nuevos idiomas a la plataforma de Domestika (francés e italiano en ese caso). El equipo se coordinó de maravilla para sacarlo adelante y en unas pocas semanas estaba todo listo. Mejoramos procesos automáticos que existían previamente y añadimos funcionalidades pensando en facilitar la adición de nuevos lenguajes en el futuro.
 
 Sin duda, eran tiempos de bonanza en la empresa. Seguían contratando a gente para unirse a los equipos y eso llevó a cambios.
 
@@ -63,31 +64,31 @@ Sin duda, eran tiempos de bonanza en la empresa. Seguían contratando a gente pa
 
 La plataforma de Domestika está desarrollada en [Ruby on Rails](https://rubyonrails.org/). Es un proyecto que empezó a desarrollarse hace más de una década y ha pasado por las manos de decenas de desarrolladores. Estoy seguro que cada uno de nosotros siempre ha querido crear el mejor código posible, pero la realidad es que enfrentarse a ese proyecto por primera vez puede llegar a ser incluso desmoralizador.
 
-A principios de 2021 se tomó la ambiciosa decisión de desacoplar la plataforma de Domestika. El backend expondría una [API REST](https://developer.mozilla.org/en-US/docs/Glossary/REST) que sería consumida desde el frontend mediante una [Single-Page Application (SPA)](https://developer.mozilla.org/en-US/docs/Glossary/SPA). Para ello, se creó el equipo de _Desacople_, que iría desacoplando página a página la web de Domestika mientras el resto de equipos seguiría añadiendo nuevas funcionalidades y seguiría dando mantenimiento al resto de la web que seguía aún acoplada.
+A principios de 2021 se tomó la ambiciosa decisión de desacoplar la plataforma de Domestika. El backend expondría una [API REST](https://developer.mozilla.org/en-US/docs/Glossary/REST) que sería consumida desde el frontend mediante una [Single-Page Application (SPA)](https://developer.mozilla.org/en-US/docs/Glossary/SPA). Para ello, se creó el equipo de *Desacople*, que iría desacoplando página a página la web de Domestika mientras el resto de equipos seguiría añadiendo nuevas funcionalidades y seguiría dando mantenimiento al resto de la web que seguía aún acoplada.
 
-Además, se creó un equipo de _Arquitectura_ que se encargaría principalmente de tomar decisiones sobre cómo afrontar el desacople de la web, definir guías de estilos, mejorar tiempos de carga en la web, mejorar tiempos de ejecución de la suite de tests, etc.
+Además, se creó un equipo de *Arquitectura* que se encargaría principalmente de tomar decisiones sobre cómo afrontar el desacople de la web, definir guías de estilos, mejorar tiempos de carga en la web, mejorar tiempos de ejecución de la suite de tests, etc.
 
-Cabe destacar que, según nos contaron, la intención era que el resto de desarrolladores que no formábamos parte integral del equipo de _Desacople_ fuéramos rotando cada _x_ sprints para colaborar con el desacoplamiento de la web, pero eso nunca llegó a hacerse.
+Cabe destacar que, según nos contaron, la intención era que el resto de desarrolladores que no formábamos parte integral del equipo de *Desacople* fuéramos rotando cada *x* sprints para colaborar con el desacoplamiento de la web, pero eso nunca llegó a hacerse.
 
-Sin embargo, en etapas posteriores y de manera puntual, para ciertas funcionalidades totalmente nuevas, sí que nos juntábamos con el equipo de _Desacople_ y _Arquitectura_ para acordar cómo hacerlo con el nuevo enfoque de API + SPA.
+Sin embargo, en etapas posteriores y de manera puntual, para ciertas funcionalidades totalmente nuevas, sí que nos juntábamos con el equipo de *Desacople* y *Arquitectura* para acordar cómo hacerlo con el nuevo enfoque de API + SPA.
 
-También se creó el equipo de _Platform_, encargado de gestionar el panel de administración de la plataforma.
+También se creó el equipo de *Platform*, encargado de gestionar el panel de administración de la plataforma.
 
-Con respecto a los equipos ya existentes, el equipo de _Growth_ en algún momento se dividió en tres equipos y el equipo de _Learning_ se dividió (o expandió, según palabras del _Head of Engineering_) en dos equipos.
+Con respecto a los equipos ya existentes, el equipo de *Growth* en algún momento se dividió en tres equipos y el equipo de *Learning* se dividió (o expandió, según palabras del *Head of Engineering*) en dos equipos.
 
-Por un lado, el equipo de _Learning Experience_, cuyo proyecto estrella, Domestika Live, estuvo en desarrollo durante casi un año y nunca llegó a ver la luz. Una pena, porque el curro fue tremendo y nunca se les dio la oportunidad de ver su creación en funcionamiento. Desconozco los motivos que llevaron a esa decisión. Después de eso, el equipo fue disuelto y los miembros que quedaron en la empresa se unieron a otros equipos.
+Por un lado, el equipo de *Learning Experience*, cuyo proyecto estrella, Domestika Live, estuvo en desarrollo durante casi un año y nunca llegó a ver la luz. Una pena, porque el curro fue tremendo y nunca se les dio la oportunidad de ver su creación en funcionamiento. Desconozco los motivos que llevaron a esa decisión. Después de eso, el equipo fue disuelto y los miembros que quedaron en la empresa se unieron a otros equipos.
 
-Por otro lado, el equipo de _Teaching & Community_, del que yo pasé a formar parte.
+Por otro lado, el equipo de *Teaching & Community*, del que yo pasé a formar parte.
 
 Aquí llegó también un cambio importante para mí. Debido a la dificultad que estaba teniendo la empresa para encontrar desarrolladores frontend con las cualidades requeridas y al interés que siempre mostré en hacer tareas de frontend, me ofrecieron la posibilidad de cambiar de rol. Eso implicaba que en lugar de ser un desarrollador backend que puntualmente también tocaba frontend, pasaría a ser un desarrollador frontend que puntualmente también tocaba backend.
 
-De primeras no estaba seguro del cambio, pero el _architect lead_ me convenció mostrándome cómo sería la parte de desacople del frontend y que toda la plataforma iría en esa dirección. No obstante, la realidad es que nunca llegó a pasar eso y que me tocó lidiar con un frontend en el monolito de Rails donde reinaba el caos. Nunca estaba seguro de dónde poner cada cosa, principalmente ante la ausencia de una documentación y/o guía de estilo claramente definida. Eso implicaba tener que preguntar constantemente a algunos compañeros con mayor contexto de esa parte del proyecto.
+De primeras no estaba seguro del cambio, pero el *architect lead* me convenció mostrándome cómo sería la parte de desacople del frontend y que toda la plataforma iría en esa dirección. No obstante, la realidad es que nunca llegó a pasar eso y que me tocó lidiar con un frontend en el monolito de Rails donde reinaba el caos. Nunca estaba seguro de dónde poner cada cosa, principalmente ante la ausencia de una documentación y/o guía de estilo claramente definida. Eso implicaba tener que preguntar constantemente a algunos compañeros con mayor contexto de esa parte del proyecto.
 
-Así que con ese cambio de rol, en el equipo de _Teaching & Community_ nos quedamos un tech lead, un project manager, un desarrollador backend y un desarrollador frontend.
+Así que con ese cambio de rol, en el equipo de *Teaching & Community* nos quedamos un tech lead, un project manager, un desarrollador backend y un desarrollador frontend.
 
 Personalmente, considero esa etapa como mi mejor etapa en la empresa, a pesar de comerme algún marrón como rehacer el editor de proyectos de Domestika durante casi dos meses. Había muy buen ambiente entre nosotros y éramos muy ágiles sacando el trabajo adelante.
 
-Ni siquiera el cambio de tech lead (el anterior se fue a liderar al equipo de _Arquitectura_) hizo mella en el ambiente o en nuestro ritmo.
+Ni siquiera el cambio de tech lead (el anterior se fue a liderar al equipo de *Arquitectura*) hizo mella en el ambiente o en nuestro ritmo.
 
 Y el otoño de 2021 nos trajo un regalo en forma de proyecto.
 
@@ -97,7 +98,7 @@ Al final del verano de 2021 se detectó un problema de seguridad con Wistia, uno
 
 Una vez corregido ese problema, se decidió que la mejor opción era crear un **reproductor de vídeo** personalizado para Domestika. De esa manera tendríamos control absoluto sobre la apariencia del reproductor, los audios, los subtítulos y los thumbnails, mientras que los proveedores solo seguirían proporcionando el vídeo. Gestionar la codificación de los vídeos, sus diferentes resoluciones y demás tareas relacionadas se consideró que era inasumible en esa etapa inicial.
 
-Nos informaron del nuevo proyecto y prácticamente de un día para otro se creó el equipo del _Video Player_ para empezar a trabajar inmediatamente. Dicho equipo estaba formado por los equipos de _Desacople_, _Arquitectura_ y _Teaching & Community_.
+Nos informaron del nuevo proyecto y prácticamente de un día para otro se creó el equipo del *Video Player* para empezar a trabajar inmediatamente. Dicho equipo estaba formado por los equipos de *Desacople*, *Arquitectura* y *Teaching & Community*.
 
 Este nuevo proyecto supuso un nuevo cambio de rol para mí. Para que hubiese el mismo número de desarrolladores de backend que de frontend volví a desempeñar la labor de desarrollador backend. Inicialmente me molestó que lo decidieran sin preguntarme antes, sobre todo porque sabía que ese proyecto iba a estar totalmente desacoplado en el lado del frontend y me hubiera gustado tener la oportunidad de trabajar de esa manera, especialmente después de llevar un tiempo trabajando con el frontend del monolito.
 
@@ -121,7 +122,7 @@ En primavera de 2022 ya habíamos terminado el proyecto del nuevo reproductor de
 
 Normalmente el problema ocurría con vídeos antiguos que internamente Wistia había codificado de forma diferente y la mayoría de las veces bastaba con resubir los vídeos. Sin embargo, en contadas ocasiones eso no solucionaba el problema y nos costó un tiempo afinar lo suficiente hasta encontrar la solución definitiva.
 
-Al terminar ese proyecto, el equipo del _Video Player_ se disolvió y cada equipo volvió a sus quehaceres habituales. En el caso de _Teaching & Community_ pasamos a ser simplemente _Teaching_.
+Al terminar ese proyecto, el equipo del *Video Player* se disolvió y cada equipo volvió a sus quehaceres habituales. En el caso de *Teaching & Community* pasamos a ser simplemente *Teaching*.
 
 Poco después de eso, salió la [noticia](https://www.epe.es/es/activos/20220428/domestika-tecnologica-despidos-ere-encubierto-13576187) de que algunos antiguos empleados de Domestika habían denunciado a la empresa por un supuesto ERE encubierto.
 
@@ -139,7 +140,7 @@ En mi caso, me quedé definitivamente en el rol de desarrollador backend, colabo
 
 Y no era para menos. El teacher dashboard nos dio la oportunidad de empezar un proyecto desde cero. En el caso del frontend estaba claro que tendríamos una SPA, como se estaba haciendo para las páginas desacopladas. Sin embargo, en el backend las páginas desacopladas usaban una API REST cuyos endpoints se habían desarrollado con un código mejor organizado y más limpio, pero todavía acoplado al monolito de Rails.
 
-Aquí llegaron muchas reuniones con los equipos de _Desacople_ y _Arquitectura_ para acordar entre todos cómo íbamos a hacerlo. La decisión final fue usar los [engines de Rails](https://guides.rubyonrails.org/v6.1/engines.html), apoyándonos en el enfoque propuesto por Shopify con [Upgrow](https://github.com/backpackerhh/upgrow-docs). Dicho enfoque ya había servido de inspiración para el desarrollo de los endpoints de la API REST, pero nosotros quisimos ser más estrictos, limitando lo máximo posible el acoplamiento con Rails e intentando aplicar [Domain-Driven Design (DDD)](https://martinfowler.com/bliki/DomainDrivenDesign.html) de una manera muy laxa.
+Aquí llegaron muchas reuniones con los equipos de *Desacople* y *Arquitectura* para acordar entre todos cómo íbamos a hacerlo. La decisión final fue usar los [engines de Rails](https://guides.rubyonrails.org/v6.1/engines.html), apoyándonos en el enfoque propuesto por Shopify con [Upgrow](https://github.com/backpackerhh/upgrow-docs). Dicho enfoque ya había servido de inspiración para el desarrollo de los endpoints de la API REST, pero nosotros quisimos ser más estrictos, limitando lo máximo posible el acoplamiento con Rails e intentando aplicar [Domain-Driven Design (DDD)](https://martinfowler.com/bliki/DomainDrivenDesign.html) de una manera muy laxa.
 
 Partiendo de una prueba de concepto inicial, vimos que parecía factible hacer lo que queríamos con los engines. Aún así, me sorprendió la poca documentación que encontré online relativa a casos de uso realmente complejos en producción.
 
@@ -153,7 +154,7 @@ A finales del verano de 2022, los usuarios que tuvieran una suscripción Domesti
 
 Fue otro de esos proyectos que disfruté de principio a fin, donde tuve libertad creativa a la hora de desarrollar el código. Además, fue un proyecto en el que colaboré muy estrechamente con una desarrolladora junior a la que había estado mentorizando en los meses anteriores.
 
-Viendo la apuesta tan grande por parte de la empresa en este proyecto, que se esperaba que fuera un _game changer_, desde luego nadie esperaba lo que vendría a continuación.
+Viendo la apuesta tan grande por parte de la empresa en este proyecto, que se esperaba que fuera un *game changer*, desde luego nadie esperaba lo que vendría a continuación.
 
 En algún momento de ese año (honestamente no recuerdo cuándo), nos reunieron a todos los empleados de Domestika en un All-Hands y nos comunicaron que cerraban todos los estudios de grabación, excepto los de Madrid. Por lo tanto, se veían afectados los trabajadores de Latinoamérica, Italia, Francia, Alemania, Reino Unido y Estados Unidos. Lo peor de todo fue que toda esa gente se enteró que perdía su trabajo en ese preciso momento, junto al resto de trabajadores de la empresa.
 
@@ -169,7 +170,7 @@ Y así nos siguieron diciendo en todos y cada uno de los All-Hands a los que nos
 
 Antes de continuar hay que comentar un pequeño detalle para entender mejor lo que viene a continuación. Según la información sacada de [esta noticia](https://www.epe.es/es/activos/20220428/domestika-tecnologica-despidos-ere-encubierto-13576187) (ya enlazada anteriormente), Domestika tiene varias filiales, dos de ellas en España: **DMSTK** y **Estudios de Grabación Digital**.
 
-Pues bien, el 22 de febrero de 2023 recibimos un email en el buzón de nuestro correo de empresa. Ahí nos informaban sobre la intención de la empresa de hacer un ERE en _DMSTK_ que afectaría a 89 empleados, filial para la que yo trabajaba en ese momento.
+Pues bien, el 22 de febrero de 2023 recibimos un email en el buzón de nuestro correo de empresa. Ahí nos informaban sobre la intención de la empresa de hacer un ERE en *DMSTK* que afectaría a 89 empleados, filial para la que yo trabajaba en ese momento.
 
 Ese mismo día se creó una nueva cuenta de Slack donde podíamos ir hablando sobre el proceso. Para los temas más críticos se crearon canales privados donde se pudiese garantizar que nadie de las "altas esferas" de la compañía se infiltrase. El primer paso era elegir a los representantes de los trabajadores, hasta un máximo de 3 por cada centro de trabajo, que eran Barcelona y Madrid. Para ello tendríamos 15 días.
 
@@ -195,21 +196,21 @@ Creo que era importante aclarar ese detalle. Dicho eso, continuo con la historia
 
 Una vez finalizado el periodo de negociaciones, los abogados consiguieron una indemnización de 33 días por año trabajado (por ley son 20 días), entre otras cosas. Básicamente, era como que la empresa reconociese un despido improcedente.
 
-Finalmente, el ERE se hizo efectivo el 19 de abril y ese mismo día se informó a los trabajadores de la filial _Estudios de Grabación Digital_ de la intención de hacer un ERE que afectaría a 89 empleados. Otra vez la misma cantidad de despidos.
+Finalmente, el ERE se hizo efectivo el 19 de abril y ese mismo día se informó a los trabajadores de la filial *Estudios de Grabación Digital* de la intención de hacer un ERE que afectaría a 89 empleados. Otra vez la misma cantidad de despidos.
 
 Ante la falta de transparencia por parte de la empresa acerca de lo que vendría en el futuro una vez terminado todo el proceso, muchos compañeros no incluidos en la lista de afectados del ERE decidieron irse voluntariamente teniendo ya un puesto de trabajo garantizado en otra empresa. En mi caso, decidí quedarme y ver qué deparaba ese incierto futuro.
 
-Según nos comentó posteriormente el _VP of Engineering_, debido a esas bajas voluntarias, habían tenido que cambiar de planes y rehacer los equipos que tenían planteados inicialmente. Eso suponía que en lugar de seguir con el plan de seguir desacoplando la web poco a poco, se entraría en **modo mantenimiento** del monolito. No habría nuevos desarrollos, sino que nos limitaríamos a asegurarnos de que nada se rompía.
+Según nos comentó posteriormente el *VP of Engineering*, debido a esas bajas voluntarias, habían tenido que cambiar de planes y rehacer los equipos que tenían planteados inicialmente. Eso suponía que en lugar de seguir con el plan de seguir desacoplando la web poco a poco, se entraría en **modo mantenimiento** del monolito. No habría nuevos desarrollos, sino que nos limitaríamos a asegurarnos de que nada se rompía.
 
-A partir de ese momento volvió a haber dos equipos en la parte web, _Ecommerce_ y _Learning_, del que yo pasé a formar parte nuevamente.
+A partir de ese momento volvió a haber dos equipos en la parte web, *Ecommerce* y *Learning*, del que yo pasé a formar parte nuevamente.
 
-Poco trabajo hicimos durante los meses siguientes. Nos reuníamos cada mañana en el _daily stand up_ para hablar de nuestras vidas y compartir nuestros planes de futuro. Los que estaban en procesos de selección con otras empresas compartían sus impresiones y sus avances. Fue una etapa de conocernos mejor, especialmente con aquellos que estaban en otros equipos y fueron asignados al nuestro.
+Poco trabajo hicimos durante los meses siguientes. Nos reuníamos cada mañana en el *daily stand up* para hablar de nuestras vidas y compartir nuestros planes de futuro. Los que estaban en procesos de selección con otras empresas compartían sus impresiones y sus avances. Fue una etapa de conocernos mejor, especialmente con aquellos que estaban en otros equipos y fueron asignados al nuestro.
 
-Hasta que un día, el CEO de la empresa, que no había dado la cara cuando se anunció el ERE, tuvo el descaro de pedirnos a través de un canal de Slack que diéramos la bienvenida a dos nuevos empleados de la empresa que ocuparían cargos de responsables del área de negocios y tecnología (este último junto al _VP of Engineering_ actual). Estas dos personas eran cofundadores de una plataforma de cursos "en vivo" operando en la India, según sus propias palabras. Por supuesto, absolutamente nadie reaccionó a ese mensaje.
+Hasta que un día, el CEO de la empresa, que no había dado la cara cuando se anunció el ERE, tuvo el descaro de pedirnos a través de un canal de Slack que diéramos la bienvenida a dos nuevos empleados de la empresa que ocuparían cargos de responsables del área de negocios y tecnología (este último junto al *VP of Engineering* actual). Estas dos personas eran cofundadores de una plataforma de cursos "en vivo" operando en la India, según sus propias palabras. Por supuesto, absolutamente nadie reaccionó a ese mensaje.
 
 La gente estaba bastante enfadada por toda esa situación, porque además de la teoría de la venta de la empresa, también se rumoreaba la posibilidad de que nos quisieran sustituir por mano de obra más barata, concretamente de la India. Y ese mensaje no hacía presagiar nada bueno.
 
-Unas semanas después, el 9 de junio de 2023 (un viernes a las 13:00 horas), mismo día en el que se hacía efectivo el ERE en la filial de _Estudios de Grabación Digital_, recibimos otro email en el buzón de nuestro correo de empresa. Ahí nos informaban sobre la intención de la empresa de hacer un nuevo ERE en _DMSTK_, pero esta vez no se especificaba cuántos empleados se verían afectados.
+Unas semanas después, el 9 de junio de 2023 (un viernes a las 13:00 horas), mismo día en el que se hacía efectivo el ERE en la filial de *Estudios de Grabación Digital*, recibimos otro email en el buzón de nuestro correo de empresa. Ahí nos informaban sobre la intención de la empresa de hacer un nuevo ERE en *DMSTK*, pero esta vez no se especificaba cuántos empleados se verían afectados.
 
 Y el proceso volvió a repetirse. Elegimos a los representantes de los trabajadores y empezó el periodo de negociación estipulado por ley, solo que en la práctica esta vez fue algo más corto que anteriormente. Los abogados nos dieron esa posibilidad al estar las negociaciones de EREs anteriores tan recientes y con la casi total seguridad de que la empresa ofrecería las mismas condiciones.
 
@@ -223,7 +224,7 @@ Debió darles vergüenza, porque no tardaron en retirar esas ofertas de Glassdoo
 
 Con respecto al equipo, aunque habíamos comentado la posibilidad de que hubiera un nuevo ERE, supongo que no esperábamos que ocurriera tan pronto. En cualquier caso, fue la confirmación de que Domestika parecía no tener un rumbo definido. En nuestro día a día, seguimos con la misma rutina comentada anteriormente. Nos reuníamos para hablar sobre nosotros mismos, pero no había tareas que hacer.
 
-Viendo el panorama, decidí hablar con el _VP of Engineering_ para pedirle que hiciera todo lo posible para incluirme en la lista de afectados de este ERE. Me dijo que entendía que quisiera irme y que haría lo posible por incluirme en la lista. La mayoría de los miembros de mi equipo, si no todos, hicieron lo mismo y, afortunadamente, todos fuimos incluidos.
+Viendo el panorama, decidí hablar con el *VP of Engineering* para pedirle que hiciera todo lo posible para incluirme en la lista de afectados de este ERE. Me dijo que entendía que quisiera irme y que haría lo posible por incluirme en la lista. La mayoría de los miembros de mi equipo, si no todos, hicieron lo mismo y, afortunadamente, todos fuimos incluidos.
 
 Nos sorprendió también que un miembro del equipo de Mobile, incluido en la lista de afectados por el ERE, fue contactado por un desarrollador de la India directamente por LinkedIn para decirle que iban a ser compañeros en Domestika. No hubo ningún tipo de notificación al respecto por parte de la empresa.
 
@@ -231,7 +232,7 @@ Al terminar el periodo de negociaciones, con 46 empleados afectados, nuestros ab
 
 En el momento de irme, en la parte web quedaban un tech lead, un desarrollador backend y dos desarrolladores frontend. Ningún project manager y creo que ningún diseñador UI/UX.
 
-Para no variar, el mismo día que se hacía efectivo nuestro ERE se informó a los trabajadores de la filial _Estudios de Grabación Digital_ de la intención de hacer un nuevo ERE.
+Para no variar, el mismo día que se hacía efectivo nuestro ERE se informó a los trabajadores de la filial *Estudios de Grabación Digital* de la intención de hacer un nuevo ERE.
 
 Por si fuera poco, parece que ya están echando a gente de la India también:
 
@@ -253,6 +254,6 @@ Le deseo lo mejor también y le doy las gracias a todos los compañeros que tuve
 
 Ojalá lo que esté por venir para mí sea al menos igual de enriquecedor que mi experiencia en Domestika.
 
----
+* * *
 
 %%[buy-me-a-coffee]
