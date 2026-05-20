@@ -13,7 +13,7 @@ Recently I did a fresh install of Ubuntu on my laptop. As usual, I installed the
 
 As part of configuring the operating system, I always install a version manager for every programming language I'm working with.
 
-If you wanna know what a version manager is, and how to configure and use it in Python, you will find an [article](https://davidmontesdeoca.dev/the-one-with-a-version-manager-in-python) on this blog about it.
+If you wanna know what a version manager is, and how to configure and use it in Python, you will find a [post](/the-one-with-a-version-manager-in-python) on this blog about it.
 
 When it comes to Ruby, although there are popular options such as [rbenv](https://github.com/rbenv/rbenv), my trusted version manager is still [RVM](https://rvm.io/) because it has always allowed me to manage different versions of the language and different gemsets in an easy and fast way. So no reason to change so far.
 
@@ -40,7 +40,7 @@ There has been an error while running make install. Halting the installation.
 
 However, I found the following error message in the log file:
 
-```
+```plaintext
 +__rvm_make:0> make install
 ...
 /usr/share/rvm/src/ruby-2.7.8/lib/rubygems/core_ext/kernel_require.rb:83:in `require': cannot load such file -- openssl (LoadError)
@@ -78,7 +78,7 @@ As such, to be able to install a custom version of Ruby on Ubuntu 22.04 (with an
 
 It is suggested too to compile a custom OpenSSL 1.1.1 and compile Ruby against that custom OpenSSL if you need an older Ruby version on Ubuntu 22.04:
 
-```
+```plaintext
 $ rvm pkg install openssl
 $ rvm reinstall all --force
 $ rvm install 2.7.8 --with-openssl-dir=/usr/share/rvm/usr
@@ -127,7 +127,7 @@ $ bundle install
 
 That command started to install the gems until suddenly the following error messages started to appear:
 
-```
+```plaintext
 Retrying fetcher due to error (1/4): Bundler::Fetcher::CertificateFailureError Could not verify the SSL certificate
 for https://gems.contribsys.com/. There is a chance you are experiencing a man-in-the-middle attack, but most likely
 your system doesn't have the CA certificates needed for verification. For information about OpenSSL certificates,
@@ -159,7 +159,7 @@ https://railsapps.github.io/openssl-certificate-verify-failed.html. To connect w
 sources and change 'https' to 'http'.
 ```
 
-Then I visited the [link](https://railsapps.github.io/openssl-certificate-verify-failed.html) included in the error message for more information and found a possible solution for Ubuntu, although that solution was for the _openssl_ package on Ubuntu 12.04. Surprisingly, 11 years later the solution has not changed much.
+Then I visited the [link](https://railsapps.github.io/openssl-certificate-verify-failed.html) included in the error message for more information and found a possible solution for Ubuntu, although that solution was for the *openssl* package on Ubuntu 12.04. Surprisingly, 11 years later the solution has not changed much.
 
 As the error is happening in my development environment, I decided to search for the last available version of **libssl-dev** instead:
 
@@ -256,6 +256,6 @@ Although it's recommended upgrading to Ruby 3+, if you for whatever reason canno
 
 Thank you for reading and see you in the next one!
 
----
+* * *
 
 %%[buy-me-a-coffee]
