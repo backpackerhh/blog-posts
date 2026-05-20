@@ -9,7 +9,7 @@ tags: ubuntu, linux, chrome, chrome-extension, password-manager
 
 ---
 
-In the [previous post of this series](https://davidmontesdeoca.dev/the-one-with-a-password-manager-pass) I talked about **pass**, the desktop utility I use in Ubuntu Mate 22.04 as *password manager*. I recommend you to read that post first in case you are unfamiliar with the concept of *password manager* or *password store*.
+In the [previous post of this series](/the-one-with-a-password-manager-pass) I talked about **pass**, the desktop utility I use in Ubuntu Mate 22.04 as *password manager*. I recommend you to read that post first in case you are unfamiliar with the concept of *password manager* or *password store*.
 
 Today I'd like to talk about [Browserpass](https://github.com/browserpass/browserpass-extension), a browser extension that allows you to auto-fill or copy to clipboard credentials for the current domain, protecting you from phishing attacks.
 
@@ -157,23 +157,23 @@ Although I personally won't use that functionality, it's definitely something wo
 
 A new option has been added to the bottom of the popup:
 
-![Browserpass allows to add new credentials](https://github.com/backpackerhh/blog-posts/assets/685978/c1a04a76-abbf-4b25-ac20-0502dab88f82)
+![Browserpass allows to add new credentials](https://github.com/backpackerhh/blog-posts/assets/685978/c1a04a76-abbf-4b25-ac20-0502dab88f82 align="center")
 
 In the form you can add an existing password or generate a random one with desired length and optionally including symbols:
 
-![Browserpass dedicated form to add new credentials](https://user-images.githubusercontent.com/685978/279350608-605d7ab1-81b4-4371-b86d-15e9e30346bd.png)
+![Browserpass dedicated form to add new credentials](https://user-images.githubusercontent.com/685978/279350608-605d7ab1-81b4-4371-b86d-15e9e30346bd.png align="center")
 
-You can edit existing credentials accessing from the _Open details_ option: 
+You can edit existing credentials accessing from the *Open details* option:
 
-![Browserpass allows to edit existing credentials](https://user-images.githubusercontent.com/685978/279340077-24107932-fe17-4443-9a31-dbf35e42dae1.png)
+![Browserpass allows to edit existing credentials](https://user-images.githubusercontent.com/685978/279340077-24107932-fe17-4443-9a31-dbf35e42dae1.png align="center")
 
 And then clicking on the button at the top right of the popup:
 
-![Browserpass option to edit credentials](https://user-images.githubusercontent.com/685978/279340083-4f1d1960-6f43-4d17-a3eb-08c8e5a7481a.png)
+![Browserpass option to edit credentials](https://user-images.githubusercontent.com/685978/279340083-4f1d1960-6f43-4d17-a3eb-08c8e5a7481a.png align="center")
 
 You can either delete or update existing credentials:
 
-![Browserpass dedicated form to delete or update credentials](https://user-images.githubusercontent.com/685978/279340085-cfe08107-b9f8-4019-9416-7841343b59a7.png)
+![Browserpass dedicated form to delete or update credentials](https://user-images.githubusercontent.com/685978/279340085-cfe08107-b9f8-4019-9416-7841343b59a7.png align="center")
 
 ## Security
 
@@ -191,6 +191,6 @@ In the next post of this series I'll talk about the mobile apps I use in combina
 
 Thank you for reading and see you in the next one!
 
----
+* * *
 
 %%[buy-me-a-coffee]
