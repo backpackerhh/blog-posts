@@ -194,15 +194,13 @@ To conclude, I will highlight several other features available on the platform, 
 
 It is also worth noting that if you use the free tier, ProxiedMail requires you to verify your account via email every quarter. This is a simple process to confirm your account is still active and helps them manage inactive accounts:
 
-```plaintext
-Thank you for using ProxiedMail.
-
-You are receiving this as part of the quarterly verification of your ProxiedMail account. This verification allows us to track the active accounts and prevent spam.
-
-All accounts that didn't pass the verification during the year could be frozen. That means you will stop receiving your messages when the account is frozen. Although, your account will be unfrozen on any activity in your account.
-
-Additionally, verifying your account will give you some benefits as faster messages delivery and priority support.
-```
+> Thank you for using ProxiedMail.
+> 
+> You are receiving this as part of the quarterly verification of your ProxiedMail account. This verification allows us to track the active accounts and prevent spam.
+> 
+> All accounts that didn't pass the verification during the year could be frozen. That means you will stop receiving your messages when the account is frozen. Although, your account will be unfrozen on any activity in your account.
+> 
+> Additionally, verifying your account will give you some benefits as faster messages delivery and priority support.
 
 The service offers other functionalities beyond those listed here. I encourage you to see for yourself.
 
