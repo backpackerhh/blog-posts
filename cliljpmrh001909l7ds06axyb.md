@@ -9,7 +9,7 @@ tags: aws, python, aws-lambda, amazon-efs, aws-lambda-layer
 
 ---
 
-Recently, after finishing developing the Lambda function I've been talking about in [previous](https://davidmontesdeoca.dev/the-one-with-requests-to-localhost-from-aws-sam) [articles](https://davidmontesdeoca.dev/the-one-with-access-denied-to-aws-in-production) and creating the corresponding merge request, the [CI pipeline](https://docs.gitlab.com/ee/ci/) in GitLab that automatically deploys changes to the *staging* environment started failing.
+Recently, after finishing developing the Lambda function I've been talking about in [previous](/the-one-with-requests-to-localhost-from-aws-sam) [articles](/the-one-with-access-denied-to-aws-in-production) and creating the corresponding merge request, the [CI pipeline](https://docs.gitlab.com/ee/ci/) in GitLab that automatically deploys changes to the *staging* environment started failing.
 
 ## A bit of context
 
@@ -112,15 +112,15 @@ According to the [official documentation](https://docs.aws.amazon.com/lambda/lat
 
 Using layers has some advantages:
 
-* Reduces the size of uploaded deployment archives.
+*   Reduces the size of uploaded deployment archives.
     
-* Makes it faster to deploy your code.
+*   Makes it faster to deploy your code.
     
-* Reduces cold start times.
+*   Reduces cold start times.
     
-* Minimizes the overall memory footprint required by the Lambda function.
+*   Minimizes the overall memory footprint required by the Lambda function.
     
-* Can be shared and reused across multiple Lambda functions or even across different AWS accounts.
+*   Can be shared and reused across multiple Lambda functions or even across different AWS accounts.
     
 
 My first approach was creating a separate Lambda layer for each dependency. That way, if I had to update only one of them, I could do it independently.
@@ -290,6 +290,6 @@ Although there are other alternatives to EFS, such as [container images](https:/
 
 Thank you for reading and see you in the next one!
 
----
+* * *
 
 %%[buy-me-a-coffee]
