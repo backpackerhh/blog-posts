@@ -47,11 +47,14 @@ And just like that, I got my first real experience with [remote work](https://th
 
 The team consisted of 3 people:
 
-* CTO and product owner.
-* Technical advisor and DevOps engineer.
-* Full stack developer (just me).
+*   CTO and product owner.
+    
+*   Technical advisor and DevOps engineer.
+    
+*   Full stack developer (just me).
+    
 
-The communication was mostly **asynchronous** with the technical advisor, as he lived in Canada and was actually working as a developer for another company. Either way, he reviewed every pull request I made, attended all the weekly meetings where we would discuss progress,  and answered any technical questions I might have.
+The communication was mostly **asynchronous** with the technical advisor, as he lived in Canada and was actually working as a developer for another company. Either way, he reviewed every pull request I made, attended all the weekly meetings where we would discuss progress, and answered any technical questions I might have.
 
 The communication was mostly **synchronous** with the CTO, especially if I had any doubt related to the domain, as she was nearly always available.
 
@@ -79,7 +82,7 @@ If you think about it, it was pretty intense for a first real experience working
 
 ## A post-pandemic world
 
-By the end of 2020 I went **fully remote** when I started working at [Domestika](https://davidmontesdeoca.dev/the-one-with-my-experience-at-domestika), that has been a fully remote-first company from its beginnings.
+By the end of 2020 I went **fully remote** when I started working at [Domestika](/the-one-with-my-experience-at-domestika), that has been a fully remote-first company from its beginnings.
 
 In the engineering team, we should try to have 4 hours (from 10am to 2pm) in the work day that overlap to allow for synchronous communication. In practice, most of us were available most of the day because everybody was based in Spain. Anyway, we had a lot of flexibility when it came to organizing our working day if needed.
 
@@ -113,30 +116,45 @@ Although synchronous communication can make it harder to keep track of all the c
 
 For that reason, it's really import to reflect online convesations offline with the outcome and the reason behind any decision made in a ticket, documentation, or other place where it can be easily recalled later.
 
----
+* * *
 
 I'd like to list next what I consider are some potential benefits and drawbacks of remote work.
 
 ### Benefits
 
-* Better work-life balance.
-* No commuting, saving time and money.
-* More home-cooked meals, especially without reheating.
-* Feel like exercising more regularly.
-* Take a break away from work whenever needed.
-* Easier to stay focused (childless/single person).
-* Ability to apply for jobs anywhere in the world from home.
-* No afterwork with the team.*
+*   Better work-life balance.
+    
+*   No commuting, saving time and money.
+    
+*   More home-cooked meals, especially without reheating.
+    
+*   Feel like exercising more regularly.
+    
+*   Take a break away from work whenever needed.
+    
+*   Easier to stay focused (childless/single person).
+    
+*   Ability to apply for jobs anywhere in the world from home.
+    
+*   No afterwork with the team.\*
+    
 
 ### Drawbacks
 
-* Workaholism risk.
-* Burn out risk.
-* Feeling alone or isolated risk.
-* More difficulty to disengage from work.
-* More distractions with family.
-* Require people to work differently, so there is a learning curve.
-* No afterwork with the team.*
+*   Workaholism risk.
+    
+*   Burn out risk.
+    
+*   Feeling alone or isolated risk.
+    
+*   More difficulty to disengage from work.
+    
+*   More distractions with family.
+    
+*   Require people to work differently, so there is a learning curve.
+    
+*   No afterwork with the team.\*
+    
 
 \* Arguably it could be either a benefit or a drawback, depending on the person.
 
@@ -158,6 +176,6 @@ Thriving remotely requires to understand what makes you feel more productive, co
 
 Thank you for reading and see you in the next one!
 
----
+* * *
 
 %%[buy-me-a-coffee]
