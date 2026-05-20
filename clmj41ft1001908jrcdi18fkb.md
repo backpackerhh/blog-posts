@@ -33,9 +33,9 @@ This is where a [password manager](https://www.techtarget.com/searchsecurity/def
 
 My password manager of choice in Ubuntu MATE 22.04 is [pass](https://www.passwordstore.org/), a very simple password store that keeps each password inside a **gpg2** encrypted file whose filename is the title of the website or resource that requires the password.
 
-All those encrypted files may be organized into meaningful directory hierarchies residing at _~/.password-store_.
+All those encrypted files may be organized into meaningful directory hierarchies residing at *~/.password-store*.
 
-**pass** is a very short and simple shell script, capable of temporarily putting passwords on your clipboard and tracking password changes using _git_, providing some nice commands for adding, editing, generating, and retrieving passwords.
+**pass** is a very short and simple shell script, capable of temporarily putting passwords on your clipboard and tracking password changes using *git*, providing some nice commands for adding, editing, generating, and retrieving passwords.
 
 Check the [man page](https://git.zx2c4.com/password-store/about/) of the project repo for more info.
 
@@ -65,7 +65,7 @@ uid           [unknown] {gpg key id} <{user email}>
 ssb   rsa4096 2023-09-14 [E]
 ```
 
-Use the _firgerprint_ included in the output of the previous command to initialize the password store:
+Use the *firgerprint* included in the output of the previous command to initialize the password store:
 
 ```bash
 $ pass init {fingerprint}
@@ -181,7 +181,7 @@ The generated password for directory-3/subdirectory-1/file-2 is:
 {newly generated password}
 ```
 
-It's possible to generate passwords with no symbols using _-n_, and copy it to the clipboard instead of displaying it at the console using _-c_.
+It's possible to generate passwords with no symbols using *\-n*, and copy it to the clipboard instead of displaying it at the console using *\-c*.
 
 Remove an existing password from the store:
 
@@ -202,7 +202,7 @@ renamed '/home/david/.password-store/directory-3/subdirectory-1' -> '/home/david
  rename {directory-3/subdirectory-1 => directory-1/subdirectory-3}/file-1.gpg (100%)
 ```
 
-If destination path ends in a trailing _/_, it is always treated as a directory.
+If destination path ends in a trailing */*, it is always treated as a directory.
 
 Synchronize the remote repository with latest changes:
 
@@ -292,7 +292,7 @@ At this point, while encrypting a password in the store you'll see following mes
 
 > gpg: There is no assurance this key belongs to the named user
 
-> gpg: [stdin]: encryption failed: Unusable public key
+> gpg: \[stdin\]: encryption failed: Unusable public key
 
 > Password encryption aborted.
 
@@ -360,14 +360,13 @@ uid           [ultimate] {gpg key id} <{user email}>
 ssb   rsa4096 2023-09-14 [E]
 ```
 
-> Note that [unknown] has been replaced with [ultimate].
+> Note that \[unknown\] has been replaced with \[ultimate\].
 
 You should be good now to start using the password store.
 
 ## Alternatives
 
-There are hundreds of popular password managers, but I haven't used any other so far.
-For instance, [Bitwarden](https://bitwarden.com/) has been named by [multiple](https://www.pcmag.com/picks/the-best-password-managers) [sources](https://www.cnet.com/tech/services-and-software/best-password-manager/) the best overall password manager in 2023.
+There are hundreds of popular password managers, but I haven't used any other so far. For instance, [Bitwarden](https://bitwarden.com/) has been named by [multiple](https://www.pcmag.com/picks/the-best-password-managers) [sources](https://www.cnet.com/tech/services-and-software/best-password-manager/) the best overall password manager in 2023.
 
 At some point, I'd like to use it so I can see by myself real differences with **pass**.
 
@@ -377,10 +376,10 @@ Anyway, you can see a comparison [here](https://www.slant.co/versus/2840/19421/~
 
 I really like the simplicity of **pass**, being just a CLI utility that stores everything locally and with [lots of extensions and interfaces available](https://github.com/tijn/awesome-password-store). That being said, I'm open to test other options with different approaches.
 
-This post is the first one in a series about [password managers](https://davidmontesdeoca.dev/series/password-managers). In the next post I'll talk about the browser extension I use in combination with **pass**.
+This post is the first one in a series about [password managers](/series/password-managers). In the next post I'll talk about the browser extension I use in combination with **pass**.
 
 Thank you for reading and see you in the next one!
 
----
+* * *
 
 %%[buy-me-a-coffee]
