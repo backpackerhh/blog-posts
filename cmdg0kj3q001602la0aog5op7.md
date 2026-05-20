@@ -21,11 +21,11 @@ In my case, I have been working with VSCode for a while, but I was offered the p
 
 Cursor is an AI-native IDE forked from VS Code, so it allows for a very easy transition from one IDE to the other. However, I found that a few basic shortcuts did not work as expected: save, find, copy, paste, undo, etc.
 
-The issue was directly related to the shortcuts I configured with [Karabiner-Elements](https://karabiner-elements.pqrs.org/) in macOS to behave like in Linux. I talked about it some time ago [here](https://davidmontesdeoca.dev/the-one-about-working-with-macos-being-a-linux-user#heading-karabiner-elements).
+The issue was directly related to the shortcuts I configured with [Karabiner-Elements](https://karabiner-elements.pqrs.org/) in macOS to behave like in Linux. I talked about it some time ago [here](/the-one-about-working-with-macos-being-a-linux-user#heading-karabiner-elements).
 
 VSCode's *bundler identifier* is very easy to find anywhere if you look for it:
 
-```
+```plaintext
 com.microsoft.VSCode
 ```
 
@@ -37,7 +37,7 @@ osascript -e 'id of app "Cursor"'
 
 The surprise was that the value seems quite random:
 
-```
+```plaintext
 com.todesktop.230313mzl4w4u92
 ```
 
@@ -51,7 +51,7 @@ osascript -e 'id of app "code"'
 
 The value is as expected:
 
-```
+```plaintext
 com.microsoft.VSCode
 ```
 
@@ -67,6 +67,6 @@ Therefore, we can rest assured that it will not be necessary to change the confi
 
 Thank you for reading and see you in the next one!
 
----
+* * *
 
 %%[buy-me-a-coffee]
