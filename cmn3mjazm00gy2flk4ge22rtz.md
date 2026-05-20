@@ -9,7 +9,7 @@ tags: refactoring, proxy, ruby, api, spa, reactjs, testing, legacy-code, sinatra
 
 ---
 
-In a [previous post](http:///the-one-about-a-new-project-working-for-an-american-fintech) I mentioned I had been working on replicating some functionality for collecting beneficiaries data in an old SPA.
+In a [previous post](/the-one-about-a-new-project-working-for-an-american-fintech) I mentioned I had been working on replicating some functionality for collecting beneficiaries data in an old SPA.
 
 **The code in that application was quite legacy and highly coupled to an existing API.** It was poorly tested, and even those tests did not have a make command to run locally nor were they running in the CI pipeline.
 
