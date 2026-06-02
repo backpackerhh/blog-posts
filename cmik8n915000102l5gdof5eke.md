@@ -44,7 +44,3 @@ Finally, because this is a static design with exactly 3 columns, I briefly consi
 There are surely thousands of ways to achieve this. If you have an interesting alternative method, feel free to share it with me.
 
 Thank you for reading and see you in the next one!
-
-* * *
-
-%%[buy-me-a-coffee]
