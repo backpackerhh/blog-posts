@@ -17,7 +17,7 @@ In Rails is recommended to store those credentials in [an encrypted YAML file](h
 $ EDITOR="vim" bundle exec rails credentials:edit
 ```
 
-<mark>(you can replace </mark> **<mark>vim</mark>** <mark>with your editor of choice)</mark>
+<mark class="bg-yellow-200 dark:bg-yellow-500/30">(you can replace </mark> **<mark class="bg-yellow-200 dark:bg-yellow-500/30">vim</mark>** <mark class="bg-yellow-200 dark:bg-yellow-500/30">with your editor of choice)</mark>
 
 Until recently, we only had a few AWS credentials stored for accessing S3. As usually happens in long-run projects, each of those credentials was added at different times and likely by different people:
 
@@ -129,11 +129,11 @@ Unlike before, here we have specific credentials for the production environment.
 
 Once I finished developing the new functionality, the next steps were:
 
-* My teammates reviewed and approved my pull request.
+*   My teammates reviewed and approved my pull request.
     
-* Our whole suite of tests successfully passed in our CI pipelines.
+*   Our whole suite of tests successfully passed in our CI pipelines.
     
-* The new functionality was approved and marked as ready for production after successfully passing the QA process in staging.
+*   The new functionality was approved and marked as ready for production after successfully passing the QA process in staging.
     
 
 After that, I started a production deployment with those changes, feeling completely confident that everything was in order.
@@ -274,7 +274,3 @@ Some benefits of doing so would be that there are fewer chances of breaking some
 I hope this story has been helpful to you and will serve you as a reminder to avoid making the same mistake.
 
 Thank you for reading and see you in the next one!
-
----
-
-%%[buy-me-a-coffee]
