@@ -21,7 +21,7 @@ And that's exactly why I want to have a blog post where those highlights could b
 
 Let's start with a book by **Eric Evans** that changed the way we write code more than 20 years ago: [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215).
 
----
+* * *
 
 ## I. Putting the domain model to work
 
@@ -55,7 +55,7 @@ The developers and domain experts can informally test the model by walking throu
 
 The domain experts can use the language of the model in writing use cases, and can work even more directly with the model by specifying acceptance tests.
 
-Well-written code can be very communicative, but the message it communicates is not guaranteed to be accurate. [...] It takes fastidiousness to write code that doesn't just do the right thing but also says the right thing.
+Well-written code can be very communicative, but the message it communicates is not guaranteed to be accurate. \[...\] It takes fastidiousness to write code that doesn't just do the right thing but also says the right thing.
 
 ### Binding model and implementation
 
@@ -79,7 +79,7 @@ Any technical person contributing to the model must spend some time touching the
 
 Developing a good domain model is an art.
 
-![The building blocks of a Model-Driven Design](https://github.com/backpackerhh/blog-posts/assets/685978/78e276ad-dd30-4034-8d71-63e0e3a34ddd)
+![The building blocks of a Model-Driven Design](https://github.com/backpackerhh/blog-posts/assets/685978/78e276ad-dd30-4034-8d71-63e0e3a34ddd align="center")
 
 ### Isolating the domain
 
@@ -127,7 +127,7 @@ Value objects are often passed as parameters in messages between objects. They a
 
 The attributes that make up a value object should form a conceptual whole.
 
-Treat the value object as immutable [...] it cannot be changed except by full replacement.
+Treat the value object as immutable \[...\] it cannot be changed except by full replacement.
 
 Developers are free to make decisions about issues such as copying and sharing on a purely technical basis, secure in the knowledge that the application does not rely on particular instances of the objects.
 
@@ -143,9 +143,12 @@ A service tends to be named for an activity, rather than an entity - a verb rath
 
 A good service has 3 characteristics:
 
-1. The operation relates to a domain concept that is not a natural part of an entity or value object.
-2. The interface is defined in terms of other elements of the domain model.
-3. The operation is stateless.
+1.  The operation relates to a domain concept that is not a natural part of an entity or value object.
+    
+2.  The interface is defined in terms of other elements of the domain model.
+    
+3.  The operation is stateless.
+    
 
 Define the interface making sure the operation name is part of the ubiquitous language.
 
@@ -175,7 +178,7 @@ Unless there is a real intention to distribute code on different servers, keep a
 
 ### The life cycle of a domain object
 
-![The life cycle of a domain object](https://github.com/backpackerhh/blog-posts/assets/685978/41e4bcb6-e503-4e60-99a9-aa71e04005e9)
+![The life cycle of a domain object](https://github.com/backpackerhh/blog-posts/assets/685978/41e4bcb6-e503-4e60-99a9-aa71e04005e9 align="center")
 
 #### Aggregates
 
@@ -189,13 +192,20 @@ The invariants applied within an aggregate will be enforced with the completion 
 
 Rules to apply to all transactions:
 
-* The root entity has global identity and is ultimately responsible for checking invariants.
-* Entities inside the boundary have local identity, unique only within the aggregate.
-* Nothing outside the aggregate boundary can hold a reference to anything inside, except to the root entity. The root may hand a copy of a value object to another object, and it doesn't matter what happens to it, because it's just a value and no longer will have any association with the aggregate.
-* Only aggregate roots can be obtained directly with database queries. All other objects must be found by traversal of associations.
-* Objects within the aggregate can hold references to other aggregate roots.
-* A delete operation must remove everything within the aggregate boundary at once.
-* When a change to any object within the aggregate boundary is committed, all invariants of the whole aggregate must be satisfied.
+*   The root entity has global identity and is ultimately responsible for checking invariants.
+    
+*   Entities inside the boundary have local identity, unique only within the aggregate.
+    
+*   Nothing outside the aggregate boundary can hold a reference to anything inside, except to the root entity. The root may hand a copy of a value object to another object, and it doesn't matter what happens to it, because it's just a value and no longer will have any association with the aggregate.
+    
+*   Only aggregate roots can be obtained directly with database queries. All other objects must be found by traversal of associations.
+    
+*   Objects within the aggregate can hold references to other aggregate roots.
+    
+*   A delete operation must remove everything within the aggregate boundary at once.
+    
+*   When a change to any object within the aggregate boundary is committed, all invariants of the whole aggregate must be satisfied.
+    
 
 #### Factories
 
@@ -205,8 +215,10 @@ A **factory** encapsulates the knowledge needed to create a complex object or ag
 
 The two basic requirements for any good factory:
 
-1. Each creation method is atomic and enforces all invariants of the created object or aggregate. A factory should only be able to produce an object in a consistent state.
-2. The factory should be abstracted to the type desired, rather than the concrete class(es) created.
+1.  Each creation method is atomic and enforces all invariants of the created object or aggregate. A factory should only be able to produce an object in a consistent state.
+    
+2.  The factory should be abstracted to the type desired, rather than the concrete class(es) created.
+    
 
 Avoid calling constructors within constructors of other classes. Constructors should be dead simple.
 
@@ -214,8 +226,10 @@ Avoid calling constructors within constructors of other classes. Constructors sh
 
 A factory used for reconstitution is very similar to one used for creation, with two major differences:
 
-1. An entity factory used for reconstitution does not assign a new tracking ID.
-2. A factory reconstituting an object will handle violation of an invariant differently. During creation of a new object, a factory should simply balk when an invariant isn't met, but a more flexible response may be necessary in reconstitution.
+1.  An entity factory used for reconstitution does not assign a new tracking ID.
+    
+2.  A factory reconstituting an object will handle violation of an invariant differently. During creation of a new object, a factory should simply balk when an invariant isn't met, but a more flexible response may be necessary in reconstitution.
+    
 
 To be consistent, consider adopting a coding standard for failures in factories.
 
@@ -233,7 +247,7 @@ Provide repositories only for aggregate roots that actually need direct access.
 
 Even a repository design with flexible queries should allow for the addition of specialized hard-coded queries.
 
-In general, don't fight your frameworks. Seek ways to keep the fundamentals of Domain-Driven Design and let go of the specifics when the framework is antagonistic. [...] This is assuming that you have no choice but to use the framework.
+In general, don't fight your frameworks. Seek ways to keep the fundamentals of Domain-Driven Design and let go of the specifics when the framework is antagonistic. \[...\] This is assuming that you have no choice but to use the framework.
 
 The factory makes new objects, the repository finds old objects.
 
@@ -261,7 +275,7 @@ A **specification** is a predicate that determines if an object does or does not
 
 ### Supple design
 
-![Supple design](https://github.com/backpackerhh/blog-posts/assets/685978/503fd38d-c247-46e8-ac1e-fb68c4dcf4ab)
+![Supple design](https://github.com/backpackerhh/blog-posts/assets/685978/503fd38d-c247-46e8-ac1e-fb68c4dcf4ab align="center")
 
 **Supple design** is the complement to *deep modeling*.
 
@@ -325,7 +339,7 @@ Strategic design principles must guide design decisions to reduce the interdepen
 
 ### Maintaining model integrity
 
-![Strategic design](https://github.com/backpackerhh/blog-posts/assets/685978/89823fd4-e4e8-420a-ae86-e09b249fa8da)
+![Strategic design](https://github.com/backpackerhh/blog-posts/assets/685978/89823fd4-e4e8-420a-ae86-e09b249fa8da align="center")
 
 The internal consistency of a model, such that each term is unambiguous and no rules contradict, is called *unification*.
 
@@ -351,7 +365,7 @@ Continuous integration is essential only within a bounded context. Design issues
 
 #### Context map
 
-![Context map](https://github.com/backpackerhh/blog-posts/assets/685978/a05a8b32-0c05-4dd0-a915-7014028c6369)
+![Context map](https://github.com/backpackerhh/blog-posts/assets/685978/a05a8b32-0c05-4dd0-a915-7014028c6369 align="center")
 
 Code reuse between bounded contexts is a hazard to be avoided. Integration of functionality and data must go through a translation.
 
@@ -365,7 +379,7 @@ Contact points with other bounded contexts are particularly important to test.
 
 #### Shared kernel
 
-![Shared kernel](https://github.com/backpackerhh/blog-posts/assets/685978/87e48544-946c-441d-adf6-d78b8943be66)
+![Shared kernel](https://github.com/backpackerhh/blog-posts/assets/685978/87e48544-946c-441d-adf6-d78b8943be66 align="center")
 
 The **shared kernel** cannot be changed as freely as other parts of the design. Decisions involve consultation with another team. Automated test suites must be integrated because all tests of both teams must pass when changes are made.
 
@@ -391,7 +405,7 @@ Where the shared kernel is a collaboration between two teams that coordinate tig
 
 #### Anticorruption layer
 
-![Anticorruption layer](https://github.com/backpackerhh/blog-posts/assets/685978/e46f45a0-3c26-4a4b-b261-7d6c61b9ce1e)
+![Anticorruption layer](https://github.com/backpackerhh/blog-posts/assets/685978/e46f45a0-3c26-4a4b-b261-7d6c61b9ce1e align="center")
 
 The public interface of the **anticorruption layer** usually appears as a set of services, although occasionally it can take the form of an entity.
 
@@ -427,19 +441,27 @@ Teams have to make decisions about where to define bounded contexts and what sor
 
 Favoring larger bounded contexts:
 
-* Flow between user tasks is smoother when more is handled with a unified model.
-* It is easier to understand one coherent model than two distinct ones plus mappings.
-* Translation between two models can be difficult (sometimes impossible).
-* Shared language fosters clear team communication.
+*   Flow between user tasks is smoother when more is handled with a unified model.
+    
+*   It is easier to understand one coherent model than two distinct ones plus mappings.
+    
+*   Translation between two models can be difficult (sometimes impossible).
+    
+*   Shared language fosters clear team communication.
+    
 
 Favoring smaller bounded contexts:
 
-* Communication overhead between developers is reduced.
-* Continuous integration is easier with smaller teams and code bases.
-* Larger contexts may call for more versatile abstract models, requiring skills that are in short supply.
-* Different models can cater to special needs or encompass the jargon of specialized groups of users, along with specialized dialects of the ubiquitous language.
+*   Communication overhead between developers is reduced.
+    
+*   Continuous integration is easier with smaller teams and code bases.
+    
+*   Larger contexts may call for more versatile abstract models, requiring skills that are in short supply.
+    
+*   Different models can cater to special needs or encompass the jargon of specialized groups of users, along with specialized dialects of the ubiquitous language.
+    
 
-![The relative demands of CONTEXT relationship patterns](https://github.com/backpackerhh/blog-posts/assets/685978/ab6b0e58-2913-4533-9e7d-aa7eaffd77df)
+![The relative demands of CONTEXT relationship patterns](https://github.com/backpackerhh/blog-posts/assets/685978/ab6b0e58-2913-4533-9e7d-aa7eaffd77df align="center")
 
 Generally speaking, there is a correspondence of one team per bounded context. One team can maintain multiple bounded contexts, but it is hard (though not impossible) for multiple teams to work on one together.
 
@@ -449,7 +471,7 @@ Do not equate the interchange language and the model of the host. Keeping them c
 
 A model is a distillation of knowledge.
 
-![Distillation](https://github.com/backpackerhh/blog-posts/assets/685978/34939bb1-4051-4cb7-b04b-f3e79405acf8)
+![Distillation](https://github.com/backpackerhh/blog-posts/assets/685978/34939bb1-4051-4cb7-b04b-f3e79405acf8 align="center")
 
 Distillation does not operate only on the gross level of separating parts of the domain away from the core. It also means refining those subdomains, especially the core domain, through continuously refactoring toward deeper insight, driving toward a deep model and supple design.
 
@@ -507,7 +529,7 @@ If most of the interactions across modules can be expressed at the level of poly
 
 ### Large-scale structure
 
-![Large-scale structure](https://github.com/backpackerhh/blog-posts/assets/685978/e6569c79-3f5a-4c57-826a-a04216ed3aa9)
+![Large-scale structure](https://github.com/backpackerhh/blog-posts/assets/685978/e6569c79-3f5a-4c57-826a-a04216ed3aa9 align="center")
 
 The strict segregation imposed by bounded contexts prevents corruption and confusion, but it does not, in itself, make it easier to see the system as a whole.
 
@@ -563,7 +585,7 @@ The principles of distillation and refactoring toward deeper insight apply even 
 
 ### Bringing the strategy together
 
-![The three basic principles of strategic design](https://github.com/backpackerhh/blog-posts/assets/685978/ad10f40a-3a80-44de-9e42-378ccdeefcc0)
+![The three basic principles of strategic design](https://github.com/backpackerhh/blog-posts/assets/685978/ad10f40a-3a80-44de-9e42-378ccdeefcc0 align="center")
 
 The three basic principles of strategic design (context, distillation, and large-scale structure) are not substitutes for each other; they are complementary and interact in many ways.
 
@@ -585,12 +607,8 @@ Strategic design emerges out of application design, yet it requires a big-pictur
 
 There is a risk that an architecture can interfere with expressive implementations of the domain model and easy change.
 
----
+* * *
 
 And that's it. It was definitely an exhaustive journey through this great book.
 
 Thank you for reading and see you in the next one!
-
----
-
-%%[buy-me-a-coffee]
