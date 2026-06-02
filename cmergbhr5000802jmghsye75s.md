@@ -112,7 +112,3 @@ In this case, the standard behavior of the `tab` key was clashing with Cursor's 
 The key takeaway is not just about this specific fix, but about the power of `when` clauses for fine-tuning the IDE to behave exactly how you want it to. Hopefully, this guide saves you some time and helps you get back to coding faster.
 
 Thank you for reading and see you in the next one!
-
-* * *
-
-%%[buy-me-a-coffee]
