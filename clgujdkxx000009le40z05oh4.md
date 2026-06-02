@@ -141,7 +141,3 @@ For more commands refer to the [command reference](https://github.com/pyenv/pyen
 I hope this story has been helpful to you, especially if you haven't used a version manager before, so you can avoid version conflicts while working on multiple projects that require different versions of a given programming language.
 
 Thank you for reading and see you in the next one!
-
----
-
-%%[buy-me-a-coffee]
