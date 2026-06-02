@@ -130,7 +130,3 @@ On the other hand, I am happy because it is a **technical challenge** that is al
 Right now, it is a matter of being patient, as the beginning is always difficult for everyone. Hopefully, we will find our rhythm soon, and everything will start falling into place.
 
 Thank you for reading, and see you in the next one!
-
-* * *
-
-%%[buy-me-a-coffee]
