@@ -126,7 +126,3 @@ Here I just wanted to talk honestly about what my experience with SNGULAR has be
 Looking forward to my second year in the company.
 
 Thank you for reading and see you in the next one!
-
-* * *
-
-%%[buy-me-a-coffee]
