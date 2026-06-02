@@ -66,7 +66,3 @@ In any case, I continued investigating about that unusual bundler identifier and
 Therefore, we can rest assured that it will not be necessary to change the configuration in the future.
 
 Thank you for reading and see you in the next one!
-
-* * *
-
-%%[buy-me-a-coffee]
