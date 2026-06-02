@@ -11,7 +11,7 @@ tags: github, apis, graphql, hashnode, github-actions-1
 
 A few weeks ago I was taking a look at the list of posts featured on Hashnode when suddenly I saw one that immediately caught my eye:
 
-[![Featured post about using Hashnode's Public API](https://user-images.githubusercontent.com/685978/280487202-32fe76a4-c4f6-4dc7-a7ad-3425f1c09213.png)](https://engineering.hashnode.com/what-can-i-do-with-hashnodes-public-api)
+[![Featured post about using Hashnode's Public API](https://user-images.githubusercontent.com/685978/280487202-32fe76a4-c4f6-4dc7-a7ad-3425f1c09213.png align="center")](https://engineering.hashnode.com/what-can-i-do-with-hashnodes-public-api)
 
 In that post Sandro, member of the Hashnode Engineering team, lists up to 6 examples of what you can build taking advantage of their public GraphQL API.
 
@@ -27,14 +27,18 @@ I started by reading the [linked post](https://docs.github.com/en/account-and-pr
 
 Basically it says that you can include whatever information you want, as long as you meet prerequisites needed for it to be displayed:
 
-* You've created a repository with a name that matches your GitHub username.
-* The repository is public.
-* The repository contains a file named `README.md` in its root.
-* The `README.md` file contains any content.
+*   You've created a repository with a name that matches your GitHub username.
+    
+*   The repository is public.
+    
+*   The repository contains a file named `README.md` in its root.
+    
+*   The `README.md` file contains any content.
+    
 
 Follow the instructions included in that post to properly create the required repository and once it's created you can see a banner in the sidebar with following message:
 
-[![backpackerhh repository message](https://github-production-user-asset-6210df.s3.amazonaws.com/685978/280497784-10e72fa6-80b5-4d62-abea-98886b4ea129.png)](https://github.com/backpackerhh/backpackerhh)
+[![backpackerhh repository message](https://github-production-user-asset-6210df.s3.amazonaws.com/685978/280497784-10e72fa6-80b5-4d62-abea-98886b4ea129.png align="center")](https://github.com/backpackerhh/backpackerhh)
 
 Jannik uses a few **GitHub Actions** to include his latest blog posts and his recent activity in [his profile](https://github.com/JannikWempe/JannikWempe). So did I.
 
@@ -70,10 +74,14 @@ jobs:
 
 A lot of stuff is going on here, so let me explain it:
 
-* The workflow is [scheduled](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule) to run every day at 8:00 and 20:00.
-* The workflow is enabled to be [triggered manually](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch).
-* The workflow is able to access to the repository using [Checkout](https://github.com/marketplace/actions/checkout) action.
-* The workflow updates the `README.md` file with the recent GitHub activity using [GitHub Activity in Readme](https://github.com/marketplace/actions/github-readme-activity-section-updater) action.
+*   The workflow is [scheduled](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule) to run every day at 8:00 and 20:00.
+    
+*   The workflow is enabled to be [triggered manually](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch).
+    
+*   The workflow is able to access to the repository using [Checkout](https://github.com/marketplace/actions/checkout) action.
+    
+*   The workflow updates the `README.md` file with the recent GitHub activity using [GitHub Activity in Readme](https://github.com/marketplace/actions/github-readme-activity-section-updater) action.
+    
 
 At the start of each workflow job, GitHub automatically creates a unique `GITHUB_TOKEN` secret that you can use to authenticate on behalf of GitHub Actions. Check more details [here](https://docs.github.com/en/actions/security-guides/automatic-token-authentication).
 
@@ -81,19 +89,19 @@ Next you can see some screenshots for this workflow:
 
 #### Manual dispatch enabled in the UI
 
-![backpackerhh repository recent activity workflow manual dispatch enabled](https://user-images.githubusercontent.com/685978/280675346-52c32363-0feb-4a3f-923a-f3a151a92060.png)
+![backpackerhh repository recent activity workflow manual dispatch enabled](https://user-images.githubusercontent.com/685978/280675346-52c32363-0feb-4a3f-923a-f3a151a92060.png align="center")
 
 #### Job manually triggered
 
-![backpackerhh repository workflow manually triggered](https://user-images.githubusercontent.com/685978/280675349-43778779-9ad3-43a1-8957-b00960f06eec.png)
+![backpackerhh repository workflow manually triggered](https://user-images.githubusercontent.com/685978/280675349-43778779-9ad3-43a1-8957-b00960f06eec.png align="center")
 
 #### Job triggered via schedule
 
-![backpackerhh repository workflow triggered via schedule](https://user-images.githubusercontent.com/685978/280675347-27628749-e694-4397-82f1-68006a1a17c2.png)
+![backpackerhh repository workflow triggered via schedule](https://user-images.githubusercontent.com/685978/280675347-27628749-e694-4397-82f1-68006a1a17c2.png align="center")
 
 #### Job successfully executed
 
-![backpackerhh repository workflow successful execution](https://user-images.githubusercontent.com/685978/280675354-40c34536-3565-4563-9353-c62dcf8eb6a5.png)
+![backpackerhh repository workflow successful execution](https://user-images.githubusercontent.com/685978/280675354-40c34536-3565-4563-9353-c62dcf8eb6a5.png align="center")
 
 ### Latest blog posts
 
@@ -125,10 +133,14 @@ jobs:
 
 Once again a lot of stuff is going on here, so let me explain it:
 
-* The workflow is enabled to be [triggered manually](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch).
-* The workflow is enabled to be [triggered with a webhook event](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch), specifiying `trigger` as event type.
-* The workflow is able to access to the repository using [Checkout](https://github.com/marketplace/actions/checkout) action.
-* The workflow updates the `README.md` file with my latest Hashnode blog posts using [backpackerhh/github-latest-hashnode-posts](https://github.com/marketplace/actions/github-readme-activity-section-updater) action. I'll talk more about it later.
+*   The workflow is enabled to be [triggered manually](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch).
+    
+*   The workflow is enabled to be [triggered with a webhook event](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch), specifiying `trigger` as event type.
+    
+*   The workflow is able to access to the repository using [Checkout](https://github.com/marketplace/actions/checkout) action.
+    
+*   The workflow updates the `README.md` file with my latest Hashnode blog posts using [backpackerhh/github-latest-hashnode-posts](https://github.com/marketplace/actions/github-readme-activity-section-updater) action. I'll talk more about it later.
+    
 
 Again, `GITHUB_TOKEN` is used to authenticate on behalf of GitHub Actions. A [custom repository secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions) containing the Hashnode publication ID (`HASHNODE_PUBLICATION_ID`) is used as well.
 
@@ -142,19 +154,19 @@ Next you can see some screenshots for this workflow:
 
 #### Manual dispatch enabled in the UI
 
-![backpackerhh repository latest blog posts workflow manual dispatch enabled](https://user-images.githubusercontent.com/685978/280675340-22a3e7ed-ea70-40ee-b886-cb6b61d8896d.png)
+![backpackerhh repository latest blog posts workflow manual dispatch enabled](https://user-images.githubusercontent.com/685978/280675340-22a3e7ed-ea70-40ee-b886-cb6b61d8896d.png align="center")
 
 #### Job manually triggered
 
-![backpackerhh repository job manually triggered](https://user-images.githubusercontent.com/685978/280696908-319ae44c-dc14-454c-bec7-4f14618c5aac.png)
+![backpackerhh repository job manually triggered](https://user-images.githubusercontent.com/685978/280696908-319ae44c-dc14-454c-bec7-4f14618c5aac.png align="center")
 
 #### Job triggered via repository dispatch
 
-![backpackerhh repository job triggered via repository dispatch](https://user-images.githubusercontent.com/685978/280696916-5ac1d018-70ee-4feb-a903-0ad832aa9105.png)
+![backpackerhh repository job triggered via repository dispatch](https://user-images.githubusercontent.com/685978/280696916-5ac1d018-70ee-4feb-a903-0ad832aa9105.png align="center")
 
 #### Job successfully executed
 
-![backpackerhh repository job successfully executed](https://user-images.githubusercontent.com/685978/280696918-4de3d79a-29ad-4c1b-8a68-fb65521dabc1.png)
+![backpackerhh repository job successfully executed](https://user-images.githubusercontent.com/685978/280696918-4de3d79a-29ad-4c1b-8a68-fb65521dabc1.png align="center")
 
 ### Add content dynamically
 
@@ -234,8 +246,10 @@ Here is where the configuration and the metadata of the GitHub action is actuall
 
 For this [specific action](https://github.com/backpackerhh/github-latest-hashnode-posts/blob/main/action.yml), I'd like to highlight a couple of them:
 
-* `inputs`: A list of input parameters that the action accepts, such as `GITHUB_TOKEN`, `HASHNODE_PUBLICATION_ID` or `MAX_POSTS`.
-* `runs`: Describes how the action should be executed, including the runtime environment (`node20`) and the entry point (`dist/index.js`).
+*   `inputs`: A list of input parameters that the action accepts, such as `GITHUB_TOKEN`, `HASHNODE_PUBLICATION_ID` or `MAX_POSTS`.
+    
+*   `runs`: Describes how the action should be executed, including the runtime environment (`node20`) and the entry point (`dist/index.js`).
+    
 
 ### src/index.js
 
@@ -269,7 +283,7 @@ Where `id` is the Hashnode publication ID and `first` is the number of posts tha
 
 Hashnode provides a [playground](https://gql.hashnode.com/) in case you need to customize your query. For instance, regarding what Jannik had, I added the `url` of the post to the query so in my profile each post includes a link in the title and the cover.
 
-![Hashnode API Playground](https://user-images.githubusercontent.com/685978/280497786-535a702a-e174-45a7-be5a-de4557a85a89.png)
+![Hashnode API Playground](https://user-images.githubusercontent.com/685978/280497786-535a702a-e174-45a7-be5a-de4557a85a89.png align="center")
 
 A function gives then expected format to all the posts retrieved from the API and replaces the content of the `README.md` file with them.
 
@@ -281,7 +295,7 @@ There is a big difference regarding how the two workflows mentioned above run to
 
 Knowing that I'd need to automate that process somehow, the first thing that came to my mind was the webhooks provided by Hashnode:
 
-![Hashnode form to create a new webhook](https://user-images.githubusercontent.com/685978/280991571-8e556be9-354e-496d-89f0-38ba581b7880.png)
+![Hashnode form to create a new webhook](https://user-images.githubusercontent.com/685978/280991571-8e556be9-354e-496d-89f0-38ba581b7880.png align="center")
 
 However, I'd need to provide a URL to some kind of [serverless function](https://www.splunk.com/en_us/blog/learn/serverless-functions.html) that would validate the secret defined in Hashnode (optional, but recommended) and trigger a request to the desired repository in GitHub.
 
@@ -293,7 +307,7 @@ For that reason, I thought that it could be easier to just trigger an action fro
 
 Hashnode provides an integration with GitHub, so all my posts are backed up automatically to [this repository](https://github.com/backpackerhh/blog-posts):
 
-![GitHub integration in Hashnode](https://user-images.githubusercontent.com/685978/280991581-8c5649a3-b7b7-473d-a7e1-893a119b45aa.png)
+![GitHub integration in Hashnode](https://user-images.githubusercontent.com/685978/280991581-8c5649a3-b7b7-473d-a7e1-893a119b45aa.png align="center")
 
 After some research, I found [this article](https://www.amaysim.technology/blog/using-github-actions-to-trigger-actions-across-repos) which proved to be an invaluable help.
 
@@ -326,10 +340,14 @@ jobs:
 
 Yet once again a lot of stuff is going on here, so let me explain it:
 
-* The workflow is enabled to be [triggered when a push to main branch occurs](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#push).
-* The workflow makes a POST request to the GitHub endpoint to [create a repository dispatch event](https://docs.github.com/en/rest/repos/repos#create-a-repository-dispatch-event):
-  * The value of `event_type` is the one defined in the [GitHub action](https://github.com/backpackerhh/backpackerhh/blob/main/.github/workflows/update-latest-blog-posts.yml#L7) of the target repository.
-  * The `client_payload` parameter is available for any extra information that your workflow might need.
+*   The workflow is enabled to be [triggered when a push to main branch occurs](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#push).
+    
+*   The workflow makes a POST request to the GitHub endpoint to [create a repository dispatch event](https://docs.github.com/en/rest/repos/repos#create-a-repository-dispatch-event):
+    
+    *   The value of `event_type` is the one defined in the [GitHub action](https://github.com/backpackerhh/backpackerhh/blob/main/.github/workflows/update-latest-blog-posts.yml#L7) of the target repository.
+        
+    *   The `client_payload` parameter is available for any extra information that your workflow might need.
+        
 
 Again, a [custom repository secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions) is required to be used as authorization token (`DISPATCH_TOKEN`).
 
@@ -341,24 +359,39 @@ The value of that secret must be the value of a [personal access token](https://
 
 If you prefer to create a classic PAT follow next steps:
 
-1. Go to https://github.com/settings/tokens/new
-2. Fill in following fields:
-   * `Note` -> Blog posts
-   * `Expiration` -> No expiration (**at your own peril**)
-   * `Select scopes` -> workflow (will mark _repo_ automatically)
-3. Click on `Generate token` button
+1.  Go to https://github.com/settings/tokens/new
+    
+2.  Fill in following fields:
+    
+    *   `Note` -> Blog posts
+        
+    *   `Expiration` -> No expiration (**at your own peril**)
+        
+    *   `Select scopes` -> workflow (will mark *repo* automatically)
+        
+3.  Click on `Generate token` button
+    
 
 If you prefer to create a fine-grained PAT follow next steps:
 
-1. Go to https://github.com/settings/personal-access-tokens/new
-2. Fill in following fields:
-   * `Token name` -> Blog posts
-   * `Expiration` -> 90 days (custom is around 100 days)
-   * `Repository access` -> Only select repositories -> select `<username>/<username>`
-   * `Permissions` -> Repository permissions
-     * Contents -> Access: Read and write
-     * Metadata -> Access: Read access (automatically selected)
-3. Click on `Generate token` button
+1.  Go to https://github.com/settings/personal-access-tokens/new
+    
+2.  Fill in following fields:
+    
+    *   `Token name` -> Blog posts
+        
+    *   `Expiration` -> 90 days (custom is around 100 days)
+        
+    *   `Repository access` -> Only select repositories -> select `<username>/<username>`
+        
+    *   `Permissions` -> Repository permissions
+        
+        *   Contents -> Access: Read and write
+            
+        *   Metadata -> Access: Read access (automatically selected)
+            
+3.  Click on `Generate token` button
+    
 
 Although is less secure, for this particular use case I've created a classic PAT without expiration. I prefer to simply generate a token and just forget about it.
 
@@ -366,11 +399,11 @@ Next you can see some screenshots for this workflow:
 
 #### Job triggered via push to main branch
 
-![blog posts repository job triggered via push to main branch](https://user-images.githubusercontent.com/685978/281049523-315f89aa-93fe-403d-9d49-62a76eccf6f4.png)
+![blog posts repository job triggered via push to main branch](https://user-images.githubusercontent.com/685978/281049523-315f89aa-93fe-403d-9d49-62a76eccf6f4.png align="center")
 
 #### Job successfully executed
 
-![blog posts repository job successfully executed](https://user-images.githubusercontent.com/685978/281049530-8a846f07-5bc4-421b-808f-0f37c36306ef.png)
+![blog posts repository job successfully executed](https://user-images.githubusercontent.com/685978/281049530-8a846f07-5bc4-421b-808f-0f37c36306ef.png align="center")
 
 It's worth mentioning that you could use an already available GitHub action instead, such as [repository-dispatch](https://github.com/marketplace/actions/repository-dispatch).
 
@@ -378,11 +411,11 @@ It's worth mentioning that you could use an already available GitHub action inst
 
 Next, you can see how the process of updating my GitHub profile with the latest blog posts works:
 
-![Workflow diagram](https://user-images.githubusercontent.com/685978/281372117-02f421ce-8290-475c-af55-bd05733133b7.png)
+![Workflow diagram](https://user-images.githubusercontent.com/685978/281372117-02f421ce-8290-475c-af55-bd05733133b7.png align="center")
 
 And the result of running that workflow would be something as follows:
 
-![GitHub profile after workflow runs](https://user-images.githubusercontent.com/685978/281372176-6ecc8692-777a-4e62-9bad-157994e56dda.png)
+![GitHub profile after workflow runs](https://user-images.githubusercontent.com/685978/281372176-6ecc8692-777a-4e62-9bad-157994e56dda.png align="center")
 
 ## Conclusion
 
@@ -391,7 +424,3 @@ There was a lot of trial and error to get everything to work correctly, especial
 To be honest, I had never thought about having a GitHub profile with something more than pinned repositories, but seeing the potential of this kind of workflows, from now on I will keep thinking about how to improve it even more.
 
 Thank you for reading and see you in the next one!
-
----
-
-%%[buy-me-a-coffee]
