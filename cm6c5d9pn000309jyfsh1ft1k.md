@@ -715,7 +715,3 @@ I would also like to take this opportunity to thank my mentor, [Eddy Josafat](ht
 By the way, this is a list that I will keep updating over time. Is there anything you miss in this list? If so, leave it in the comments, please.
 
 Thank you for reading and see you in the next one!
-
-* * *
-
-%%[buy-me-a-coffee]
