@@ -59,7 +59,3 @@ There may be many and varied reasons, but they all come down to the same thing: 
 In the end, it is not about working less, but working better. And you, *are you still warming the seat?*
 
 Thank you for reading and see you in the next one!
-
-* * *
-
-%%[buy-me-a-coffee]
