@@ -11,7 +11,7 @@ tags: pair-programming, agile, mentorship, mentoring, agile-methodology, junior-
 
 In the last few months I have been looking for a new job as a software developer and during the hiring process I have been asked a few times what is my approach to mentoring a junior developer. In this post I intend to give an extended answer of the one I gave to my interviewers.
 
----
+* * *
 
 My approach to mentor someone usually starts during the **onboarding** process, where I help them getting the project up and running, I tell them about all the processes we have and where to find the documentation, and how things are usually done in the company and the team.
 
@@ -37,7 +37,7 @@ Once the junior developer becomes the driver in a session, I do not immediately 
 
 Besides pairing sessions, I also explain how to make a code review, how to QA the tasks of the rest of the team (especially when there is no QA team) and how to make deployments to production. As we usually are a cross-functional team, I tell them who is the go-to person depending on the needs.
 
-Throughout those first few weeks, more often than not, we have **live code review sessions** where we review together the code we just created, in case we missed something, or review the code of any other teammate, so they know what they should focus on. Such sessions have always proved very useful. 
+Throughout those first few weeks, more often than not, we have **live code review sessions** where we review together the code we just created, in case we missed something, or review the code of any other teammate, so they know what they should focus on. Such sessions have always proved very useful.
 
 I must confess that I used to nitpick any minor style offense that I found but at some point I realized that by doing that I was wasting both my time and the mentoree's, when that is something that can easily do a linter. The latest person I have mentored so far once told me that she initially felt that she was not doing anything right, but fortunately she never gave up and kept improving. But not everybody is the same, so the takeaway is, **do not nitpick and do not micromanage** because the person could feel overwhelmed and maybe could be afraid of making a mistake.
 
@@ -47,14 +47,10 @@ With that approach, a junior developer could be almost completely **autonomous**
 
 Last but not least, I also encourage them to **ask for help** whenever they need it. Not asking for help is one of the mistakes many of us make at one time or another.
 
----
+* * *
 
 Pairing has a lot of benefits for junior developers, because it is an opportunity to learn relatively quickly from a more experienced member of the team.
 
 I think there is not one right way to mentor somebody, but what I have told has worked very well for some people in the past.
 
 Thank you for reading and see you in the next one!
-
----
-
-%%[buy-me-a-coffee]
