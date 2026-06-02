@@ -176,7 +176,3 @@ Note that here I'm talking about the backend side of the project but the fronten
 Personally I took lot of responsibility in a key project of the company and I think I delivered.
 
 Thank you for reading and see you in the next one!
-
-* * *
-
-%%[buy-me-a-coffee]
