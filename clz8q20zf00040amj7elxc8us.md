@@ -32,7 +32,3 @@ Working for a consulting firm was not in my plans, but I liked the proposal of S
 During this first month and as part of my onboarding, I have been teaching Ruby to some colleagues in the company. Next month I will start the onboarding with the fintech company and, at some point, I would like to share some of my experiences working for an American company.
 
 Thank you for reading and see you in the next one!
-
-* * *
-
-%%[buy-me-a-coffee]
