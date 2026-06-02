@@ -11,15 +11,15 @@ tags: ubuntu, linux, opensource, cli, mouse-jiggler
 
 Lately I've been using [Plex](https://www.plex.tv/) to stream movies and TV shows from the laptop in my study to the TV in my living room. So I needed to prevent the laptop from sleeping while I was watching something.
 
-The easiest way and probably the most obvious one was changing the _Power Settings_ configuration so the computer never goes to sleep when inactive:
+The easiest way and probably the most obvious one was changing the *Power Settings* configuration so the computer never goes to sleep when inactive:
 
-![power settings configuration](https://github.com/backpackerhh/blog-posts/assets/685978/fbce08a5-a2ab-46cd-a212-2cbd499801f3)
+![power settings configuration](https://github.com/backpackerhh/blog-posts/assets/685978/fbce08a5-a2ab-46cd-a212-2cbd499801f3 align="center")
 
 But that's not what I really wanted since that option means that I'd have to change the configuration every time I want to watch something and change it again afterwards. Mainly because I don't want that configuration always disabled.
 
 Therefore I looked for different options and I found that what I needed was a [mouse jiggler](https://en.wikipedia.org/wiki/Mouse_jiggler).
 
-In this case, I installed [Keep Presence](https://github.com/carrot69/keep-presence) in Ubuntu Mate 22.04, a program that moves the mouse or presses a key when it detects the user is away from the computer. 
+In this case, I installed [Keep Presence](https://github.com/carrot69/keep-presence) in Ubuntu Mate 22.04, a program that moves the mouse or presses a key when it detects the user is away from the computer.
 
 You can install it as follows:
 
@@ -103,7 +103,3 @@ Bye bye ;-)
 As you can see, **keep-presence** is a simple yet powerful [open-source script written in Python](https://github.com/carrot69/keep-presence/blob/master/src/keep-presence.py). I highly recommend you to give it a try if you are looking for a **mouse jiggler** in a Unix-based OS.
 
 Thank you for reading and see you in the next one!
-
----
-
-%%[buy-me-a-coffee]
