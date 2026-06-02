@@ -72,7 +72,3 @@ As I said in [my previous post](/the-one-about-my-experience-working-for-an-amer
 After [my experience at Domestika](/the-one-about-my-experience-at-domestika#heading-the-beginning-of-the-end), going through something like this again is really unpleasant. Luckily, for the time being, it is over.
 
 Thank you for reading, and see you in the next one!
-
-* * *
-
-%%[buy-me-a-coffee]
