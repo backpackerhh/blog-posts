@@ -11,9 +11,9 @@ tags: software, software-development, software-architecture, software-engineerin
 
 Today I'll highlight my favorite book about *Domain-Driven Design* (DDD) so far, written by Vaughn Vernon more than 10 years ago: [Implementing Domain-Driven Design](https://www.amazon.es/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577).
 
----
+* * *
 
-## 1. Getting started with DDD
+## 1\. Getting started with DDD
 
 The software development approach called *Domain-Driven Design* (DDD), exists to help us more readily succeed at achieving high-quality software model designs.
 
@@ -23,7 +23,7 @@ A **domain model** is a software model of the very specific business domain you 
 
 ### Why you should do DDD
 
-There are zero translations between the domain experts, the software developers, and the software [...] because your team develops a common, shared language that everyone on the team speaks.
+There are zero translations between the domain experts, the software developers, and the software \[...\] because your team develops a common, shared language that everyone on the team speaks.
 
 **Strategic design** helps us understand what are the most important software investments to make, what existing software assets to leverage in order to get there fastest and safest, and who must be involved.
 
@@ -65,11 +65,11 @@ DDD promotes lightweight development, not ceremonious, heavy, up-front design.
 
 ### Fiction, with bucketfuls of reality
 
-*DDD-Lite* is a means of picking and choosing a subset of the DDD tactical patterns, but without giving full attention to discovering, capturing, and enhancing the ubiquitous language. [...] Its focus is much more technical, with a desire to solve technical problems.
+*DDD-Lite* is a means of picking and choosing a subset of the DDD tactical patterns, but without giving full attention to discovering, capturing, and enhancing the ubiquitous language. \[...\] Its focus is much more technical, with a desire to solve technical problems.
 
-## 2. Domains, subdomains, and bounded contexts
+## 2\. Domains, subdomains, and bounded contexts
 
-![Domains, subdomains, and bounded contexts](https://github.com/backpackerhh/blog-posts/assets/685978/15fb2d4d-3274-4cf2-8435-f8d8615f0d8e)
+![Domains, subdomains, and bounded contexts](https://github.com/backpackerhh/blog-posts/assets/685978/15fb2d4d-3274-4cf2-8435-f8d8615f0d8e align="center")
 
 ### Big picture
 
@@ -119,11 +119,11 @@ It is best for one well-defined, cohesive team of domain experts and developers 
 
 There is the possibility that two teams will cooperate in the design of a shared kernel, which is actually not a typical bounded context. This context mapping pattern forms an intimate relationship between two teams, which requires ongoing consultation when model changes are deemed necessary.
 
-## 3. Context maps
+## 3\. Context maps
 
 Besides giving you an inventory of systems you must interact with, a **context map** serves as a catalyst for inter-team communication.
 
-A context map captures the existing terrain. [...] If the landscape will change as your current project progresses, you can update the map at that time. First focus on the current situation so you can form an understanding of where you are and determine where to go next.
+A context map captures the existing terrain. \[...\] If the landscape will change as your current project progresses, you can update the map at that time. First focus on the current situation so you can form an understanding of where you are and determine where to go next.
 
 ### Partnership
 
@@ -131,7 +131,7 @@ When teams in two contexts will succeed or fail together, a cooperative relation
 
 ### Shared Kernel
 
-Sharing part of the model and associated code forms a very intimate interdependency, which can leverage design work or undermine it. [...] This explicit shared stuff has special status and shouldn't be changed without consultation with the other team.
+Sharing part of the model and associated code forms a very intimate interdependency, which can leverage design work or undermine it. \[...\] This explicit shared stuff has special status and shouldn't be changed without consultation with the other team.
 
 ### Customer-Supplier Development
 
@@ -143,7 +143,7 @@ When two development teams have an *upstream/downstream* relationship in which t
 
 ### Anticorruption Layer
 
-Translation layers can be simple, even elegant, when bridging well-designed bounded contexts with cooperative teams. [...] As a downstream client, create an isolating layer to provide your system with functionality of the upstream system in terms of your own domain model. This layer talks to the other system through its existing interface, requiring little or no modification to the other system.
+Translation layers can be simple, even elegant, when bridging well-designed bounded contexts with cooperative teams. \[...\] As a downstream client, create an isolating layer to provide your system with functionality of the upstream system in terms of your own domain model. This layer talks to the other system through its existing interface, requiring little or no modification to the other system.
 
 A domain service can be defined in the downstream context for each type of anticorruption layer.
 
@@ -177,7 +177,7 @@ By cleanly separating bounded contexts, we are able to keep each context pure, w
 
 Keep discussions about the project flowing back to your map to stimulate useful refinements.
 
-## 4. Architecture
+## 4\. Architecture
 
 One of the big advantages of DDD is that it doesn't require the use of any specific architecture.
 
@@ -199,7 +199,7 @@ A **Relaxed Layers Architecture** allows any higher-level layer to couple to any
 
 A component that provides low-level services (Infrastructure) should depend on interfaces defined by high-level components (User Interface, Application, and Domain).
 
-![Dependency Inversion Principle](https://github.com/backpackerhh/blog-posts/assets/685978/c3af2627-fbf4-43c4-b89d-0ec8ef84fda8)
+![Dependency Inversion Principle](https://github.com/backpackerhh/blog-posts/assets/685978/c3af2627-fbf4-43c4-b89d-0ec8ef84fda8 align="center")
 
 Focusing on the *Domain Layer*, using DIP enables both the domain and infrastructure to depend on abstractions (interfaces) defined by the domain model. Since the *Application Layer* is the direct client of the domain, it depends on domain interfaces and indirectly accesses repository and any technical domain service implementation classes provided by infrastructure. It may use any one of a few ways to acquire the implementations, such as **dependency injection**.
 
@@ -211,7 +211,7 @@ It's not that dependency injection is automatically **Hexagonal** but it encoura
 
 The outside enables disparate clients to submit input and also provides mechanisms to retrieve persisted data, store the application's output (e.g., a database), or send it elsewhere along its way (e.g., messaging).
 
-![Hexagonal Architecture a.k.a. Ports and Adapters](https://github.com/backpackerhh/blog-posts/assets/685978/d3dfd641-361e-406b-9a21-bff4721a3717)
+![Hexagonal Architecture a.k.a. Ports and Adapters](https://github.com/backpackerhh/blog-posts/assets/685978/d3dfd641-361e-406b-9a21-bff4721a3717 align="center")
 
 Each of the hexagon's sides represents a different kind of port, for either input or output.
 
@@ -231,9 +231,10 @@ Because the Hexagonal Architecture is versatile, it could well be the foundation
 
 Alternative approaches for combining DDD and RESTful HTTP:
 
-* The first approach is to create a separate bounded context for the system's interface layer and use appropriate strategies to access the actual core domain from the system's interface model.
-
-* Another approach [...] if specific media types are developed to support not only a single system interface but a category of similar client-server interactions, a domain model can be created to represent each standard media type.
+*   The first approach is to create a separate bounded context for the system's interface layer and use appropriate strategies to access the actual core domain from the system's interface model.
+    
+*   Another approach \[...\] if specific media types are developed to support not only a single system interface but a category of similar client-server interactions, a domain model can be created to represent each standard media type.
+    
 
 The more specialized the solution, the more useful the first approach turns out to be. The more generally useful the solution is, with the extreme end of the spectrum being standardization by an official standards body, the more sense it makes to go with the second, media-type-centric approach.
 
@@ -249,7 +250,7 @@ We still need a way to display data to the user. For that we create a second mod
 
 The command model is persisted in one store and the query model in another.
 
-![Command-Query Responsibility Segregation (CQRS)](https://github.com/backpackerhh/blog-posts/assets/685978/3a87b465-c509-4fc5-b60f-5447223f266e)
+![Command-Query Responsibility Segregation (CQRS)](https://github.com/backpackerhh/blog-posts/assets/685978/3a87b465-c509-4fc5-b60f-5447223f266e align="center")
 
 The query model is a denormalized data model. It is not meant to deliver domain behavior, only data for display (and possibly reporting). If this data model is a SQL database, each table would hold the data for a single kind of client view (display).
 
@@ -259,7 +260,7 @@ Any single view could be rewritten from scratch in isolation or the entire query
 
 The data model design should follow, as much as possible, the pattern of one table per user interface view type, with as many table views as necessary to reflect application security roles.
 
-A basic database table view has no overhead when performing updates on the backing table. [...] Only *materialized views* incur update overhead since the view's data must be copied into one place so it is ready for selects.
+A basic database table view has no overhead when performing updates on the backing table. \[...\] Only *materialized views* incur update overhead since the view's data must be copied into one place so it is ready for selects.
 
 The user interface must collect the data necessary to correctly parameterize the command. This implies that much thought must be given to user experience design.
 
@@ -267,7 +268,7 @@ We can use a *categorized style* with several command handlers in one applicatio
 
 We can create a *dedicated style* handler. Each one would be a single class with one method.
 
-The *messaging style* of command handler where each command is sent as an asynchronous message and delivered to a handler designed with the dedicated style. [...] Switch to asynchronous only if scalability demands require it.
+The *messaging style* of command handler where each command is sent as an asynchronous message and delivered to a handler designed with the dedicated style. \[...\] Switch to asynchronous only if scalability demands require it.
 
 Do not allow any one handler to depend on (make use of) any others.
 
@@ -299,11 +300,12 @@ The various domain events received have a specific meaning in each receiving bou
 
 Approaches to designing a **long-running process**:
 
-* Design the process as a composite task, which is tracked by an executive component that records the steps and completeness of the task using a persistent object.
-
-* Design the process as a set of partner aggregates that collaborate in a set of activities. One or more aggregate instances act as the executive and maintain the overall state of the process.
-
-* Design a stateless process in that each message handler component that receives an event-carrying message must enrich the received event with more task progress information as it sends the next message. The state of the overall process is maintained only in the body of each message sent from collaborator to collaborator.
+*   Design the process as a composite task, which is tracked by an executive component that records the steps and completeness of the task using a persistent object.
+    
+*   Design the process as a set of partner aggregates that collaborate in a set of activities. One or more aggregate instances act as the executive and maintain the overall state of the process.
+    
+*   Design a stateless process in that each message handler component that receives an event-carrying message must enrich the received event with more task progress information as it sends the next message. The state of the overall process is maintained only in the body of each message sent from collaborator to collaborator.
+    
 
 Assign a unique process identity that is carried by each of the associated domain events. This could be the same identity assigned to the originating domain event that causes the long-running process to begin.
 
@@ -311,7 +313,7 @@ Use a universally unique identifier (UUID) allocated specifically to the process
 
 #### Event Sourcing
 
-![Event Sourcing](https://github.com/backpackerhh/blog-posts/assets/685978/c166bc21-3008-4325-8746-7ebfe69ad817)
+![Event Sourcing](https://github.com/backpackerhh/blog-posts/assets/685978/c166bc21-3008-4325-8746-7ebfe69ad817 align="center")
 
 Each of the events is saved to an **event store** in the order in which it occurred. When each aggregate is retrieved from its repository, the instance is reconstituted by playing back the events in the order in which they previously occurred.
 
@@ -323,7 +325,7 @@ Snapshots are not created randomly. Rather, they can be created at points where 
 
 Because events are often persisted in an event store as binary representations, they cannot (optimally) be used for queries.
 
-## 5. Entities
+## 5\. Entities
 
 We design a domain concept as an **entity** when we care about its individuality, when distinguishing it from all other objects in a system is a mandatory constraint.
 
@@ -373,7 +375,7 @@ A domain service can use repositories to read the aggregate instances it needs t
 
 On occasion an aggregate or a set of aggregates is in a temporary, intermediate state. Perhaps we could model a status on an aggregate to indicate this, preventing validation at inappropriate times. When the conditions are ripe for validation, the model could inform clients by publishing a domain event.
 
-## 6. Value objects
+## 6\. Value objects
 
 When you care only about the attributes of an element of the model, classify it as a **value object**.
 
@@ -393,7 +395,7 @@ Measures and descriptions are best modeled as values.
 
 If there is no need to maintain a continuity of change over the life cycle of descriptive types in your bounded context, model them as values.
 
-## 7. Services
+## 7\. Services
 
 A service in the domain is a stateless operation that fulfills a domain-specific task. Often the best indication that you should create a service in the domain model is when the operation you need to perform feels out of place as a method on an aggregate or a value object.
 
@@ -405,7 +407,7 @@ Make sure the service has an interface that clearly expresses the ubiquitous lan
 
 Using services overzealously will usually result in the negative consequences of creating an **anemic domain model**, where all the domain logic resides in services rather than mostly spread across entities and value objects.
 
-Knowledge that is purely domain specific should never be leaked out into clients, even if the client is an application service. [...] The only business responsibility that the client should have is to coordinate the use of a single domain-specific operation that handles all other details of the business problem.
+Knowledge that is purely domain specific should never be leaked out into clients, even if the client is an application service. \[...\] The only business responsibility that the client should have is to coordinate the use of a single domain-specific operation that handles all other details of the business problem.
 
 ### Modeling a service in the domain
 
@@ -421,11 +423,11 @@ Address transactions and security as application concerns in application service
 
 The repository used could be the full implementation, an in-memory variety, or mocked. It works fine to test with the full implementation if it is fast enough, as long as the test ends with a rollback of the transaction, preventing the buildup of extraneous instances across tests.
 
-## 8. Domain events
+## 8\. Domain events
 
 A **domain event** is a full-fledged part of the domain model, a representation of something that happened in the domain.
 
-There will probably be times when the spoken language of the experts doesn't lead to a clear reason to model an event, yet the business situation may still call for it. [...] As such events are handled by subscribers, they may have far-reaching impact on local and remote bounded contexts.
+There will probably be times when the spoken language of the experts doesn't lead to a clear reason to model an event, yet the business situation may still call for it. \[...\] As such events are handled by subscribers, they may have far-reaching impact on local and remote bounded contexts.
 
 Although domain experts may not initially be aware of the need for every kind of event, they should understand the reasons for them as they are included in discussions about specific events. Once there is clear consensus, new events become a formal part of the ubiquitous language.
 
@@ -433,7 +435,7 @@ One rule of aggregates states that only a single instance should be modified in 
 
 It allows us to achieve loose coupling between systems.
 
-![Domain Events](https://github.com/backpackerhh/blog-posts/assets/685978/78826999-4b4e-49a2-9ff0-3b4a21841540)
+![Domain Events](https://github.com/backpackerhh/blog-posts/assets/685978/78826999-4b4e-49a2-9ff0-3b4a21841540 align="center")
 
 ### Modeling events
 
@@ -455,7 +457,7 @@ Remote subscribers can use the unique identity to manage de-duplication when mes
 
 ### Publishing events from the domain
 
-![Publishing events from the domain](https://github.com/backpackerhh/blog-posts/assets/685978/083a7d22-4ee6-495e-8ed4-8e5a95c0801c)
+![Publishing events from the domain](https://github.com/backpackerhh/blog-posts/assets/685978/083a7d22-4ee6-495e-8ed4-8e5a95c0801c align="center")
 
 Since application services are the direct client of the domain model when using Hexagonal Architecture, they are in an ideal position to register a subscriber with the publisher before they execute event-generating behavior on aggregates.
 
@@ -465,9 +467,9 @@ Events are a domain-wide concept, not just a concept in a single bounded context
 
 ### Spreading the news to remote bounded contexts
 
-The use of any messaging mechanism between bounded contexts requires that we adopt a commitment to **eventual consistency**. [...] The changes in one model that influence changes in one or more other models will not be fully consistent for some elapsed period of time.
+The use of any messaging mechanism between bounded contexts requires that we adopt a commitment to **eventual consistency**. \[...\] The changes in one model that influence changes in one or more other models will not be fully consistent for some elapsed period of time.
 
-At least two mechanisms in a messaging solution must always be consistent with each other: the persistence store used by the domain model, and the persistence store backing the messaging infrastructure used to forward the events published by the model. [...] Ensure that when the model's changes are persisted, event delivery is also guaranteed, and that if an event is delivered through messaging, it indicates a true situation reflected by the model that published it.
+At least two mechanisms in a messaging solution must always be consistent with each other: the persistence store used by the domain model, and the persistence store backing the messaging infrastructure used to forward the events published by the model. \[...\] Ensure that when the model's changes are persisted, event delivery is also guaranteed, and that if an event is delivered through messaging, it indicates a true situation reflected by the model that published it.
 
 Using domain events allows any number of your enterprise systems to be designed as autonomous services and systems.
 
@@ -505,7 +507,7 @@ The handled message tracking is not part of the domain model.
 
 A de-duplication query that checks for message IDs less than the most recent one would cause you to ignore some messages that were received out of order.
 
-## 9. Modules
+## 9\. Modules
 
 Modules in your model serve as named containers for domain object classes that are highly cohesive with one another. The goal should be low coupling between the classes that are in different modules.
 
@@ -519,7 +521,7 @@ Use modules to modularize cohesive domain objects, and to separate those that ar
 
 Boundaries between models are clearly justified, as the linguistics demand.
 
-## 10. Aggregates
+## 10\. Aggregates
 
 ### Rule: Model true invariants in consistency boundaries
 
@@ -529,8 +531,10 @@ An invariant is a business rule that must always be consistent.
 
 There are different kinds of consistency:
 
-* **Transactional consistency**, which is considered immediate and atomic.
-* **Eventual consistency**.
+*   **Transactional consistency**, which is considered immediate and atomic.
+    
+*   **Eventual consistency**.
+    
 
 When discussing invariants, we are referring to transactional consistency.
 
@@ -594,7 +598,7 @@ You may experience user interface design decisions, technical limitations, stiff
 
 #### Reason 1: User interface convenience
 
-Sometimes user interfaces, as a convenience, allow users to define the common characteristics of many things at once in order to create batches of them. [...] If creating a batch of aggregate instances all at once is semantically no different from creating one at a time repeatedly, it represents one reason to break the rule of thumb with impunity.
+Sometimes user interfaces, as a convenience, allow users to define the common characteristics of many things at once in order to create batches of them. \[...\] If creating a batch of aggregate instances all at once is semantically no different from creating one at a time repeatedly, it represents one reason to break the rule of thumb with impunity.
 
 #### Reason 2: Lack of technical mechanisms
 
@@ -622,10 +626,14 @@ This guideline emphasizes the principle of least knowledge.
 
 Any given method on any object may invoke methods only on the following:
 
-1. itself.
-2. any parameters passed to it.
-3. any object it instantiates.
-4. self-contained part objects that it can directly access.
+1.  itself.
+    
+2.  any parameters passed to it.
+    
+3.  any object it instantiates.
+    
+4.  self-contained part objects that it can directly access.
+    
 
 The **Law of Demeter** disallows all navigation into aggregate parts beyond the root.
 
@@ -647,7 +655,7 @@ Dependency injection of a repository or domain service into an aggregate should 
 
 Preferably dependent objects are looked up before an aggregate command method is invoked, and passed in to it.
 
-## 11. Factories
+## 11\. Factories
 
 A factory may or may not have additional responsibilities in the domain model other than object creation.
 
@@ -665,7 +673,7 @@ If our design were to support only a public constructor on the aggregate, it wou
 
 Factory methods on aggregates can be used to express the language in context, reduce the burden on clients when creating new aggregate instances, and ensure instantiations with correct state.
 
-## 12. Repositories
+## 12\. Repositories
 
 Placing an aggregate instance in its corresponding repository, and later using that repository to retrieve the same instance, yields the expected whole object. If you alter a preexisting aggregate instance that you retrieve from the repository, its changes will be persisted. If you remove the instance from the repository, you will be unable to retrieve it from that point forward.
 
@@ -683,13 +691,13 @@ It is the aggregate root's unique identity that allows the Set-like repository t
 
 You'd just retrieve from the collection the reference to the object you desire to modify, and then ask the object to execute some state-transitioning behavior by invoking a command method.
 
-You need to define a public interface and at least one implementation. [...] Place the interface definition in the same module as the aggregate type that it stores.
+You need to define a public interface and at least one implementation. \[...\] Place the interface definition in the same module as the aggregate type that it stores.
 
 Use the **Dependency Inversion Principle** (DIP) for layering infrastructure concerns. The *Infrastructure Layer* is logically above all others, making references unidirectional and downward to the *Domain Layer*.
 
 Since we are going to the trouble of abstracting away the implementation details of the underlying persistence framework, we want to insulate clients from all such details, including exceptions.
 
-There may be cases where adding and/or removing multiple aggregate instances in one transaction isn't appropriate. When that is true of a given case in your domain, don't include methods `addAll()` and `removeAll()`. [...] A client can always use a loop to invoke `add()` or `remove()` multiple times when iterating over a collection on its own.
+There may be cases where adding and/or removing multiple aggregate instances in one transaction isn't appropriate. When that is true of a given case in your domain, don't include methods `addAll()` and `removeAll()`. \[...\] A client can always use a loop to invoke `add()` or `remove()` multiple times when iterating over a collection on its own.
 
 From a business perspective it may be unwise, ill advised, or even illegal to remove some objects. In those cases you may decide to simply mark the aggregate instance disabled, unusable, or, in some other domain-specific way, logically removed. If so, you may determine not to include any removal methods on the repository public interface, or you may decide to implement the removal methods to set the unusable state of the aggregate instance.
 
@@ -707,7 +715,7 @@ A *use case optimal query* can be used to specify a complex query against the pe
 
 A repository that provides a `size()` method answers a very simple value in the form of an integer count of the total aggregate instances it holds. A use case optimal query is just extending this notion a bit to provide a somewhat more complex value, one that addresses more complex client demands.
 
-If you find that you must create many finder methods supporting use case optimal queries on multiple repositories, it's probably a code smell. [...] The code smell here might be called *repository masks aggregate mis-design*.
+If you find that you must create many finder methods supporting use case optimal queries on multiple repositories, it's probably a code smell. \[...\] The code smell here might be called *repository masks aggregate mis-design*.
 
 ### Managing transactions
 
@@ -731,7 +739,7 @@ You have to test the repositories themselves in order to prove that they work co
 
 If it is very difficult to set up the full persistent implementation of a repository for test, or too slow to use it, you can leverage another approach. You may also face undesirable conditions early on during domain modeling, perhaps when your persistence mechanisms, including the database schema, are not yet available. When you face any of these situations, it works best to implement an in-memory edition of repositories.
 
-## 13. Integrating bounded contexts
+## 13\. Integrating bounded contexts
 
 A straightforward approach is for a bounded context to expose an application programming interface (API), and another bounded context to use that API via remote procedure calls (RPCs).
 
@@ -739,15 +747,15 @@ A second approach is through the use of a messaging mechanism. Each of the syste
 
 A third approach is by using RESTful HTTP for exchanging and modifying resources that are uniquely identified using a distinct URI. Various operations can be performed on each resource.
 
-We must create some form of contract between the data-exchanging systems, and possibly even the mechanisms to parse or interpret those structures, so they can be consumed. [...] Some options are to use XML, JSON, or a specialized format such as Protocol Buffers.
+We must create some form of contract between the data-exchanging systems, and possibly even the mechanisms to parse or interpret those structures, so they can be consumed. \[...\] Some options are to use XML, JSON, or a specialized format such as Protocol Buffers.
 
-We can define a reliable contract using a standards-based approach, which actually forms a **published language**. One such standard approach is to define a custom media type. [...] The specification defines the binding contract between producers and consumers and offers a foolproof means to exchange such media without sharing the interface and class binaries.
+We can define a reliable contract using a standards-based approach, which actually forms a **published language**. One such standard approach is to define a custom media type. \[...\] The specification defines the binding contract between producers and consumers and offers a foolproof means to exchange such media without sharing the interface and class binaries.
 
 The consuming bounded context should be interested only in the data properties and should never be tempted to use functionality that is part of a different model. The consumer's port adapters should shield its domain model from any such dependencies and must instead pass needed event data as appropriate parameters with types as defined only in its own bounded context. Any necessary calculations or processing should be performed by the producing bounded context and provided as enriching event data attributes.
 
 You really have to think in terms of the version compatibility and plan for smart modifications to new versions so you don't break most consumers.
 
-Depending on the number of teams, bounded contexts, change ratio, and other factors, it might work out to share classes and interfaces when your project is starting, but it could be better to use a more decoupled, custom media type contract in the production stage. [...] Sometimes what a team starts out with ends up being what they live with ongoing, and they never take the time to make a 180-degree change.
+Depending on the number of teams, bounded contexts, change ratio, and other factors, it might work out to share classes and interfaces when your project is starting, but it could be better to use a more decoupled, custom media type contract in the production stage. \[...\] Sometimes what a team starts out with ends up being what they live with ongoing, and they never take the time to make a 180-degree change.
 
 ### Integration using RESTful resources
 
@@ -799,15 +807,15 @@ It could make sense to back off as much as 30 seconds or a minute between retrie
 
 If automatic recovery of consumers is not supported, you will need to be certain that your consumers are reregistered. Otherwise, you will eventually make the unwanted discovery that your bounded context isn't receiving the notifications that are necessary to keep it interacting with the bounded contexts it depends on. That's one kind of eventual consistency that you want to avoid.
 
-## 14. Application
+## 14\. Application
 
 A domain model often lives at the heart of an application. The application may have a user interface that presents concepts of the domain model and allows the user to perform various actions on the model. The user interface will make use of application-level services that coordinate use case tasks, manage transactions, and assert necessary security authorizations. Further, the user interface, application services, and domain model will rely on enterprise platform-specific infrastructural support. The infrastructure implementation details will generally include the facilities of a component container, application management, messaging, and database.
 
-Generic and supporting subdomains will sometimes lack all the extras associated with a full application. [...] When a model exists to support another model, the supporting model may be as simple as a set of classes in a separate module that address a specialty concept and provide some algorithms.
+Generic and supporting subdomains will sometimes lack all the extras associated with a full application. \[...\] When a model exists to support another model, the supporting model may be as simple as a set of classes in a separate module that address a specialty concept and provide some algorithms.
 
 The infrastructure implements interface abstractions from the user interface, application services, and the domain model. It also dispatches operations to application services, the domain model, and the data store.
 
-![Application](https://github.com/backpackerhh/blog-posts/assets/685978/6d49bf5e-bb1e-4ef1-b7df-989d986ef3d8)
+![Application](https://github.com/backpackerhh/blog-posts/assets/685978/6d49bf5e-bb1e-4ef1-b7df-989d986ef3d8 align="center")
 
 ### User interface
 
@@ -837,13 +845,13 @@ Design your repository with finder query methods that compose a custom object as
 
 You may design your application services to accept *Data Transformer*, where each client specifies the data transformer type. The application service would double-dispatch on the data transformer parameter, which would produce the required data format.
 
-The presentation model acts as an adapter. It masks the details of the domain model by providing properties and behaviors that are designed in terms of the needs of the view. [...] Decisions are made in the adapter based on the state of the model as it applies to the view.
+The presentation model acts as an adapter. It masks the details of the domain model by providing properties and behaviors that are designed in terms of the needs of the view. \[...\] Decisions are made in the adapter based on the state of the model as it applies to the view.
 
 Once users have completed a task with the user interface, they will usually invoke an "apply" or "cancel" type of action, or preferably an explicit command. This will require the presentation model to reflect the user's action to the application, which in essence represents a minimal façade around an application service.
 
 ### Application services
 
-The **application services** are the direct clients of the domain model. [...] These are responsible for task coordination of use case flows, one service method per flow. When using an ACID database, the application services also control transactions, ensuring that model state transitions are atomically persisted.
+The **application services** are the direct clients of the domain model. \[...\] These are responsible for task coordination of use case flows, one service method per flow. When using an ACID database, the application services also control transactions, ensuring that model state transitions are atomically persisted.
 
 Security is also commonly cared for by application services.
 
@@ -863,7 +871,7 @@ Each architectural decision we make leads to positive and negative consequences.
 
 With multiple *Application Layers* you would need to supply independent user interface components with each, where the user interface components would have some affinity to a specific underlying domain model. This is basically the portal-portlet style.
 
-Since the *Application Layer* manages use cases, it may be easiest to create a single *Application Layer* as the actual source of model composition. [...] Services in that single layer are devoid of business domain logic. It will only serve to aggregate objects from each model into cohesive ones that the user interface needs.
+Since the *Application Layer* manages use cases, it may be easiest to create a single *Application Layer* as the actual source of model composition. \[...\] Services in that single layer are devoid of business domain logic. It will only serve to aggregate objects from each model into cohesive ones that the user interface needs.
 
 Consider carefully where do we draw the line between composing multiple bounded contexts into a single user interface, and creating a new, clean bounded context with a unified domain model.
 
@@ -875,12 +883,8 @@ The lookup may be implicit through dependency injection or using a service facto
 
 Implementations of repositories are kept in the infrastructure because they deal with storage, which is not a responsibility that the model should take on. You would use the infrastructure to implement interfaces that require use of messaging, such as message queues and e-mail. If there are special user interface components that feature generated graphical charts, maps, and the like, these would also be implemented in the infrastructure.
 
----
+* * *
 
 And that's it. It was definitely another exhaustive journey through another great book.
 
 Thank you for reading and see you in the next one!
-
----
-
-%%[buy-me-a-coffee]
