@@ -68,9 +68,12 @@ Much easier, right? To me it feels more natural and easier to understand. By far
 
 Whilst I disagree with his examples, I agree with his rules of thumb:
 
-* Avoid using more than a single logical condition.
-* Avoid negation as `unless` is already negative.
-* Never use an `else` clause with an `unless` statement.
+*   Avoid using more than a single logical condition.
+    
+*   Avoid negation as `unless` is already negative.
+    
+*   Never use an `else` clause with an `unless` statement.
+    
 
 Next I will show some real-life examples with `unless` along with the code I would write instead.
 
@@ -222,25 +225,32 @@ Every single team I have been part of have always chosen [RuboCop](https://githu
 
 Next, I would like to highlight some cops that are related to conditionals:
 
-* [Style/IfUnlessModifier](https://docs.rubocop.org/rubocop/cops_style.html#styleifunlessmodifier): Checks for `if` and `unless` statements that would fit on one line if written as modifier and checks for conditional modifiers lines that exceed the maximum line length. I always disable it.
-* [Style/NegatedIf](https://docs.rubocop.org/rubocop/cops_style.html#stylenegatedif): Checks for uses of `if` with a negated condition. Only `if`s without `else` are considered. I always disable it.
-* [Style/InvertibleUnlessCondition](https://docs.rubocop.org/rubocop/cops_style.html#styleinvertibleunlesscondition): Checks for usages of `unless` which can be replaced by `if` with inverted condition. I always enable it.
-* [Style/NegatedUnless](https://docs.rubocop.org/rubocop/cops_style.html#stylenegatedunless): Checks for uses of `unless` with a negated condition. Only `unless` without `else` are considered. I always enable it.
-* [Style/UnlessElse](https://docs.rubocop.org/rubocop/cops_style.html#styleunlesselse): Looks for `unless` expressions with `else` clauses. I always enable it.
-* [Style/IfUnlessModifierOfIfUnless](https://docs.rubocop.org/rubocop/cops_style.html#styleifunlessmodifierofifunless): Checks for `if` and `unless` statements used as modifiers of other conditional statements. I always enable it.
+*   [Style/IfUnlessModifier](https://docs.rubocop.org/rubocop/cops_style.html#styleifunlessmodifier): Checks for `if` and `unless` statements that would fit on one line if written as modifier and checks for conditional modifiers lines that exceed the maximum line length. I always disable it.
+    
+*   [Style/NegatedIf](https://docs.rubocop.org/rubocop/cops_style.html#stylenegatedif): Checks for uses of `if` with a negated condition. Only `if`s without `else` are considered. I always disable it.
+    
+*   [Style/InvertibleUnlessCondition](https://docs.rubocop.org/rubocop/cops_style.html#styleinvertibleunlesscondition): Checks for usages of `unless` which can be replaced by `if` with inverted condition. I always enable it.
+    
+*   [Style/NegatedUnless](https://docs.rubocop.org/rubocop/cops_style.html#stylenegatedunless): Checks for uses of `unless` with a negated condition. Only `unless` without `else` are considered. I always enable it.
+    
+*   [Style/UnlessElse](https://docs.rubocop.org/rubocop/cops_style.html#styleunlesselse): Looks for `unless` expressions with `else` clauses. I always enable it.
+    
+*   [Style/IfUnlessModifierOfIfUnless](https://docs.rubocop.org/rubocop/cops_style.html#styleifunlessmodifierofifunless): Checks for `if` and `unless` statements used as modifiers of other conditional statements. I always enable it.
+    
 
 The related rules from the style guide are the following:
 
-* [if as a modifier](https://rubystyle.guide/#if-as-a-modifier)
-* [if vs unless](https://rubystyle.guide/#unless-for-negatives)
-* [Using else with unless](https://rubystyle.guide/#no-else-with-unless)
-* [Multi-line if modifiers](https://github.com/rubocop/ruby-style-guide#multi-line-if-modifiers)
-* [Nested modifiers](https://rubystyle.guide/#no-nested-modifiers)
+*   [if as a modifier](https://rubystyle.guide/#if-as-a-modifier)
+    
+*   [if vs unless](https://rubystyle.guide/#unless-for-negatives)
+    
+*   [Using else with unless](https://rubystyle.guide/#no-else-with-unless)
+    
+*   [Multi-line if modifiers](https://github.com/rubocop/ruby-style-guide#multi-line-if-modifiers)
+    
+*   [Nested modifiers](https://rubystyle.guide/#no-nested-modifiers)
+    
 
 Hopefully I have given to you some arguments why `unless` is not the best option to create readable code, but that is something very subjective, so the take away is to write conditionals in a consistent way, preferably following a style guide defined by the community or your own team.
 
 Thank you for reading and see you in the next one!
-
----
-
-%%[buy-me-a-coffee]
