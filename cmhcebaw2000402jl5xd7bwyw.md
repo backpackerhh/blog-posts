@@ -83,7 +83,3 @@ I would also like to share the technical details of how we solved the obstacles 
 I appreciate the trust placed in me, even as a contractor. I believe it is the result of a job well done.
 
 Thank you for reading and see you in the next one!
-
-* * *
-
-%%[buy-me-a-coffee]
