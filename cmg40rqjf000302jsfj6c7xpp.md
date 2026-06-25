@@ -17,7 +17,7 @@ For most of my professional career, I have worked in product companies. And that
 
 However, after a few months in which things did not go as I expected, I had to lower my expectations. That included having to consider the possibility of working for a consulting firm.
 
-In fact, I applied for the offer that SNGULAR published on LinkedIn, where they were looking for a backend developer specializing in Ruby to work exclusively with a client in the fintech industry, fully remote.
+In fact, I applied for the offer that SNGULAR published on LinkedIn, where they were looking for a backend developer specializing in Ruby to work exclusively for a client in the fintech industry, fully remote.
 
 ## Selection process
 
