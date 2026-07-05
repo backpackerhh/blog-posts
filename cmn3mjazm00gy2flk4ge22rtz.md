@@ -498,6 +498,23 @@ end
 
 To prevent this from happening again, I added some make commands to run the application in production mode locally:
 
+```bash
+# Makefile
+.PHONY: prod/up prod/down prod/build
+
+prod/up:
+  docker compose -f docker-compose.prod.yml up
+
+prod/down:
+  docker compose -f docker-compose.prod.yml up
+
+prod/build:
+  docker compose -f docker-compose.prod.yml build
+```
+
+The dedicated docker-compose file is as follows:
+
+
 ```yaml
 # docker-compose.prod.yml
 services:
