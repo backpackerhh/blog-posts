@@ -514,7 +514,6 @@ prod/build:
 
 The dedicated docker-compose file is as follows:
 
-
 ```yaml
 # docker-compose.prod.yml
 services:
