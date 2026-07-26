@@ -5,9 +5,11 @@ datePublished: 2023-12-04T10:48:26.528Z
 cuid: clpqsg4gw000009jt8duhh17n
 slug: the-one-where-you-automatically-add-your-latest-posts-to-your-github-profile
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1699528730003/9fa4084e-9934-4eab-b422-d9abb7a11d4b.png
-tags: github, apis, graphql, hashnode, github-actions-1
+tags: github, apis, graphql, hashnode, github-actions
 
 ---
+
+> **Update:** The Hashnode API used in this article now requires a paid subscription. Check out the [updated version of this post](/the-one-where-backups-keep-your-latest-posts-on-your-github-profile-up-to-date) to see how to achieve the exact same result for free using repository backups.
 
 A few weeks ago I was taking a look at the list of posts featured on Hashnode when suddenly I saw one that immediately caught my eye:
 
