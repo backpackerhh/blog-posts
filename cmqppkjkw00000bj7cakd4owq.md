@@ -50,7 +50,7 @@ This approach keeps the form's attributes to a minimum and lets the server tell 
 post '/comments' do
   comment_params = {
     content: params[:content],
-    author: user_email
+    author: current_user.email
   }
   result = CreateCommentCommand.call(comment_params)
   status_code, response = extract_response(result)
@@ -90,9 +90,12 @@ end
 
 Things to highlight in this code:
 
-* The endpoint's behavior stays exactly the same, except for the call to the custom htmx helpers when any error is encountered while creating a comment.
-* Those helpers are defined in a module that is included in the application's base controller.
-* Those helpers set the corresponding _response header_, overriding the value defined in the matching htmx attribute on the requesting element — the form, in our case.
+*   The endpoint's behavior stays exactly the same, except for the call to the custom htmx helpers when any error is encountered while creating a comment.
+    
+*   Those helpers are defined in a module that is included in the application's base controller.
+    
+*   Those helpers set the corresponding *response header*, overriding the value defined in the matching htmx attribute on the requesting element — the form, in our case.
+    
 
 ### Presentation layer
 
@@ -111,7 +114,8 @@ Things to highlight in this code:
 
 Things to highlight in this code:
 
-* Only the attributes needed for the success case are defined in the form.
+*   Only the attributes needed for the success case are defined in the form.
+    
 
 ## Comparing both approaches
 
@@ -121,33 +125,49 @@ Same DOM result, same htmx contract, two very different places to put the logic.
 
 #### Pros
 
-* **Co-location of behavior**: Selector, swap strategy, and retarget element all live next to the form they affect. Somebody opening the view for the first time is able to see the full lifecycle without jumping into the controller. This is the [Locality of Behavior (LoB)](https://htmx.org/essays/locality-of-behaviour/) principle that htmx itself advocates.
-* **Resilience to renames**: The form ID lives in a single file. Rename it and the form keeps working — there is no controller silently pointing at an old selector.
-* **Controller stays HTTP-pure**: The server returns `4xx` and an HTML fragment. It knows nothing about DOM IDs or htmx swap mechanics.
-* **Reusable across endpoints**: If multiple endpoints could fail and target the same form, the form itself owns the retarget logic. None of those endpoints have to remember to set the same headers to make it work.
+*   **Co-location of behavior**: Selector, swap strategy, and retarget element all live next to the form they affect. Somebody opening the view for the first time is able to see the full lifecycle without jumping into the controller. This is the [Locality of Behavior (LoB)](https://htmx.org/essays/locality-of-behaviour/) principle that htmx itself advocates.
+    
+*   **Resilience to renames**: The form ID lives in a single file. Rename it and the form keeps working — there is no controller silently pointing at an old selector.
+    
+*   **Controller stays HTTP-pure**: The server returns `4xx` and an HTML fragment. It knows nothing about DOM IDs or htmx swap mechanics.
+    
+*   **Reusable across endpoints**: If multiple endpoints could fail and target the same form, the form itself owns the retarget logic. None of those endpoints have to remember to set the same headers to make it work.
+    
 
 #### Cons
 
-* **Inline JavaScript inside a string**: If you want to stick to the LoB principle, you have to write the JS code inside an HTML attribute that is just a string. Your IDE treats it as HTML — no syntax highlighting, no autocomplete, no jump-to-definition — and debugging is harder.
-* **Duplication**: Every form needing this behavior copies essentially the same `hx-on::config-request` block, with only the target ID changing. The more forms you have, the more duplication. A Ruby helper could render that block but then it would just hide the JS code inside a string in a different file, breaking the LoB principle.
-* **Status-code blindness**: The view cannot easily differentiate `422` (validation error) from `409` (conflict) from `500` (server error) without growing the inline script.
-* **CSP friction**: If the app does not enforce a strict [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP), this is a non-issue. But if it does — or might in the future — `hx-on::*` attributes force you into either `'unsafe-inline'` (which weakens XSS protection across the entire site) or per-attribute `'unsafe-hashes'` (which you have to recompute every time the attribute changes).
+*   **Inline JavaScript inside a string**: If you want to stick to the LoB principle, you have to write the JS code inside an HTML attribute that is just a string. Your IDE treats it as HTML — no syntax highlighting, no autocomplete, no jump-to-definition — and debugging is harder.
+    
+*   **Duplication**: Every form needing this behavior copies essentially the same `hx-on::config-request` block, with only the target ID changing. The more forms you have, the more duplication. A Ruby helper could render that block but then it would just hide the JS code inside a string in a different file, breaking the LoB principle.
+    
+*   **Status-code blindness**: The view cannot easily differentiate `422` (validation error) from `409` (conflict) from `500` (server error) without growing the inline script.
+    
+*   **CSP friction**: If the app does not enforce a strict [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP), this is a non-issue. But if it does — or might in the future — `hx-on::*` attributes force you into either `'unsafe-inline'` (which weakens XSS protection across the entire site) or per-attribute `'unsafe-hashes'` (which you have to recompute every time the attribute changes).
+    
 
 ### Approach B - Controller layer
 
 #### Pros
 
-* **Documented contract**: `HX-Retarget`, `HX-Reswap`, and `HX-Reselect` are first-class htmx response headers — stable across versions, no clever workaround, no mutation of internal event details.
-* **Status-code routing**: The controller already knows whether it returned `422` (validation error), `409` (conflict), or `500` (server error), and can trivially return different swap behaviors for each scenario.
-* **No inline JS**: Pure HTTP response. Passes strict CSP without exceptions.
-* **Debuggability**: Easier to debug with a simple `curl -i` or a glance at the network tab, revealing exactly what the server instructed the client to do.
+*   **Documented contract**: `HX-Retarget`, `HX-Reswap`, and `HX-Reselect` are first-class htmx response headers — stable across versions, no clever workaround, no mutation of internal event details.
+    
+*   **Status-code routing**: The controller already knows whether it returned `422` (validation error), `409` (conflict), or `500` (server error), and can trivially return different swap behaviors for each scenario.
+    
+*   **No inline JS**: Pure HTTP response. Passes strict CSP without exceptions.
+    
+*   **Debuggability**: Easier to debug with a simple `curl -i` or a glance at the network tab, revealing exactly what the server instructed the client to do.
+    
 
 #### Cons
 
-* **Leaks in the controller**: DOM IDs (`"#new-comment-form"`) and swap strategy (`"outerHTML"`) are presentation concerns leaking into the HTTP layer.
-* **Silent breakage on rename**: Rename the form ID and the controller would break silently.
-* **Drift risk**: Every endpoint that could fail and target the same form must set the same headers.
-* **No co-location of behavior**: Somebody opening the view for the first time is not able to easily see how errors are handled.
+*   **Leaks in the controller**: DOM IDs (`"#new-comment-form"`) and swap strategy (`"outerHTML"`) are presentation concerns leaking into the HTTP layer.
+    
+*   **Silent breakage on rename**: Rename the form ID and the controller would break silently.
+    
+*   **Drift risk**: Every endpoint that could fail and target the same form must set the same headers.
+    
+*   **No co-location of behavior**: Somebody opening the view for the first time is not able to easily see how errors are handled.
+    
 
 ## The tie-breakers
 
@@ -155,13 +175,16 @@ Both approaches work. Both use documented htmx machinery. Here are the factors t
 
 ### Where does this knowledge belong?
 
-The knowledge being expressed is: 
+The knowledge being expressed is:
 
 > When this form fails to submit, replace itself with the server's re-rendered version showing errors.
 
-- The server's job is to validate the input, return `422`, and render the form.
-- The form's job is to replace itself with the server's response if the submission fails.
-- The thing being expressed is therefore form behavior, not server behavior.
+*   The server's job is to validate the input, return `422`, and render the form.
+    
+*   The form's job is to replace itself with the server's response if the submission fails.
+    
+*   The thing being expressed is therefore form behavior, not server behavior.
+    
 
 By that lens, the view layer wins. The controller should not care that the response is going into a form, a modal, or a toast. It returns a `422` and how the UI displays that is the UI's problem.
 
