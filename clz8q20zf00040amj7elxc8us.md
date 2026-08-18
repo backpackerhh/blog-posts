@@ -5,7 +5,7 @@ datePublished: 2024-07-30T17:58:41.788Z
 cuid: clz8q20zf00040amj7elxc8us
 slug: the-one-about-my-new-job
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/npxXWgQ33ZQ/upload/c295a3685977753ea517b94baf159260.jpeg
-tags: jobs, new-job, job-search, onboarding
+tags: jobs, new-job, job-search, onboarding, sngular
 
 ---
 
