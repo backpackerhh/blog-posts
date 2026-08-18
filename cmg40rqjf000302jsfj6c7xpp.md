@@ -5,7 +5,7 @@ datePublished: 2025-09-28T18:14:46.299Z
 cuid: cmg40rqjf000302jsfj6c7xpp
 slug: the-one-about-my-experience-at-sngular-so-far
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758645523723/d6c60567-fdd2-41fe-a032-d31f5549dd35.png
-tags: consulting, consultancy, consulting-firm
+tags: consulting, consultancy, consulting-firm, sngular
 
 ---
 
