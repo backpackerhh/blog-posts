@@ -1,5 +1,5 @@
 ---
-title: "The one about my experience at SNGULAR"
+title: "The one about my experience at SNGULAR (year 1)"
 seoDescription: "Discover insights and reflections from my first year working at SNGULAR"
 datePublished: 2025-09-28T18:14:46.299Z
 cuid: cmg40rqjf000302jsfj6c7xpp
