@@ -255,22 +255,7 @@ We ran a Rake task in our test environment that shows us the output of `Sidekiq.
 
 There was no doubt. **The scheduler from v2 was overwriting the scheduler from v1**.
 
-```mermaid
-graph TD;
-    subgraph "Sidekiq Containers"
-        V1[Payouts v1 Container];
-        V2[Payouts v2 Container];
-    end
-
-    subgraph Redis[Shared Redis Instance]
-        SharedNamespace("sidekiq_payouts" namespace);
-    end
-
-    V1 -- "Writes schedule to" --> SharedNamespace;
-    V2 -- "OVERWRITES schedule in" --> SharedNamespace;
-
-    style V2 fill:#f7baba,stroke:#c71f1f,stroke-width:2px
-```
+<img width="2247" height="1288" alt="Single Sidekiq namespace" src="https://github.com/user-attachments/assets/1a116550-811f-4227-a3f3-a8481d1d44ab" />
 
 We thought then that we could schedule the job from v2 in v1, since we knew that the configuration for v1 had been working well until then:
 
@@ -531,25 +516,7 @@ Sidekiq.schedule = {
 Sidekiq::Scheduler.enabled = true
 ```
 
-```mermaid
-graph TD;
-    subgraph "Sidekiq Containers"
-        V1[Payouts v1 Container];
-        V2[Payouts v2 Container];
-    end
-
-    subgraph Redis[Shared Redis Instance]
-        direction LR
-        V1_NS("sidekiq_payouts" namespace);
-        V2_NS("v2_sidekiq_payouts" namespace);
-    end
-
-    V1 -- "Reads/Writes" --> V1_NS;
-    V2 -- "Reads/Writes" --> V2_NS;
-
-    style V1_NS fill:#d4edda,stroke:#155724,stroke-width:2px
-    style V2_NS fill:#d4edda,stroke:#155724,stroke-width:2px
-```
+<img width="2384" height="1288" alt="Multiple Sidekiq namespaces" src="https://github.com/user-attachments/assets/7a12252f-58d4-45b8-aced-664359f6c5a1" />
 
 We also checked that the namespace change only affected Sidekiq. For example, the gem developed by the company to define feature flags uses Redis internally, but uses its own namespace.
 
