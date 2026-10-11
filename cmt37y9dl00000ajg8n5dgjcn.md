@@ -11,7 +11,7 @@ tags: consulting, consultancy, consulting-firm, sngular
 
 It has now been two years since I joined [SNGULAR](https://www.sngular.com/). Just as I did last year when I completed my first year, I want to talk about what my experience with the company has been like during this second year.
 
-Since SNGULAR is a consulting firm and I work full-time for a client, the truth is that my [relationship with the company itself](https://davidmontesdeoca.dev/the-one-about-my-experience-at-sngular-so-far#relationship-with-the-company) has not changed much compared to what I mentioned last year.
+Since SNGULAR is a consulting firm and I work full-time for a client, the truth is that my [relationship with the company itself](/the-one-about-my-experience-at-sngular-so-far#relationship-with-the-company) has not changed much compared to what I mentioned last year.
 
 But a year is a long time, and things always happen.
 
@@ -37,7 +37,7 @@ It is true that they give us the option to ask the IT team to set up an addition
 
 In my case, to avoid having two laptops constantly turned on, I requested access from my Android phone. To do that, I had to install an app that sets up a work profile and contact the IT team to add the necessary configuration. Now, I just enable that profile whenever I need to check email or anything else. The rest of the time, the profile stays disabled:
 
-<img width="1080" height="2115" alt="Image" src="https://github.com/user-attachments/assets/54ef5da9-4154-42d5-9a1c-4a23ae16e943" />
+![Image](https://github.com/user-attachments/assets/54ef5da9-4154-42d5-9a1c-4a23ae16e943 align="center")
 
 It works for me, but having software installed on your personal mobile device just because of work-imposed restrictions is far from ideal. In fact, most of my colleagues refuse to install that software altogether.
 
@@ -49,7 +49,7 @@ This topic also caused quite a bit of controversy. My colleagues had already war
 
 Every time the subject has come up so far, we have been told that the company's revenue from the previous year was lower than expected, so the budget allocated for raises was less than they would have liked.
 
-I already [mentioned](https://davidmontesdeoca.dev/the-one-about-my-experience-at-sngular-so-far#disadvantages) last year that I was not eligible for a salary review because I had not met the minimum tenure requirement at the company when the reviews took place.
+I already [mentioned](/the-one-about-my-experience-at-sngular-so-far#disadvantages) last year that I was not eligible for a salary review because I had not met the minimum tenure requirement at the company when the reviews took place.
 
 However, my previous manager promised that there would be a salary raise for me this year, considering that I deserved one last year and only missed out due to a technicality.
 
@@ -69,10 +69,14 @@ From what I gather, that 2-3% raise is the company standard when performance in 
 
 Before wrapping up the review of this second year, I would like to quickly touch on a few other details:
 
-* This time, no one from HR reached out to me personally; I simply received an automated email congratulating me on my two-year anniversary with the company.
-* I still have monthly 1-on-1 meetings with the engineer acting as manager for those of us working with this client, which always helps to maintain some connection.
-* This year the company did not organize a summer party, but they did send us a Christmas hamper. The previous year, they made a donation in our name without consulting us and had to backtrack following understandable employee complaints, ultimately paying us the corresponding money in the next paycheck.
-* The policy regarding the training and wellness budgets remains as strict as ever. We still cannot use it for things we actually consider necessary for our daily work, like a standing desk.
+*   This time, no one from HR reached out to me personally; I simply received an automated email congratulating me on my two-year anniversary with the company.
+    
+*   I still have monthly 1-on-1 meetings with the engineer acting as manager for those of us working with this client, which always helps to maintain some connection.
+    
+*   This year the company did not organize a summer party, but they did send us a Christmas hamper. The previous year, they made a donation in our name without consulting us and had to backtrack following understandable employee complaints, ultimately paying us the corresponding money in the next paycheck.
+    
+*   The policy regarding the training and wellness budgets remains as strict as ever. We still cannot use it for things we actually consider necessary for our daily work, like a standing desk.
+    
 
 ## Conclusion
 
